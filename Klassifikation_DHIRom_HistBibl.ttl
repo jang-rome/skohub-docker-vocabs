@@ -1,139 +1,138 @@
-@prefix Systematik: <http://example.org/histbib/> .
+@prefix syshist: <http://example.org/histbib/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-Systematik:histbib a skos:ConceptScheme ;
+syshist: a skos:ConceptScheme ;
     dct:title "Klassifikation DHI Rom Historische Bibliothek"@de, "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"@it ;
     dct:description "Klassifikationsschema für die Historische Bibliothek des DHI Rom."@de ;
     dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
     dct:created "2024-01-04" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
-    skos:hasTopConcept Systematik:A, Systematik:B, Systematik:C.
+    skos:hasTopConcept syshist:A, syshist:B, syshist:C.
 
-Systematik:A a skos:Concept ;
+syshist:A a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
-    skos:narrower Systematik:Aa, Systematik:Ab, Systematik:Ac, Systematik:Ae ;
+    skos:narrower syshist:Aa, syshist:Ab, syshist:Ac, syshist:Ae ;
     dct:title "Allgemeine Kategorie"@de, "Categoria Generale"@it ;
     dct:description "Übergeordnete Kategorie für allgemeine Themen."@de, "Categoria per argomenti generali e fondamentali."@it ;
     skos:notation "A" ;
     skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek."@de, "Comprende opere generali e fondamentali della biblioteca."@it ;
-    skos:topConceptOf Systematik:histbib .
+    skos:topConceptOf syshist: .
 
-Systematik:Aa a skos:Concept ;
+syshist:Aa a skos:Concept ;
     skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de, "Enciclopedie, lessici generäli e biografici"@it ;
     skos:notation "Aa" ;
     skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika."@de, "Collezione di enciclopedie e lessici biografici."@it ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 
-Systematik:Ab a skos:Concept ;
+syshist:Ab a skos:Concept ;
     skos:prefLabel "Bibliographien"@de, "Bibliografie"@it ;
-    skos:broader <A> ;
     skos:notation "Ab" ;
     skos:scopeNote "Sammlung von Bibliographien."@de, "Raccolta di bibliografie."@it ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 
-Systematik:Ac a skos:Concept ;
+syshist:Ac a skos:Concept ;
     skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de, "Miscellanea, serie ecc."@it ;
     skos:notation "Ac" ;
     skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke."@de, "Include una varietà di scritti e serie."@it ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 
-Systematik:Ae a skos:Concept ;
+syshist:Ae a skos:Concept ;
     skos:prefLabel "Festschriften"@de, "Festschriften (scritti in onore di...)"@it ;
     skos:notation "Ae" ;
     skos:scopeNote "Enthält Sammlungen von Festschriften."@de, "Contiene collezioni di scritti in onore."@it ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 
 
-Systematik:B a skos:Concept ;
+syshist:B a skos:Concept ;
     skos:prefLabel "Historische Hilfswissenschaften"@de ;
-    skos:topConceptOf Systematik:histbib ;
+    skos:topConceptOf syshist: ;
     dct:title "Kategorie Historische Hilfswissenschaften"@de ;
     dct:description "Enthält Werke zu historischen Hilfswissenschaften."@de ;
     skos:notation "B" ;
     skos:scopeNote "Umfasst spezialisierte Bereiche der historischen Forschung."@de ;
-    skos:narrower Systematik:Ba, Systematik:Bb, Systematik:Bc, Systematik:Bd, Systematik:Be, Systematik:Bf, Systematik:Bg, Systematik:Bk, Systematik:Bi .
+    skos:narrower syshist:Ba, syshist:Bb, syshist:Bc, syshist:Bd, syshist:Be, syshist:Bf, syshist:Bg, syshist:Bk, syshist:Bi .
 
-Systematik:Ba a skos:Concept ;
+syshist:Ba a skos:Concept ;
     skos:prefLabel "Sprachwissenschaft"@de ;
     skos:notation "Ba" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 	
-Systematik:Bb a skos:Concept ;
+syshist:Bb a skos:Concept ;
     skos:prefLabel "Schriftwesen"@de ;
     skos:notation "Bb" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
    	
-Systematik:Bc a skos:Concept ;
+syshist:Bc a skos:Concept ;
     skos:prefLabel "Diplomatik"@de ;
     skos:notation "Bc" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik: .
+    skos:inScheme syshist: .
 	
-Systematik:Bd a skos:Concept ;
+syshist:Bd a skos:Concept ;
     skos:prefLabel "Chronologie"@de ;
     skos:notation "Bd" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 	
-Systematik:Be a skos:Concept ;
+syshist:Be a skos:Concept ;
     skos:prefLabel "Genealogie"@de ;
     skos:notation "Be" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 	
-Systematik:Bf a skos:Concept ;
+syshist:Bf a skos:Concept ;
     skos:prefLabel "Heraldik und Sphragistik"@de ;
     skos:notation "Bf" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist:  .
 	
-Systematik:Bg a skos:Concept ;
+syshist:Bg a skos:Concept ;
     skos:prefLabel "Numismatik"@de ;
     skos:notation "Bg" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 	
-Systematik:Bi a skos:Concept ;
+syshist:Bi a skos:Concept ;
     skos:prefLabel "Geographie"@de ;
     skos:notation "Bi" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 	
-Systematik:Bk a skos:Concept ;
+syshist:Bk a skos:Concept ;
     skos:prefLabel "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht"@de ;
     skos:notation "Bk" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 	
 	
-Systematik:C a skos:Concept ;
+syshist:C a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken, Institute"@de ;
-    skos:topConceptOf Systematik:histbib ;
+    skos:topConceptOf syshist: ;
     dct:title "Kategorie Archive und Bibliotheken"@de ;
     dct:description "Enthält Werke zu Archiven, Bibliotheken und Forschungsinstituten."@de ;
     skos:notation "C" ;
     skos:scopeNote "Umfassende Sammlung von Materialien zu Archiv- und Bibliothekswissenschaften sowie zu Instituten." ;
-    skos:narrower Systematik:Ca, Systematik:Cb, Systematik:Cc .
+    skos:narrower syshist:Ca, syshist:Cb, syshist:Cc .
 
-Systematik:Ca a skos:Concept ;
+syshist:Ca a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Allgemeines"@de ;
     skos:notation "Ca" ;
     skos:scopeNote "Allgemeine Werke zu Archiven und Bibliotheken." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 
-Systematik:Cb a skos:Concept ;
+syshist:Cb a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Einzelnes"@de ;
     skos:notation "Cb" ;
     skos:scopeNote "Spezifische Sammlungen und Studien zu einzelnen Archiven und Bibliotheken." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 
-Systematik:Cc a skos:Concept ;
+syshist:Cc a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Italien und Vatikan"@de ;
     skos:notation "Cc" ;
     skos:scopeNote "Sammlungen und Studien zu italienischen und vatikanischen Archiven und Bibliotheken." ;
-    skos:inScheme Systematik:histbib .
+    skos:inScheme syshist: .
 
