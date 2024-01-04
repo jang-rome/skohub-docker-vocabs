@@ -8,7 +8,7 @@
     dct:description "Klassifikationsschema für die Historische Bibliothek des DHI Rom."@de ;
     dct:creator "Jan", "Jonas", "Regina" ;
     dct:created "2024-01-04" .
-    dct:license <https://creativecommons.org/licenses/by/4.0/> .
+    dct:license <https://creativecommons.org/public-domain/cc0/> .
 
 <A> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de ;
