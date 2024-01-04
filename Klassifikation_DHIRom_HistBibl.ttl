@@ -11,36 +11,36 @@
     dct:license <https://creativecommons.org/public-domain/cc0/> .
 
 <A> a skos:Concept ;
-    skos:prefLabel "Allgemeines"@de ;
+    skos:prefLabel "Allgemeines"@de, "In generale"@it;
     skos:topConceptOf <> ;
-    dct:title "Allgemeine Kategorie"@de ;
-    dct:description "Übergeordnete Kategorie für allgemeine Themen."@de ;
+    dct:title "Allgemeine Kategorie"@de, "Categoria Generale"@it ;
+    dct:description "Übergeordnete Kategorie für allgemeine Themen."@de, "Categoria per argomenti generali e fondamentali."@it ;
     skos:notation "A" ;
-    skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek.".
+    skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek."@de, "Comprende opere generali e fondamentali della biblioteca."@it.
 
 <Aa> a skos:Concept ;
-    skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de ;
+    skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de, "Enciclopedie, lessici generäli e biografici"@it ;
     skos:broader <A> ;
     skos:notation "Aa" ;
-    skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika.".
+    skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika."@de, "Collezione di enciclopedie e lessici biografici."@it.
 
 <Ab> a skos:Concept ;
-    skos:prefLabel "Bibliographien"@de ;
+    skos:prefLabel "Bibliographien"@de, "Bibliografie"@it ;
     skos:broader <A> ;
     skos:notation "Ab" ;
-    skos:scopeNote "Sammlung von Bibliographien.".
+    skos:scopeNote "Sammlung von Bibliographien."@de, "Raccolta di bibliografie."@it.
 
 <Ac> a skos:Concept ;
-    skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de ;
+    skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de, "Miscellanea, serie ecc."@it ;
     skos:broader <A> ;
     skos:notation "Ac" ;
-    skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke.".
+    skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke."@de, "Include una varietà di scritti e serie.".
 
 <Ae> a skos:Concept ;
-    skos:prefLabel "Festschriften"@de ;
+    skos:prefLabel "Festschriften"@de, "Festschriften (scritti in onore di...)"@it ;
     skos:broader <A> ;
     skos:notation "Ae" ;
-    skos:scopeNote "Enthält Sammlungen von Festschriften.".
+    skos:scopeNote "Enthält Sammlungen von Festschriften."@de, "Contiene collezioni di scritti in onore."@it .
 
 <Collection1> a skos:Collection ;
     skos:prefLabel "Allgemeine Werke" ;
@@ -143,36 +143,5 @@
     skos:prefLabel "Archive und Bibliotheken, Institute" ;
     skos:member <C>, <Ca>, <Cb>, <Cc> .
 
-<A> a skos:Concept ;
-    skos:prefLabel "In generale"@it ;
-    skos:topConceptOf <> ;
-    dct:title "Categoria Generale"@it ;
-    dct:description "Categoria per argomenti generali e fondamentali."@it ;
-    skos:notation "A" ;
-    skos:scopeNote "Comprende opere generali e fondamentali della biblioteca.".
-
-<Aa> a skos:Concept ;
-    skos:prefLabel "Enciclopedie, lessici generäli e biografici"@it ;
-    skos:broader <A> ;
-    skos:notation "Aa" ;
-    skos:scopeNote "Collezione di enciclopedie e lessici biografici.".
-
-<Ab> a skos:Concept ;
-    skos:prefLabel "Bibliografie"@it ;
-    skos:broader <A> ;
-    skos:notation "Ab" ;
-    skos:scopeNote "Raccolta di bibliografie.".
-
-<Ac> a skos:Concept ;
-    skos:prefLabel "Miscellanea, serie ecc."@it ;
-    skos:broader <A> ;
-    skos:notation "Ac" ;
-    skos:scopeNote "Include una varietà di scritti e serie.".
-
-<Ae> a skos:Concept ;
-    skos:prefLabel "Festschriften (scritti in onore di...)"@it ;
-    skos:broader <A> ;
-    skos:notation "Ae" ;
-    skos:scopeNote "Contiene collezioni di scritti in onore.".
 
 
