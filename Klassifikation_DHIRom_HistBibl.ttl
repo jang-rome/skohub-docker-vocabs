@@ -15,7 +15,7 @@ Systematik: a skos:ConceptScheme ;
 Systematik:A a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
     skos:topConceptOf Systematik: ;
-    skos:narrower Systematik:Aa, Systematik:Ab, Systematik:Ac, Systematik:Ae
+    skos:narrower Systematik:Aa, Systematik:Ab, Systematik:Ac, Systematik:Ae ;
     dct:title "Allgemeine Kategorie"@de, "Categoria Generale"@it ;
     dct:description "Übergeordnete Kategorie für allgemeine Themen."@de, "Categoria per argomenti generali e fondamentali."@it ;
     skos:notation "A" ;
