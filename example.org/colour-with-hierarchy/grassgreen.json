@@ -2,22 +2,22 @@
   "id": "https://example.org/colour-with-hierarchy/grassgreen",
   "type": "Concept",
   "prefLabel": {
-    "en": "grass-green",
-    "de": "Grasgrün"
+    "de": "Grasgrün",
+    "en": "grass-green"
   },
   "broader": {
     "id": "https://example.org/colour-with-hierarchy/green",
     "prefLabel": {
-      "en": "green",
-      "de": "Grün"
+      "de": "Grün",
+      "en": "green"
     }
   },
   "inScheme": [
     {
       "id": "https://example.org/colour-with-hierarchy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "de": "Farbvokabular mit Hierarchie",
+        "en": "Colour vocabulary with hierarchy"
       }
     }
   ],
@@ -33,7 +33,7 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
+    "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
