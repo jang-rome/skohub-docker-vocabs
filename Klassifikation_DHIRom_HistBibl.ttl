@@ -119,7 +119,6 @@ Systematik:C a skos:Concept ;
     skos:notation "C" ;
     skos:scopeNote "Umfassende Sammlung von Materialien zu Archiv- und Bibliothekswissenschaften sowie zu Instituten." ;
     skos:narrower Systematik:Ca, Systematik:Cb, Systematik:Cc .
-    .
 
 Systematik:Ca a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Allgemeines"@de ;
