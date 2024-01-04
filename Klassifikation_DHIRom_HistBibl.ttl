@@ -1,0 +1,180 @@
+@base <http://www.example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Klassifikation DHI Rom Historische Bibliothek"@de ;
+    dct:description "Klassifikationsschema für die Historische Bibliothek des DHI Rom."@de ;
+    dct:creator "Jan", "Jonas", "Regina" ;
+    dct:created "2024-01-04" .
+    dct:license <https://creativecommons.org/licenses/by/4.0/> .
+
+<A> a skos:Concept ;
+    skos:prefLabel "Allgemeines"@de ;
+    skos:topConceptOf <> ;
+    dct:title "Allgemeine Kategorie"@de ;
+    dct:description "Übergeordnete Kategorie für allgemeine Themen."@de ;
+    skos:notation "A" ;
+    skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek.".
+
+<Aa> a skos:Concept ;
+    skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de ;
+    skos:broader <A> ;
+    skos:notation "Aa" ;
+    skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika.".
+
+<Ab> a skos:Concept ;
+    skos:prefLabel "Bibliographien"@de ;
+    skos:broader <A> ;
+    skos:notation "Ab" ;
+    skos:scopeNote "Sammlung von Bibliographien.".
+
+<Ac> a skos:Concept ;
+    skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de ;
+    skos:broader <A> ;
+    skos:notation "Ac" ;
+    skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke.".
+
+<Ae> a skos:Concept ;
+    skos:prefLabel "Festschriften"@de ;
+    skos:broader <A> ;
+    skos:notation "Ae" ;
+    skos:scopeNote "Enthält Sammlungen von Festschriften.".
+
+<Collection1> a skos:Collection ;
+    skos:prefLabel "Allgemeine Werke" ;
+    skos:member <A>, <Aa>, <Ab>, <Ac>, <Ae>.
+	
+	
+<B> a skos:Concept ;
+    skos:prefLabel "Historische Hilfswissenschaften"@de ;
+    skos:topConceptOf <> ;
+    dct:title "Kategorie Historische Hilfswissenschaften"@de ;
+    dct:description "Enthält Werke zu historischen Hilfswissenschaften."@de ;
+    skos:notation "B" ;
+    skos:scopeNote "Umfasst spezialisierte Bereiche der historischen Forschung.".
+
+<Ba> a skos:Concept ;
+    skos:prefLabel "Sprachwissenschaft"@de ;
+    skos:broader <B> ;
+    skos:notation "Ba" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Bb> a skos:Concept ;
+    skos:prefLabel "Schriftwesen"@de ;
+    skos:broader <B> ;
+    skos:notation "Bb" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Bc> a skos:Concept ;
+    skos:prefLabel "Diplomatik"@de ;
+    skos:broader <B> ;
+    skos:notation "Bc" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Bd> a skos:Concept ;
+    skos:prefLabel "Chronologie"@de ;
+    skos:broader <B> ;
+    skos:notation "Bd" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Be> a skos:Concept ;
+    skos:prefLabel "Genealogie"@de ;
+    skos:broader <B> ;
+    skos:notation "Be" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Bf> a skos:Concept ;
+    skos:prefLabel "Heraldik und Sphragistik"@de ;
+    skos:broader <B> ;
+    skos:notation "Bf" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Bg> a skos:Concept ;
+    skos:prefLabel "Numismatik"@de ;
+    skos:broader <B> ;
+    skos:notation "Bg" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Bi> a skos:Concept ;
+    skos:prefLabel "Geographie"@de ;
+    skos:broader <B> ;
+    skos:notation "Bi" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Bk> a skos:Concept ;
+    skos:prefLabel "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht"@de ;
+    skos:broader <B> ;
+    skos:notation "Bk" ;
+    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext.".
+	
+<Collection2> a skos:Collection ;
+    skos:prefLabel "Historische Hilfswissenschaften" ;
+    skos:member <B>, <Ba>, <Bb>, <Bc>, <Bd>, <Be>, <Bf>, <Bg>, <Bi>, <Bk> .
+	
+<C> a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken, Institute"@de ;
+    skos:topConceptOf <> ;
+    dct:title "Kategorie Archive und Bibliotheken"@de ;
+    dct:description "Enthält Werke zu Archiven, Bibliotheken und Forschungsinstituten."@de ;
+    skos:notation "C" ;
+    skos:scopeNote "Umfassende Sammlung von Materialien zu Archiv- und Bibliothekswissenschaften sowie zu Instituten.".
+
+<Ca> a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken: Allgemeines"@de ;
+    skos:broader <C> ;
+    skos:notation "Ca" ;
+    skos:scopeNote "Allgemeine Werke zu Archiven und Bibliotheken.".
+
+<Cb> a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken: Einzelnes"@de ;
+    skos:broader <C> ;
+    skos:notation "Cb" ;
+    skos:scopeNote "Spezifische Sammlungen und Studien zu einzelnen Archiven und Bibliotheken.".
+
+<Cc> a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken: Italien und Vatikan"@de ;
+    skos:broader <C> ;
+    skos:notation "Cc" ;
+    skos:scopeNote "Sammlungen und Studien zu italienischen und vatikanischen Archiven und Bibliotheken.".
+
+<Collection3> a skos:Collection ;
+    skos:prefLabel "Archive und Bibliotheken, Institute" ;
+    skos:member <C>, <Ca>, <Cb>, <Cc> .
+
+<A> a skos:Concept ;
+    skos:prefLabel "In generale"@it ;
+    skos:topConceptOf <> ;
+    dct:title "Categoria Generale"@it ;
+    dct:description "Categoria per argomenti generali e fondamentali."@it ;
+    skos:notation "A" ;
+    skos:scopeNote "Comprende opere generali e fondamentali della biblioteca.".
+
+<Aa> a skos:Concept ;
+    skos:prefLabel "Enciclopedie, lessici generäli e biografici"@it ;
+    skos:broader <A> ;
+    skos:notation "Aa" ;
+    skos:scopeNote "Collezione di enciclopedie e lessici biografici.".
+
+<Ab> a skos:Concept ;
+    skos:prefLabel "Bibliografie"@it ;
+    skos:broader <A> ;
+    skos:notation "Ab" ;
+    skos:scopeNote "Raccolta di bibliografie.".
+
+<Ac> a skos:Concept ;
+    skos:prefLabel "Miscellanea, serie ecc."@it ;
+    skos:broader <A> ;
+    skos:notation "Ac" ;
+    skos:scopeNote "Include una varietà di scritti e serie.".
+
+<Ae> a skos:Concept ;
+    skos:prefLabel "Festschriften (scritti in onore di...)"@it ;
+    skos:broader <A> ;
+    skos:notation "Ae" ;
+    skos:scopeNote "Contiene collezioni di scritti in onore.".
+
+<Collection1> a skos:Collection ;
+    skos:prefLabel "Opere Generali"@it ;
+    skos:member <A>, <Aa>, <Ab>, <Ac>, <Ae>.
