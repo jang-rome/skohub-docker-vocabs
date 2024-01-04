@@ -44,7 +44,6 @@ syshist:Ae a skos:Concept ;
     skos:scopeNote "Enthält Sammlungen von Festschriften."@de, "Contiene collezioni di scritti in onore."@it ;
     skos:inScheme syshist: .
 
-
 syshist:B a skos:Concept ;
     skos:prefLabel "Historische Hilfswissenschaften"@de ;
     skos:topConceptOf syshist: ;
