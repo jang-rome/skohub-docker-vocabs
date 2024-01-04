@@ -102,8 +102,7 @@ syshist:Bi a skos:Concept ;
     skos:inScheme syshist: .
 	
 syshist:Bk a skos:Concept ;
-    skos:prefLabel "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht"@de, "Metodo e storia della storiografia, 
-insegnamento storico"@it ;
+    skos:prefLabel "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht"@de, "Metodo e storia della storiografia, insegnamento storico"@it ;
     skos:notation "Bk" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme syshist: .
