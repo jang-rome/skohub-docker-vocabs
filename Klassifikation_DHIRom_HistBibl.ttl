@@ -16,25 +16,25 @@
     dct:title "Allgemeine Kategorie"@de, "Categoria Generale"@it ;
     dct:description "Übergeordnete Kategorie für allgemeine Themen."@de, "Categoria per argomenti generali e fondamentali."@it ;
     skos:notation "A" ;
-    skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek."@de, "Comprende opere generali e fondamentali della biblioteca."@it.
+    skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek."@de, "Comprende opere generali e fondamentali della biblioteca."@it .
 
 <Aa> a skos:Concept ;
     skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de, "Enciclopedie, lessici generäli e biografici"@it ;
     skos:broader <A> ;
     skos:notation "Aa" ;
-    skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika."@de, "Collezione di enciclopedie e lessici biografici."@it.
+    skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika."@de, "Collezione di enciclopedie e lessici biografici."@it .
 
 <Ab> a skos:Concept ;
     skos:prefLabel "Bibliographien"@de, "Bibliografie"@it ;
     skos:broader <A> ;
     skos:notation "Ab" ;
-    skos:scopeNote "Sammlung von Bibliographien."@de, "Raccolta di bibliografie."@it.
+    skos:scopeNote "Sammlung von Bibliographien."@de, "Raccolta di bibliografie."@it .
 
 <Ac> a skos:Concept ;
     skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de, "Miscellanea, serie ecc."@it ;
     skos:broader <A> ;
     skos:notation "Ac" ;
-    skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke."@de, "Include una varietà di scritti e serie.".
+    skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke."@de, "Include una varietà di scritti e serie."@it .
 
 <Ae> a skos:Concept ;
     skos:prefLabel "Festschriften"@de, "Festschriften (scritti in onore di...)"@it ;
