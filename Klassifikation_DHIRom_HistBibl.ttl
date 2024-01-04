@@ -175,6 +175,4 @@
     skos:notation "Ae" ;
     skos:scopeNote "Contiene collezioni di scritti in onore.".
 
-<Collection1> a skos:Collection ;
-    skos:prefLabel "Opere Generali"@it ;
-    skos:member <A>, <Aa>, <Ab>, <Ac>, <Ae>.
+
