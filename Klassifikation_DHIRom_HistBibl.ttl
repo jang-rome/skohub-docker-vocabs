@@ -19,7 +19,7 @@
     dct:description "Übergeordnete Kategorie für allgemeine Themen."@de, "Categoria per argomenti generali e fondamentali."@it ;
     skos:notation "A" ;
     skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek."@de, "Comprende opere generali e fondamentali della biblioteca."@it ;
-    skos:topConceptOf syshist: .
+    skos:topConceptOf <syshist> .
 
 <Aa> a skos:Concept ;
     skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de, "Enciclopedie, lessici generäli e biografici"@it ;
