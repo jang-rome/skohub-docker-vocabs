@@ -1,11 +1,11 @@
-@prefix syshist: <https://example.org/histbib/> .
+@prefix syshist: <http://dhi-roma.it/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
 syshist: a skos:ConceptScheme ;
     dct:title "Klassifikation DHI Rom Historische Bibliothek"@de, "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"@it ;
-    dct:description "Klassifikationsschema für die Historische Bibliothek des DHI Rom."@de ;
+    dct:description "SKOS-kodierte Bearbeitung des seit 1910 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de, "Applicazione SKOS dello schema di classificazione utilizzato dal 1910 dalla Biblioteca storica del DHI di Roma"@it ;
     dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
     dct:created "2024-01-04" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
