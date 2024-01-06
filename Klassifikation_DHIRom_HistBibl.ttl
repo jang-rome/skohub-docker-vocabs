@@ -58,7 +58,7 @@
     skos:prefLabel "Sprachwissenschaft"@de, "Linguistica"@it ;    
     skos:notation "Ba" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
-    skos:broader <B>
+    skos:broader <B> ;
     skos:inScheme <syshist> .
 	
 <Bb> a skos:Concept ;
