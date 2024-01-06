@@ -1,5 +1,5 @@
 {
-  "id": "https://purl.org//dhi-roma/library/B",
+  "id": "https://purl.org/dhi-roma/library/B",
   "type": "Concept",
   "prefLabel": {
     "de": "Historische Hilfswissenschaften",
@@ -13,63 +13,63 @@
   ],
   "narrower": [
     {
-      "id": "https://purl.org//dhi-roma/library/Ba",
+      "id": "https://purl.org/dhi-roma/library/Ba",
       "prefLabel": {
         "de": "Sprachwissenschaft",
         "it": "Linguistica"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Bb",
+      "id": "https://purl.org/dhi-roma/library/Bb",
       "prefLabel": {
         "de": "Schriftwesen",
         "it": "Scrittura"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Bc",
+      "id": "https://purl.org/dhi-roma/library/Bc",
       "prefLabel": {
         "de": "Diplomatik",
         "it": "Diplomatica"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Bd",
+      "id": "https://purl.org/dhi-roma/library/Bd",
       "prefLabel": {
         "de": "Chronologie",
         "it": "Cronologia"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Be",
+      "id": "https://purl.org/dhi-roma/library/Be",
       "prefLabel": {
         "de": "Genealogie",
         "it": "Genealogia"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Bf",
+      "id": "https://purl.org/dhi-roma/library/Bf",
       "prefLabel": {
         "de": "Heraldik und Sphragistik",
         "it": "Araldica e sfragistica"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Bg",
+      "id": "https://purl.org/dhi-roma/library/Bg",
       "prefLabel": {
         "de": "Numismatik",
         "it": "Numismatica"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Bk",
+      "id": "https://purl.org/dhi-roma/library/Bk",
       "prefLabel": {
         "de": "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht",
         "it": "Metodo e storia della storiografia, insegnamento storico"
       }
     },
     {
-      "id": "https://purl.org//dhi-roma/library/Bi",
+      "id": "https://purl.org/dhi-roma/library/Bi",
       "prefLabel": {
         "de": "Geographie",
         "it": "Geografia"
@@ -78,7 +78,7 @@
   ],
   "inScheme": [
     {
-      "id": "https://purl.org//dhi-roma/library/syshist",
+      "id": "https://purl.org/dhi-roma/library/syshist",
       "title": {
         "de": "Klassifikation DHI Rom Historische Bibliothek",
         "it": "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"
@@ -87,12 +87,12 @@
   ],
   "inSchemeAll": [
     {
-      "id": "https://purl.org//dhi-roma/library/syshist"
+      "id": "https://purl.org/dhi-roma/library/syshist"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://purl.org//dhi-roma/library/syshist",
+      "id": "https://purl.org/dhi-roma/library/syshist",
       "title": {
         "de": "Klassifikation DHI Rom Historische Bibliothek",
         "it": "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"

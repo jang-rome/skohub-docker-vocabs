@@ -1,5 +1,5 @@
 {
-  "id": "https://purl.org//dhi-roma/library/Cc",
+  "id": "https://purl.org/dhi-roma/library/Cc",
   "type": "Concept",
   "prefLabel": {
     "de": "Archive und Bibliotheken: Italien und Vatikan",
@@ -12,7 +12,7 @@
     "Cc"
   ],
   "broader": {
-    "id": "https://purl.org//dhi-roma/library/C",
+    "id": "https://purl.org/dhi-roma/library/C",
     "prefLabel": {
       "de": "Archive und Bibliotheken, Institute",
       "it": "Archivi, biblioteche, istituti"
@@ -20,7 +20,7 @@
   },
   "inScheme": [
     {
-      "id": "https://purl.org//dhi-roma/library/syshist",
+      "id": "https://purl.org/dhi-roma/library/syshist",
       "title": {
         "de": "Klassifikation DHI Rom Historische Bibliothek",
         "it": "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"
@@ -29,7 +29,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "https://purl.org//dhi-roma/library/syshist"
+      "id": "https://purl.org/dhi-roma/library/syshist"
     }
   ],
   "@context": {
