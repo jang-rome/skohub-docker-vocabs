@@ -20,7 +20,7 @@
   },
   "inScheme": [
     {
-      "id": "https://purl.org/dhi-library/syshist",
+      "id": "https://purl.org/dhi-library/scheme",
       "title": {
         "de": "Klassifikation DHI Rom Historische Bibliothek",
         "it": "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"
@@ -29,7 +29,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "https://purl.org/dhi-library/syshist"
+      "id": "https://purl.org/dhi-library/scheme"
     }
   ],
   "@context": {
