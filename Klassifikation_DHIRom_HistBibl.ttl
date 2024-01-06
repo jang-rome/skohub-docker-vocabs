@@ -9,7 +9,7 @@
     dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
     dct:created "2024-01-04" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
-    skos:hasTopConcept <A>, <B>, <C> .
+    skos:hasTopConcept <A>, <B>, <C>, <D> .
 
 <A> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
@@ -135,4 +135,61 @@
     skos:notation "Cc" ;
     skos:scopeNote "Sammlungen und Studien zu italienischen und vatikanischen Archiven und Bibliotheken."@de ;
     skos:inScheme <scheme> .
+
+<D> a skos:Concept ;
+    skos:prefLabel "Allgemeine Weltgeschichte"@de, "Storia mondiale in generale"@it ;
+    skos:notation "D" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <Da>, <Db>, <Dc>, <Dd>, <De>, <Df>, <Dg>, <Dh>, <Di>, <Dm> .
+
+<Da> a skos:Concept ;
+    skos:prefLabel "Gesamtdarstellungen"@de, "Opere di carattere generale"@it ;
+    skos:notation "Da" ;
+    skos:inScheme <scheme> .
+
+<Db> a skos:Concept ;
+    skos:prefLabel "Vermischtes"@de, "Monografie complessive (miscellanea)"@it ;
+    skos:notation "Db" ;
+    skos:inScheme <scheme> .
+
+<Dc> a skos:Concept ;
+    skos:prefLabel "Mehrere Perioden zusammen - Nation, Nationalstaat, Europa, Alte Geschichte"@de, "Piú epoche insieme - Nazione, Stato nazionale, Europa Storia antica"@it ;
+    skos:notation "Dc" ;
+    skos:inScheme <scheme> .
+
+<Dd> a skos:Concept ;
+    skos:prefLabel "Mittelalter, Kreuzzüge"@de, "Medioevo, Crociate"@it ;
+    skos:notation "Dd" ;
+    skos:inScheme <scheme> .
+
+<De> a skos:Concept ;
+    skos:prefLabel "16. Jahrhundert"@de, "XVI secolo"@it ;
+    skos:notation "De" ;
+    skos:inScheme <scheme> .
+
+<Df> a skos:Concept ;
+    skos:prefLabel "17. Jahrhundert"@de, "XVII secolo"@it ;
+    skos:notation "Df" ;
+    skos:inScheme <scheme> .
+
+<Dg> a skos:Concept ;
+    skos:prefLabel "18. Jahrhundert bis 1815"@de, "XVIII secolo fino al 1815"@it ;
+    skos:notation "Dg" ;
+    skos:inScheme <scheme> .
+
+<Dh> a skos:Concept ;
+    skos:prefLabel "19. Jahrhundert bis 1914"@de, "XIX secolo fino al 1914"@it ;
+    skos:notation "Dh" ;
+    skos:inScheme <scheme> .
+
+<Di> a skos:Concept ;
+    skos:prefLabel "20. Jahrhundert seit 1914"@de, "XX secolo dal 1914"@it ;
+    skos:notation "Di" ;
+    skos:inScheme <scheme> .
+
+<Dm> a skos:Concept ;
+    skos:prefLabel "Biographisches"@de, "Scritti a carattere biografico"@it ;
+    skos:notation "Dm" ;
+    skos:inScheme <scheme> .
+
 
