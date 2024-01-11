@@ -5,13 +5,21 @@
     "de": "Allgemeines",
     "it": "In generale"
   },
+  "definition": {
+    "de": "Nachschlagewerke mit Freihandaufstellung im Historischen Lesesaal.",
+    "it": "Collezione di materiale di consultazione con esposizione libera nella Sala di lettura storica"
+  },
   "scopeNote": {
-    "de": "Enthält allgemeine und grundlegende Werke der Bibliothek.",
-    "it": "Comprende opere generali e fondamentali della biblioteca."
+    "de": "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Andernfalls Fachgruppnen bevorzugen.",
+    "it": "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."
   },
   "notation": [
     "A"
   ],
+  "example": {
+    "de": "z.B. Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation",
+    "it": "per esempio Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Aa",
