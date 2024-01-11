@@ -160,7 +160,7 @@
     skos:prefLabel "Allgemeine Weltgeschichte"@de, "Storia mondiale in generale"@it ;
     skos:definition "Vor allem europäische Geschichte und Geschichte mehrerer Staatsgebilde im Vergleich."@de, "Soprattutto, la storia europea e la storia di diversi Stati a confronto."@it ;
     skos:example "z.B. Verschiedene, zeitübergreifende Themen, wie Alpen- und Bergräume, Seeräuberei etc."@de, "per esempio Diversi temi trasversali, come le regioni alpine e montane, la pirateria, ecc."@it ;
-    skos:scopeNote "In Unterscheidung zu Gruppe G alles, was alles, was sich geographisch („national“) nicht klar einordnen lässt."@de, "A differenza del Gruppo G, tutto ciò che non può essere chiaramente classificato geograficamente ("nazionale")."@it ;
+    skos:scopeNote "In Unterscheidung zu Gruppe G alles, was alles, was sich geographisch/national nicht klar einordnen lässt."@de, "A differenza del Gruppo G, tutto ciò che non può essere chiaramente classificato geograficamente/nazionale."@it ;
     skos:notation "D" ;
     skos:topConceptOf <scheme> ;
     skos:narrower <Da>, <Db>, <Dc>, <Dd>, <De>, <Df>, <Dg>, <Dh>, <Di>, <Dm> .
