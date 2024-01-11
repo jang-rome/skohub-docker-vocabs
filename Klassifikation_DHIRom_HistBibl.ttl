@@ -128,8 +128,9 @@
 <C> a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken, Institute"@de, "Archivi, biblioteche, istituti"@it ;
     skos:topConceptOf <scheme> ;
-    dct:title "Kategorie Archive und Bibliotheken"@de ;
-    dct:description "Enthält Werke zu Archiven, Bibliotheken und Forschungsinstituten."@de ;
+    skos:definition "Der Schwerpunkt liegt neben der Geschichte und der Bestandsbeschreibung einzelner Bibliotheken und Archive auf Bibliothekskatalogen (v.a. Handschriften, Inkunabeln, alte Drucke) und Archivinventaren. "@de, "Oltre alla storia e alla descrizione del patrimonio di singole biblioteche e archivi, il focus si concentra sui cataloghi delle biblioteche (in particolare manoscritti, incunaboli, stampe antiche) e sugli inventari degli archivi. "@it ;
+    skos:example "z.B. Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"@de, "per esempio Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"@it ;
+    skos:scopeNote "Soweit möglich findet eine geographische Ordnung Anwendung."@de, "Per quanto possibile, è stato applicato un ordine geografico."@it ;
     skos:notation "C" ;
     skos:scopeNote "Umfassende Sammlung von Materialien zu Archiv- und Bibliothekswissenschaften sowie zu Instituten."@de ;
     skos:narrower <Ca>, <Cb>, <Cc> .
