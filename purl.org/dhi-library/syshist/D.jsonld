@@ -5,9 +5,21 @@
     "de": "Allgemeine Weltgeschichte",
     "it": "Storia mondiale in generale"
   },
+  "definition": {
+    "de": "Vor allem europäische Geschichte und Geschichte mehrerer Staatsgebilde im Vergleich.",
+    "it": "Soprattutto, la storia europea e la storia di diversi Stati a confronto."
+  },
+  "scopeNote": {
+    "de": "In Unterscheidung zu Gruppe G alles, was alles, was sich geographisch/national nicht klar einordnen lässt.",
+    "it": "A differenza del Gruppo G, tutto ciò che non può essere chiaramente classificato geograficamente/nazionale."
+  },
   "notation": [
     "D"
   ],
+  "example": {
+    "de": "z.B. Verschiedene, zeitübergreifende Themen, wie Alpen- und Bergräume, Seeräuberei etc.",
+    "it": "per esempio Diversi temi trasversali, come le regioni alpine e montane, la pirateria, ecc."
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Da",
