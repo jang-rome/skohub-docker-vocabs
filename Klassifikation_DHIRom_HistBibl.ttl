@@ -15,7 +15,7 @@
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
     skos:definition "Nachschlagewerke mit Freihandaufstellung im Historischen Lesesaal."@de, "Collezione di materiale di consultazione con esposizione libera nella Sala di lettura storica"@it ;
     skos:example "z.B. Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@de, "per esempio Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@it ;
-    skos:scopeNote "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Andernfalls Fachgruppnen bevorzugen."@de, "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."@it ;
+    skos:scopeNote "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Andernfalls Fachgruppen bevorzugen."@de, "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."@it ;
     skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
     skos:notation "A" ;
     skos:topConceptOf <scheme> .
@@ -51,6 +51,10 @@
 <B> a skos:Concept ;
     skos:prefLabel "Historische Hilfswissenschaften"@de, "Scienze storiche ausiliarie"@it  ; 
     skos:topConceptOf <scheme> ;
+    skos:definition "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken"@de, "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"@it ;
+    skos:example "z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / The Oxford encyclopedia of the Reformation"@de, "per esempio z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"@it ;
+    skos:scopeNote "Gruppen Bd bis Bg sind überschaubar und weitere systematische Gliederungskriterien nicht notwendig."@de, "I gruppi da Bd a Bg sono facilmente gestibili e non sono necessari ulteriori criteri di classificazione sistematica."@it ;
+    skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
     dct:title "Kategorie Historische Hilfswissenschaften"@de ;
     dct:description "Enthält Werke zu historischen Hilfswissenschaften."@de ;
     skos:notation "B" ;
