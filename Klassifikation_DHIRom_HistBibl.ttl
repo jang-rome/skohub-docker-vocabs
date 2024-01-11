@@ -7,9 +7,9 @@
     dct:title "Klassifikation DHI Rom Historische Bibliothek"@de, "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"@it ;
     dct:description "SKOS-kodierte Bearbeitung des seit 1910 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de, "Applicazione SKOS dello schema di classificazione utilizzato dal 1910 dalla Biblioteca storica del DHI di Roma"@it ;
     dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
-    dct:created "2024-01-04" ;
+    dct:created "2024-01-11" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
-    skos:hasTopConcept <A>, <B>, <C>, <D> .
+    skos:hasTopConcept <A>, <B>, <C>, <D>, <E> .
 
 <A> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
@@ -191,5 +191,72 @@
     skos:prefLabel "Biographisches"@de, "Scritti a carattere biografico"@it ;
     skos:notation "Dm" ;
     skos:inScheme <scheme> .
+
+<E> a skos:Concept ;
+    skos:prefLabel "Kulturgeschichte"@de, "Storia della civiltá"@it ;
+    skos:notation "E" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <Ea>, <Eb>, <Ec>, <Ed>, <Ee>, <Ef>, <Eg>, <Eh>, <Ei>, <Ek>, <El>, <Em> .
+
+<Ea> a skos:Concept ;
+    skos:prefLabel "Allgemeines"@de, "Scritti di carattere generale"@it ;
+    skos:notation "Ea" ;
+    skos:inScheme <scheme> .
+
+<Eb> a skos:Concept ;
+    skos:prefLabel "Geschichte der geistigen Bildung"@de, "Storia della formazione intellettuale"@it ;
+    skos:notation "Eb" ;
+    skos:inScheme <scheme> .
+
+<Ec> a skos:Concept ;
+    skos:prefLabel "Schulen, Universitäten, Akademien"@de, "Scuole, universitá, accademie"@it ;
+    skos:notation "Ec" ;
+    skos:inScheme <scheme> .
+
+<Ed> a skos:Concept ;
+    skos:prefLabel "Gelehrte, Dichter etc."@de, "Eruditi, poeti, ecc."@it ;
+    skos:notation "Ed" ;
+    skos:inScheme <scheme> .
+
+<Ee> a skos:Concept ;
+    skos:prefLabel "Buchdruck und Buchhandel"@de, "La stampa e il commercio librario"@it ;
+    skos:notation "Ee" ;
+    skos:inScheme <scheme> .
+
+<Ef> a skos:Concept ;
+    skos:prefLabel "Literaturgeschichte, griechische und lateinische Klassiker"@de, "Storia della letteratura, Classici greci e latini"@it ;
+    skos:notation "Ef" ;
+    skos:inScheme <scheme> .
+
+<Eg> a skos:Concept ;
+    skos:prefLabel "Kunstgeschichte und mittelalterliche Archäologie"@de, "Storia dell'arte e archeologia medievale"@it ;
+    skos:notation "Eg" ;
+    skos:inScheme <scheme> .
+
+<Eh> a skos:Concept ;
+    skos:prefLabel "Verfassung, Recht, Politik"@de, "Costituzioni, diritto, politica"@it ;
+    skos:notation "Eh" ;
+    skos:inScheme <scheme> .
+
+<Ei> a skos:Concept ;
+    skos:prefLabel "Wirtschaftsgeschichte"@de, "Storia dell'economia"@it ;
+    skos:notation "Ei" ;
+    skos:inScheme <scheme> .
+
+<Ek> a skos:Concept ;
+    skos:prefLabel "Handels-, Verkehrs- und Kolonialgeschichte"@de, "Storia del commercio, dei trasporti e del colonialismo"@it ;
+    skos:notation "Ek" ;
+    skos:inScheme <scheme> .
+
+<El> a skos:Concept ;
+    skos:prefLabel "Soziologie"@de, "Sociologia"@it ;
+    skos:notation "El" ;
+    skos:inScheme <scheme> .
+
+<Em> a skos:Concept ;
+    skos:prefLabel "Kriegsgeschichte"@de, "Storia militare"@it ;
+    skos:notation "Em" ;
+    skos:inScheme <scheme> .
+
 
 
