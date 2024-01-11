@@ -6,10 +6,11 @@
     "it": "Scienze storiche ausiliarie"
   },
   "definition": {
-    "de": "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken",
+    "de": "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken.",
     "it": "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"
   },
   "scopeNote": {
+    "de": "Gruppen Bd bis Bg sind überschaubar und weitere systematische Gliederungskriterien nicht notwendig.",
     "it": "I gruppi da Bd a Bg sono facilmente gestibili e non sono necessari ulteriori criteri di classificazione sistematica."
   },
   "notation": [
@@ -17,7 +18,7 @@
   ],
   "example": {
     "de": "z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / The Oxford encyclopedia of the Reformation",
-    "it": "per esempio z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"
+    "it": "Per esempio Paleografia latina diplomatica e nozioni di scienze ausiliare / Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"
   },
   "narrower": [
     {

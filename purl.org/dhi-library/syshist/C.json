@@ -10,6 +10,7 @@
     "it": "Oltre alla storia e alla descrizione del patrimonio di singole biblioteche e archivi, il focus si concentra sui cataloghi delle biblioteche (in particolare manoscritti, incunaboli, stampe antiche) e sugli inventari degli archivi. "
   },
   "scopeNote": {
+    "de": "Soweit möglich findet eine geographische Ordnung Anwendung.",
     "it": "Per quanto possibile, è stato applicato un ordine geografico."
   },
   "notation": [
@@ -17,7 +18,7 @@
   ],
   "example": {
     "de": "z.B. Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario",
-    "it": "per esempio Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"
+    "it": "Per esempio Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"
   },
   "narrower": [
     {
