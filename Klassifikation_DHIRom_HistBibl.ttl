@@ -14,7 +14,7 @@
 <A> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
     skos:definition "Nachschlagewerke mit Freihandaufstellung im Historischen Lesesaal."@de, "Collezione di materiale di consultazione con esposizione libera nella Sala di lettura storica"@it ;
-    skos:example "z.B. Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@de, "per esempio Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@it ;
+    skos:example "z.B. Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@de, "Per esempio Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@it ;
     skos:scopeNote "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Andernfalls Fachgruppen bevorzugen."@de, "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."@it ;
     skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
     skos:notation "A" ;
@@ -51,14 +51,11 @@
 <B> a skos:Concept ;
     skos:prefLabel "Historische Hilfswissenschaften"@de, "Scienze storiche ausiliarie"@it  ; 
     skos:topConceptOf <scheme> ;
-    skos:definition "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken"@de, "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"@it ;
-    skos:example "z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / The Oxford encyclopedia of the Reformation"@de, "per esempio z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"@it ;
+    skos:definition "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken."@de, "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"@it ;
+    skos:example "z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / The Oxford encyclopedia of the Reformation"@de, "Per esempio Paleografia latina diplomatica e nozioni di scienze ausiliare / Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"@it ;
     skos:scopeNote "Gruppen Bd bis Bg sind überschaubar und weitere systematische Gliederungskriterien nicht notwendig."@de, "I gruppi da Bd a Bg sono facilmente gestibili e non sono necessari ulteriori criteri di classificazione sistematica."@it ;
     skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
-    dct:title "Kategorie Historische Hilfswissenschaften"@de ;
-    dct:description "Enthält Werke zu historischen Hilfswissenschaften."@de ;
     skos:notation "B" ;
-    skos:scopeNote "Umfasst spezialisierte Bereiche der historischen Forschung."@de ;
     skos:narrower <Ba>, <Bb>, <Bc>, <Bd>, <Be>, <Bf>, <Bg>, <Bk>, <Bi> .
 
 <Ba> a skos:Concept ;
@@ -129,10 +126,9 @@
     skos:prefLabel "Archive und Bibliotheken, Institute"@de, "Archivi, biblioteche, istituti"@it ;
     skos:topConceptOf <scheme> ;
     skos:definition "Der Schwerpunkt liegt neben der Geschichte und der Bestandsbeschreibung einzelner Bibliotheken und Archive auf Bibliothekskatalogen (v.a. Handschriften, Inkunabeln, alte Drucke) und Archivinventaren. "@de, "Oltre alla storia e alla descrizione del patrimonio di singole biblioteche e archivi, il focus si concentra sui cataloghi delle biblioteche (in particolare manoscritti, incunaboli, stampe antiche) e sugli inventari degli archivi. "@it ;
-    skos:example "z.B. Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"@de, "per esempio Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"@it ;
+    skos:example "z.B. Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"@de, "Per esempio Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"@it ;
     skos:scopeNote "Soweit möglich findet eine geographische Ordnung Anwendung."@de, "Per quanto possibile, è stato applicato un ordine geografico."@it ;
     skos:notation "C" ;
-    skos:scopeNote "Umfassende Sammlung von Materialien zu Archiv- und Bibliothekswissenschaften sowie zu Instituten."@de ;
     skos:narrower <Ca>, <Cb>, <Cc> .
 
 <Ca> a skos:Concept ;
@@ -159,7 +155,7 @@
 <D> a skos:Concept ;
     skos:prefLabel "Allgemeine Weltgeschichte"@de, "Storia mondiale in generale"@it ;
     skos:definition "Vor allem europäische Geschichte und Geschichte mehrerer Staatsgebilde im Vergleich."@de, "Soprattutto, la storia europea e la storia di diversi Stati a confronto."@it ;
-    skos:example "z.B. Verschiedene, zeitübergreifende Themen, wie Alpen- und Bergräume, Seeräuberei etc."@de, "per esempio Diversi temi trasversali, come le regioni alpine e montane, la pirateria, ecc."@it ;
+    skos:example "z.B. Verschiedene, zeitübergreifende Themen, wie Alpen- und Bergräume, Seeräuberei etc."@de, "Per esempio Diversi temi trasversali, come le regioni alpine e montane, la pirateria, ecc."@it ;
     skos:scopeNote "In Unterscheidung zu Gruppe G alles, was alles, was sich geographisch/national nicht klar einordnen lässt."@de, "A differenza del Gruppo G, tutto ciò che non può essere chiaramente classificato geograficamente/nazionale."@it ;
     skos:notation "D" ;
     skos:topConceptOf <scheme> ;
