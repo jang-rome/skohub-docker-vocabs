@@ -22,24 +22,28 @@
 
 <Aa> a skos:Concept ;
     skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de, "Enciclopedie, lessici generäli e biografici"@it ;
+    skos:broader <A> ;
     skos:notation "Aa" ;
     skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika."@de, "Collezione di enciclopedie e lessici biografici."@it ;
     skos:inScheme <scheme> .
 
 <Ab> a skos:Concept ;
     skos:prefLabel "Bibliographien"@de, "Bibliografie"@it ;
+    skos:broader <A> ;
     skos:notation "Ab" ;
     skos:scopeNote "Sammlung von Bibliographien."@de, "Raccolta di bibliografie."@it ;
     skos:inScheme <scheme> .
 
 <Ac> a skos:Concept ;
     skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de, "Miscellanea, serie ecc."@it ;
+    skos:broader <A> ;
     skos:notation "Ac" ;
     skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke."@de, "Include una varietà di scritti e serie."@it ;
     skos:inScheme <scheme> .
 
 <Ae> a skos:Concept ;
     skos:prefLabel "Festschriften"@de, "Festschriften (scritti in onore di...)"@it ;
+    skos:broader <A> ;
     skos:notation "Ae" ;
     skos:scopeNote "Enthält Sammlungen von Festschriften."@de, "Contiene collezioni di scritti in onore."@it ;
     skos:inScheme <scheme> .
@@ -54,56 +58,64 @@
     skos:narrower <Ba>, <Bb>, <Bc>, <Bd>, <Be>, <Bf>, <Bg>, <Bk>, <Bi> .
 
 <Ba> a skos:Concept ;
-    skos:prefLabel "Sprachwissenschaft"@de, "Linguistica"@it ;    
+    skos:prefLabel "Sprachwissenschaft"@de, "Linguistica"@it ; 
+    skos:broader <B> ;
     skos:notation "Ba" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
-    skos:broader <B> ;
     skos:inScheme <scheme> .
 	
 <Bb> a skos:Concept ;
     skos:prefLabel "Schriftwesen"@de, "Scrittura"@it ;
+    skos:broader <B> ;
     skos:notation "Bb" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
    	
 <Bc> a skos:Concept ;
     skos:prefLabel "Diplomatik"@de, "Diplomatica"@it ;
+    skos:broader <B> ;
     skos:notation "Bc" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bd> a skos:Concept ;
     skos:prefLabel "Chronologie"@de, "Cronologia"@it ;
+    skos:broader <B> ;
     skos:notation "Bd" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Be> a skos:Concept ;
     skos:prefLabel "Genealogie"@de, "Genealogia"@it ;
+    skos:broader <B> ;
     skos:notation "Be" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bf> a skos:Concept ;
     skos:prefLabel "Heraldik und Sphragistik"@de, "Araldica e sfragistica"@it ;
+    skos:broader <B> ;
     skos:notation "Bf" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme>  .
 	
 <Bg> a skos:Concept ;
     skos:prefLabel "Numismatik"@de, "Numismatica"@it ;
+    skos:broader <B> ;
     skos:notation "Bg" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bi> a skos:Concept ;
     skos:prefLabel "Geographie"@de, "Geografia"@it ;
+    skos:broader <B> ;
     skos:notation "Bi" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bk> a skos:Concept ;
     skos:prefLabel "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht"@de, "Metodo e storia della storiografia, insegnamento storico"@it ;
+    skos:broader <B> ;
     skos:notation "Bk" ;
     skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
@@ -120,18 +132,21 @@
 
 <Ca> a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Allgemeines"@de, "Archivi e biblioteche: in generale"@it  ;
+    skos:broader <C> ;
     skos:notation "Ca" ;
     skos:scopeNote "Allgemeine Werke zu Archiven und Bibliotheken."@de ;
     skos:inScheme <scheme> .
 
 <Cb> a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Einzelnes"@de, "Archivl e biblioteche: specifiche"@it ;
+    skos:broader <C> ;
     skos:notation "Cb" ;
     skos:scopeNote "Spezifische Sammlungen und Studien zu einzelnen Archiven und Bibliotheken."@de ;
     skos:inScheme <scheme> .
 
 <Cc> a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Italien und Vatikan"@de, "Archivi e biblioteche: Italia e Vaticano"@it ;
+    skos:broader <C> ;
     skos:notation "Cc" ;
     skos:scopeNote "Sammlungen und Studien zu italienischen und vatikanischen Archiven und Bibliotheken."@de ;
     skos:inScheme <scheme> .
@@ -144,51 +159,61 @@
 
 <Da> a skos:Concept ;
     skos:prefLabel "Gesamtdarstellungen"@de, "Opere di carattere generale"@it ;
+    skos:broader <D> ;
     skos:notation "Da" ;
     skos:inScheme <scheme> .
 
 <Db> a skos:Concept ;
     skos:prefLabel "Vermischtes"@de, "Monografie complessive (miscellanea)"@it ;
+    skos:broader <D> ;
     skos:notation "Db" ;
     skos:inScheme <scheme> .
 
 <Dc> a skos:Concept ;
     skos:prefLabel "Mehrere Perioden zusammen - Nation, Nationalstaat, Europa, Alte Geschichte"@de, "Piú epoche insieme - Nazione, Stato nazionale, Europa Storia antica"@it ;
+    skos:broader <D> ;
     skos:notation "Dc" ;
     skos:inScheme <scheme> .
 
 <Dd> a skos:Concept ;
     skos:prefLabel "Mittelalter, Kreuzzüge"@de, "Medioevo, Crociate"@it ;
+    skos:broader <D> ;
     skos:notation "Dd" ;
     skos:inScheme <scheme> .
 
 <De> a skos:Concept ;
     skos:prefLabel "16. Jahrhundert"@de, "XVI secolo"@it ;
+    skos:broader <D> ;
     skos:notation "De" ;
     skos:inScheme <scheme> .
 
 <Df> a skos:Concept ;
     skos:prefLabel "17. Jahrhundert"@de, "XVII secolo"@it ;
+    skos:broader <D> ;
     skos:notation "Df" ;
     skos:inScheme <scheme> .
 
 <Dg> a skos:Concept ;
     skos:prefLabel "18. Jahrhundert bis 1815"@de, "XVIII secolo fino al 1815"@it ;
+    skos:broader <D> ;
     skos:notation "Dg" ;
     skos:inScheme <scheme> .
 
 <Dh> a skos:Concept ;
     skos:prefLabel "19. Jahrhundert bis 1914"@de, "XIX secolo fino al 1914"@it ;
+    skos:broader <D> ;
     skos:notation "Dh" ;
     skos:inScheme <scheme> .
 
 <Di> a skos:Concept ;
     skos:prefLabel "20. Jahrhundert seit 1914"@de, "XX secolo dal 1914"@it ;
+    skos:broader <D> ;
     skos:notation "Di" ;
     skos:inScheme <scheme> .
 
 <Dm> a skos:Concept ;
     skos:prefLabel "Biographisches"@de, "Scritti a carattere biografico"@it ;
+    skos:broader <D> ;
     skos:notation "Dm" ;
     skos:inScheme <scheme> .
 
@@ -200,61 +225,73 @@
 
 <Ea> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "Scritti di carattere generale"@it ;
+    skos:broader <E> ;
     skos:notation "Ea" ;
     skos:inScheme <scheme> .
 
 <Eb> a skos:Concept ;
     skos:prefLabel "Geschichte der geistigen Bildung"@de, "Storia della formazione intellettuale"@it ;
+    skos:broader <E> ;
     skos:notation "Eb" ;
     skos:inScheme <scheme> .
 
 <Ec> a skos:Concept ;
     skos:prefLabel "Schulen, Universitäten, Akademien"@de, "Scuole, universitá, accademie"@it ;
+    skos:broader <E> ;
     skos:notation "Ec" ;
     skos:inScheme <scheme> .
 
 <Ed> a skos:Concept ;
     skos:prefLabel "Gelehrte, Dichter etc."@de, "Eruditi, poeti, ecc."@it ;
+    skos:broader <E> ;
     skos:notation "Ed" ;
     skos:inScheme <scheme> .
 
 <Ee> a skos:Concept ;
     skos:prefLabel "Buchdruck und Buchhandel"@de, "La stampa e il commercio librario"@it ;
+    skos:broader <E> ;
     skos:notation "Ee" ;
     skos:inScheme <scheme> .
 
 <Ef> a skos:Concept ;
     skos:prefLabel "Literaturgeschichte, griechische und lateinische Klassiker"@de, "Storia della letteratura, Classici greci e latini"@it ;
+    skos:broader <E> ;
     skos:notation "Ef" ;
     skos:inScheme <scheme> .
 
 <Eg> a skos:Concept ;
     skos:prefLabel "Kunstgeschichte und mittelalterliche Archäologie"@de, "Storia dell'arte e archeologia medievale"@it ;
+    skos:broader <E> ;
     skos:notation "Eg" ;
     skos:inScheme <scheme> .
 
 <Eh> a skos:Concept ;
     skos:prefLabel "Verfassung, Recht, Politik"@de, "Costituzioni, diritto, politica"@it ;
+    skos:broader <E> ;
     skos:notation "Eh" ;
     skos:inScheme <scheme> .
 
 <Ei> a skos:Concept ;
     skos:prefLabel "Wirtschaftsgeschichte"@de, "Storia dell'economia"@it ;
+    skos:broader <E> ;
     skos:notation "Ei" ;
     skos:inScheme <scheme> .
 
 <Ek> a skos:Concept ;
     skos:prefLabel "Handels-, Verkehrs- und Kolonialgeschichte"@de, "Storia del commercio, dei trasporti e del colonialismo"@it ;
+    skos:broader <E> ;
     skos:notation "Ek" ;
     skos:inScheme <scheme> .
 
 <El> a skos:Concept ;
     skos:prefLabel "Soziologie"@de, "Sociologia"@it ;
+    skos:broader <E> ;
     skos:notation "El" ;
     skos:inScheme <scheme> .
 
 <Em> a skos:Concept ;
     skos:prefLabel "Kriegsgeschichte"@de, "Storia militare"@it ;
+    skos:broader <E> ;
     skos:notation "Em" ;
     skos:inScheme <scheme> .
 
