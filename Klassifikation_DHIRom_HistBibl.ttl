@@ -13,11 +13,11 @@
 
 <A> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
+    skos:definition "Nachschlagewerke mit Freihandaufstellung im Historischen Lesesaal."@de, "Collezione di materiale di consultazione con esposizione libera nella Sala di lettura storica"@it ;
+    skos:example "z.B. Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@de, "per esempio Der grosse Ploetz : die Chronik zur Weltgeschichte / The Oxford encyclopedia of the Reformation"@it ;
+    skos:scopeNote "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Andernfalls Fachgruppnen bevorzugen."@de, "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."@it ;
     skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
-    dct:title "Allgemeine Kategorie"@de, "Categoria Generale"@it ;
-    dct:description "Übergeordnete Kategorie für allgemeine Themen."@de, "Categoria per argomenti generali e fondamentali."@it ;
     skos:notation "A" ;
-    skos:scopeNote "Enthält allgemeine und grundlegende Werke der Bibliothek."@de, "Comprende opere generali e fondamentali della biblioteca."@it ;
     skos:topConceptOf <scheme> .
 
 <Aa> a skos:Concept ;
