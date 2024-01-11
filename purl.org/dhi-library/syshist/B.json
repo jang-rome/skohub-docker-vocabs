@@ -5,13 +5,49 @@
     "de": "Historische Hilfswissenschaften",
     "it": "Scienze storiche ausiliarie"
   },
+  "definition": {
+    "de": "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken",
+    "it": "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"
+  },
   "scopeNote": {
-    "de": "Umfasst spezialisierte Bereiche der historischen Forschung."
+    "it": "I gruppi da Bd a Bg sono facilmente gestibili e non sono necessari ulteriori criteri di classificazione sistematica."
   },
   "notation": [
     "B"
   ],
+  "example": {
+    "de": "z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / The Oxford encyclopedia of the Reformation",
+    "it": "per esempio z.B. Paleografia latina diplomatica e nozioni di scienze ausiliare / Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"
+  },
   "narrower": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/Aa",
+      "prefLabel": {
+        "de": "Enzyklopädien, allgemeine und biographische Lexika",
+        "it": "Enciclopedie, lessici generäli e biografici"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Ab",
+      "prefLabel": {
+        "de": "Bibliographien",
+        "it": "Bibliografie"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Ac",
+      "prefLabel": {
+        "de": "Vermischte Schriften, Serienwerke etc.",
+        "it": "Miscellanea, serie ecc."
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Ae",
+      "prefLabel": {
+        "de": "Festschriften",
+        "it": "Festschriften (scritti in onore di...)"
+      }
+    },
     {
       "id": "https://purl.org/dhi-library/syshist/Ba",
       "prefLabel": {
