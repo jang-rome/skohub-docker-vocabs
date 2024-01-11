@@ -5,12 +5,20 @@
     "de": "Archive und Bibliotheken, Institute",
     "it": "Archivi, biblioteche, istituti"
   },
+  "definition": {
+    "de": "Der Schwerpunkt liegt neben der Geschichte und der Bestandsbeschreibung einzelner Bibliotheken und Archive auf Bibliothekskatalogen (v.a. Handschriften, Inkunabeln, alte Drucke) und Archivinventaren. ",
+    "it": "Oltre alla storia e alla descrizione del patrimonio di singole biblioteche e archivi, il focus si concentra sui cataloghi delle biblioteche (in particolare manoscritti, incunaboli, stampe antiche) e sugli inventari degli archivi. "
+  },
   "scopeNote": {
-    "de": "Umfassende Sammlung von Materialien zu Archiv- und Bibliothekswissenschaften sowie zu Instituten."
+    "it": "Per quanto possibile, è stato applicato un ordine geografico."
   },
   "notation": [
     "C"
   ],
+  "example": {
+    "de": "z.B. Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario",
+    "it": "per esempio Einsatz neuer Technologien an wissenschaftlichen Bibliotheken : Arbeitsbericht / Le pergamene della Società Napoletana di Storia Patria : inventario"
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Ca",
