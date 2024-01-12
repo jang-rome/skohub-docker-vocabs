@@ -66,17 +66,17 @@
       }
     },
     {
-      "id": "https://purl.org/dhi-library/syshist/Jf",
-      "prefLabel": {
-        "de": "Kirchengeschichte",
-        "it": "Storia ecclesiastica"
-      }
-    },
-    {
       "id": "https://purl.org/dhi-library/syshist/J",
       "prefLabel": {
         "de": "Geschichte Preussens und des Deutschen Ordens",
         "it": "Storia della Prussia e dell'Ordine Teutonico"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Jf",
+      "prefLabel": {
+        "de": "Kirchengeschichte",
+        "it": "Storia ecclesiastica"
       }
     },
     {
