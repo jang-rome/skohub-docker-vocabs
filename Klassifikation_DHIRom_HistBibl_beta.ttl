@@ -8,7 +8,7 @@ syshist: a skos:ConceptScheme ;
     dct:description "Semi-automatisierte SKOS-Transformation des seit 1910 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de, "Trasformazione automatica in SKOS dello schema di classificazione utilizzato dalla Biblioteca storica del DHI di Roma dal 1910."@it ;
     dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
-    skos:hasTopConcept <A>, <B>, <C>, <D>, <E>, <F>, <G>, <H>, <J>, <K>, <L> .
+    skos:hasTopConcept syshist:A, syshist:B, syshist:C, syshist:D, syshist:E, syshist:F, syshist:G, syshist:H, syshist:J, syshist:K, syshist:L .
 
    
 syshist:A a skos:Concept ;
