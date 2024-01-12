@@ -181,6 +181,13 @@
   ],
   "related": [
     {
+      "id": "https://purl.org/dhi-library/syshist/E",
+      "prefLabel": {
+        "de": "Kulturgeschichte",
+        "it": "Storia della civiltá"
+      }
+    },
+    {
       "id": "https://purl.org/dhi-library/syshist/F",
       "prefLabel": {
         "de": "Kirchengeschichte",

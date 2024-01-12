@@ -10,14 +10,14 @@
     "it": "Separazione in due gruppi principali: La-Lb Storia nazionale e Le Storia regionale e locale."
   },
   "scopeNote": {
-    "de": "Gehört zu den umfangreichsten Beständen des DHI mit vielen Exponenten",
-    "it": "Uno dei fondi più ampi del DHI con molti esponenti"
+    "de": "Gehört zu den umfangreichsten Beständen des DHI mit vielen Exponenten.",
+    "it": "Uno dei fondi più ampi del DHI con molti esponenti."
   },
   "notation": [
     "L"
   ],
   "example": {
-    "de": "Bibliographie und Quellen, allgemeine Darstellungen mit einigen übergreifenden Themenblöcken, Spezifische Themen wie Wirtshcaft und Einzelereignisse, Stadtgeschichte Roms, Provinzen (alphabetisch)",
+    "de": "Bibliographie und Quellen, allgemeine Darstellungen mit einigen übergreifenden Themenblöcken, Spezifische Themen wie Wirtschaft und Einzelereignisse, Stadtgeschichte Roms, Provinzen (alphabetisch).",
     "it": "Bibliografia e fonti, descrizioni generali con alcuni blocchi tematici generali, argomenti specifici come economia e singoli eventi, storia della città di Roma, province (alfabetico)."
   },
   "narrower": [
@@ -58,6 +58,13 @@
     }
   ],
   "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/E",
+      "prefLabel": {
+        "de": "Kulturgeschichte",
+        "it": "Storia della civiltá"
+      }
+    },
     {
       "id": "https://purl.org/dhi-library/syshist/F",
       "prefLabel": {

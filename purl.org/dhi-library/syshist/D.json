@@ -10,14 +10,14 @@
     "it": "Soprattutto, la storia europea e la storia di diversi Stati a confronto."
   },
   "scopeNote": {
-    "de": "In Unterscheidung zu Gruppe G alles, was alles, was sich geographisch/national nicht klar einordnen lässt.",
+    "de": "In Unterscheidung zu Gruppe G Inhalte, die sich geographisch/national nicht klar einordnen lassen.",
     "it": "A differenza del Gruppo G, tutto ciò che non può essere chiaramente classificato geograficamente/nazionale."
   },
   "notation": [
     "D"
   ],
   "example": {
-    "de": "U.a. verschiedene, zeitübergreifende Themen wie Alpen- und Bergräume, Seeräuberei etc.",
+    "de": "Unter anderem verschiedene zeitübergreifende Themen wie Alpen- und Bergräume, Seeräuberei etc.",
     "it": "Per esempio diversi temi trasversali, come le regioni alpine e montane, la pirateria, ecc."
   },
   "narrower": [

@@ -108,6 +108,20 @@
   ],
   "related": [
     {
+      "id": "https://purl.org/dhi-library/syshist/H",
+      "prefLabel": {
+        "de": "Geschichte Deutschlands",
+        "it": "Storia della Germania"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/L",
+      "prefLabel": {
+        "de": "Geschichte Italiens",
+        "it": "Storia d'Italia"
+      }
+    },
+    {
       "id": "https://purl.org/dhi-library/syshist/Ha",
       "prefLabel": {
         "de": "Allgemeines. Kultur - und Kirchengeschichte",

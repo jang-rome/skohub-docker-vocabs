@@ -1,1 +1,1 @@
-{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://purl.org/dhi-library/syshist/scheme","fields":{"languages":["de","it"]}}},{"node":{"id":"http://dhi-roma.it/","fields":{"languages":["de","it"]}}},{"node":{"id":"https://example.org/colour-with-hierarchy/","fields":{"languages":["en","de"]}}}]}}}
+{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://purl.org/dhi-library/syshist/scheme","fields":{"languages":["de","it"]}}},{"node":{"id":"http://dhi-roma.it/","fields":{"languages":["de","it"]}}}]}}}
