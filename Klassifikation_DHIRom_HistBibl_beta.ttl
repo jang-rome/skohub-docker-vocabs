@@ -7,8 +7,8 @@ syshist: a skos:ConceptScheme ;
     dct:title "Klassifikation DHI Rom Historische Bibliothek - (Beta, per Skript generierte Rohdaten)"@de, "Divisone del catalogo sistematico del DHI Rom Biblioteca Storica - (Beta, dati grezzi)"@it ;
     dct:description "Semi-automatisierte SKOS-Transformation des seit 1910 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de, "Trasformazione automatica in SKOS dello schema di classificazione utilizzato dalla Biblioteca storica del DHI di Roma dal 1910."@it ;
     dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
-    dct:license <https://creativecommons.org/public-domain/cc0/> .
-	skos:hasTopConcept <A>, <B>, <C>, <D>, <E>, <F>, <G>, <H>, <J>, <K>, <L> .
+    dct:license <https://creativecommons.org/public-domain/cc0/> ;
+    skos:hasTopConcept <A>, <B>, <C>, <D>, <E>, <F>, <G>, <H>, <J>, <K>, <L> .
 
    
 syshist:A a skos:Concept ;
