@@ -229,6 +229,7 @@
     skos:scopeNote "Für die Zeit seit dem 18./19. Jh. liegen für die Publikationen oftmals nationale Bezüge vor, eigene Untergruppen bei den Systemstellen H und L. Bei neu zu klassifizierenden Werken muss anhand inhaltlicher Kriterien (Schlagwörter/Stichwörter) über die Kataloge eine passende Systemstelle ermittelt werden."@de, "Per il periodo successivo al XVIII/XIX secolo, spesso esistono riferimenti nazionali per le pubblicazioni, sottogruppi separati alle collacazioni H e L. Per le opere da classificare, è necessario determinare una voce di sistema adeguata attraverso i cataloghi sulla base di criteri di contenuto (parole chiave)."@it ;
     skos:notation "E" ;
     skos:topConceptOf <scheme> ;
+    skos:related <Ha>, <Je> ;
     skos:narrower <Ea>, <Eb>, <Ec>, <Ed>, <Ee>, <Ef>, <Eg>, <Eh>, <Ei>, <Ek>, <El>, <Em> .
 
 <Ea> a skos:Concept ;
@@ -305,8 +306,13 @@
 
 <F> a skos:Concept ;
     skos:prefLabel "Kirchengeschichte"@de, "Storia della Chiesa"@it ;
+    skos:definition "Schwerpunkt: historische Aspekte. Weitere Teildisziplinen der Theologie (wie Liturgik, Homiletik, Systematische Theologie, Moraltheologie etc.) werden nur mit allgemeinen Einführungen oder bei explizitem historischen Bezug berücksichtigt."@de, "Focus: aspetti storici. Altre sottodiscipline della teologia (come la liturgia, l'omiletica, la teologia sistematica, la teologia morale, ecc.) sono considerate solo con introduzioni generali o con espliciti riferimenti storici."@it ;
+    skos:example "Kirchengeschichte Mittelalter bis 20. Jhdt, Kirchenrecht, Reformation - Gegenreformation, Orden, Heilige und Märtyrer"@de, "Storia della Chiesa dal Medioevo al XX secolo, diritto canonico, Riforma e Controriforma, Ordini religiosi, Santi e Martiri."@it ;
+    skos:scopeNote "Bei Literatur zu lokalgeographischen Einzelaspekten (z.B. Klöster) ist zu überprüfen, ob das Werk nicht eher in die lokalgeschichtlichen Gruppen eingeordnet wird (Vorrang!)."@de, "Nel caso di letteratura su singoli aspetti della geografia locale (ad esempio i monasteri), occorre verificare se l'opera debba essere classificata nei gruppi di storia locale (priorità!)."@it ;
+    skos:notation "D" ;
     skos:notation "F" ;
     skos:topConceptOf <scheme> ;
+    skos:related <H>, <L>, <Jf> ;
     skos:narrower <Fa>, <Fb>, <Fc>, <Fd>, <Fe>, <Ff>, <Fg>, <Fh>, <Fi>, <Fk>, <Fl>, <Fm> .
 
 <Fa> a skos:Concept ;
@@ -383,8 +389,12 @@
 
 <G> a skos:Concept ;
     skos:prefLabel "Geschichte einzelner Länder"@de, "Storia delle singole nazioni"@it ;
+    skos:definition "Neben Deutschland (s. Gruppe H) und Italien (s. Gruppe L) fehlt auch Österreich(-Ungarn) mit einigen früheren Landesteilen (z.B. Böhmen/Tschechien oder einige Balkangebieten)"@de, "Oltre alla Germania (vedi Gruppo H) e all'Italia (vedi Gruppo L), manca anche l'Austria (Ungheria) con alcune ex parti del Paese (ad esempio Boemia/Repubblica Ceca o alcune regioni balcaniche)."@it ;
+    skos:example "Geographischer Schwerpunkt Europa (England, Frankreich etc). Nur kleine Bestände zu Übersee."@de, "Focus geografico sull'Europa (Inghilterra, Francia, ecc.). Solo piccoli fondi su altri continenti."@it ;
+    skos:scopeNote "Ordnung in der Regel: Allgemeines und Quellen – einzelne Ereignisse (chronologisch) – ggf. eigene thematische Gruppen (Kirchengeschichte etc.) – einzelne Orte – einzelne Personen"@de, "Ordine/Struttura generale: informazioni generali e fonti - singoli eventi (cronologici) - gruppi tematici separati (storia della chiesa, ecc.) - singoli luoghi - singole persone"@it ;
     skos:notation "G" ;
     skos:topConceptOf <scheme> ;
+    skos:related <H>, <L> ;
     skos:narrower <Gb>, <Gc>, <Gd>, <Ge>, <Gf>, <Gg>, <Gh>, <Gi>, <Gk>, <Gl>, <Gm> .
 
 <Gb> a skos:Concept ;
@@ -455,8 +465,12 @@
 
 <H> a skos:Concept ;
     skos:prefLabel "Geschichte Deutschlands"@de, "Storia della Germania"@it ;
+    skos:definition "Die Geschichte Deutschlands ist auf drei Gruppen aufgeteilt. Die Gruppe H umfasst somit die nationale Geschichte, Gruppe J Preußen und Gruppe K kleinere deutsche Territorien und Österreich - Ungarn."@de, "La storia della Germania è divisa in tre gruppi. Il gruppo H comprende la storia nazionale, il gruppo J la Prussia e il gruppo K i territori tedeschi minori e l'Austria-Ungheria."@it ;
+    skos:example "Geschichte von Entstehung des römisch-deutschen Königtums bis Gegenwart, auch Spezialbereiche wie Wirtschafts- und Militärgeschichte"@de, "Storia dalla nascita del regno romano-tedesco fino alla storia contemporanea, comprese aree specializzate come la storia economica e militare"@it ;
+    skos:historyNote "Durch Gründung des Instituts als Preussisches Historisches Institut 1888 wurde Wert auf eigene Systemstelle zu Preussischer Geschichte gelegt."@de, "La Prussia riceve il proprio Gruppo K, poiché l'Istituto è una fondazione prussiana."@it ;
     skos:notation "H" ;
     skos:topConceptOf <scheme> ;
+    skos:related <J>, <K> ;
     skos:narrower <Ha>, <Hb>, <Hc>, <Hd>, <He>, <Hf>, <Hg>, <Hh>, <Hi>, <Hk>, <Hl>, <Hn>, <Ho>, <Hp>, <Hq>, <Hr>, <Hs>, <Hu>, <Hv>, <Hw>, <Hx>, <Hy>, <Hz> .
 
 <Ha> a skos:Concept ;
@@ -599,7 +613,12 @@
 
 <J> a skos:Concept ;
     skos:prefLabel "Geschichte Preussens und des Deutschen Ordens"@de, "Storia della Prussia e dell'Ordine Teutonico"@it ;
+    skos:definition "Preußische Geschichte als eigener Bestandszweig der Dt. Geschichte. Seit Nachkriegszeit relativ wenig Neuzugänge"@de, "La storia prussiana come ramo specifico della storia tedesca. Sono relativamente poche le nuove aggiunte dal dopoguerra in poi"@it ;
+    skos:example "Geschichte des Hauses Hohenzollern, Biographisches, Einzelne Provinzen, Dt. Orden, Rechts- und Kirchengeschichte etc."@de, "Storia della Casa di Hohenzollern, Materiale biografico, Singole province, Dt. Orden, Storia legale ed ecclesiastica ecc."@it ;
+    skos:scopeNote "Gruppe wurde noch nicht vollständig auf das Zwei-Buchstaben-System umgestellt."@de, "Il Gruppo non è ancora stato completamente convertito al sistema a due lettere."@it ;
+    skos:historyNote "Das DHI war eine preussische Gründung im Jahr 1888, es wurde Wert auf eigene Systemstelle zu Preussischer Geschichte gelegt."@de, "La Prussia riceve il proprio Gruppo K, poiché l'Istituto è una fondazione prussiana."@it ;
     skos:notation "J" ;
+    skos:related <H>, <K>, <Ka>;
     skos:topConceptOf <scheme> ;
     skos:narrower <Ja>, <Jb>, <Jc>, <Jd>, <Je>, <Jf>, <Jg>, <Jh>, <Ji> .
 
@@ -636,6 +655,7 @@
 <Jf> a skos:Concept ;
     skos:prefLabel "Kirchengeschichte"@de, "Storia ecclesiastica"@it ;
     skos:broader <J> ;
+    skos:related <K> ;
     skos:notation "Jf" ;
     skos:inScheme <scheme> .
 
@@ -654,18 +674,24 @@
 <Ji> a skos:Concept ;
     skos:prefLabel "Geschichte des Deutschen Ordens"@de, "Storia dell'Ordine Teutonico"@it ;
     skos:broader <J> ;
+    skos:related <Ka>
     skos:notation "Ji" ;
     skos:inScheme <scheme> .
 
 <K> a skos:Concept ;
     skos:prefLabel "Geschichte der kleineren deutschen Territorien und Österreich - Ungarns"@de, "Storia dei piccoli territori tedeschi e dell'Austria - Ungheria"@it ;
+    skos:definition "Die Ausformulierung dieser Systemstelle entspricht preußischer Sicht. Einordnung Österreich-Ungarns, allerdings mit großem Abstand von Kb zu Ko kann als Kompromiss in der klein-/großdeutschen Frage angesehen werden."@de, "La formula di questa collocazione corrisponde alla visione prussiana."@it ;
+    skos:example "Deutsche Staaten und Landschaften, Städte, Bistümer usw., Österreich-Ungarn"@de, "Stati e paesaggi tedeschi, città, diocesi ecc., Austria-Ungheria"@it ;
+    skos:scopeNote "Bei regionalgeschichtlichen Werken auch Systemgruppe J beachten."@de, "Per le opere di storia regionale, si veda anche il gruppo di sistema J."@it ;
     skos:notation "K" ;
+    skos:related <Ji> ;
     skos:topConceptOf <scheme> ;
     skos:narrower <Ka>, <Kb>, <Ko>, <Kp>, <Kq> .
 
 <Ka> a skos:Concept ;
     skos:prefLabel "Deutsche Staaten und Landschaften"@de, "Stati e regioni tedesche"@it ;
     skos:broader <K> ;
+    skos:related <Ji> ;
     skos:notation "Ka" ;
     skos:inScheme <scheme> .
 
@@ -695,6 +721,10 @@
 
 <L> a skos:Concept ;
     skos:prefLabel "Geschichte Italiens"@de, "Storia d'Italia"@it ;
+    skos:definition "Trennung in zwei Großgruppen: La–Lb Nationale Geschichte sowie Le Regional- und Lokalgeschichte"@de, "Separazione in due gruppi principali: La-Lb Storia nazionale e Le Storia regionale e locale."@it ;
+    skos:example "Bibliographie und Quellen, allgemeine Darstellungen mit einigen übergreifenden Themenblöcken, Spezifische Themen wie Wirtshcaft und Einzelereignisse, Stadtgeschichte Roms, Provinzen (alphabetisch)"@de, "Bibliografia e fonti, descrizioni generali con alcuni blocchi tematici generali, argomenti specifici come economia e singoli eventi, storia della città di Roma, province (alfabetico)."@it ;
+    skos:scopeNote "Gehört zu den umfangreichsten Beständen des DHI mit vielen Exponenten"@de, "Uno dei fondi più ampi del DHI con molti esponenti"@it ;
+    skos:historyNote "Die Regionen entsprechen dem Stand vor dem Ersten Weltkrieg, Änderungen betreffen überwiegend Lazio."@de, "Le regioni corrispondono alla situazione antecedente la Prima Guerra Mondiale, i cambiamenti riguardano soprattutto il Lazio."@it ; 
     skos:notation "L" ;
     skos:topConceptOf <scheme> ;
     skos:narrower <La>, <Lb>, <Lc>, <Ld>, <Le> .
