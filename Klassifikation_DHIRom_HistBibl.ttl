@@ -223,6 +223,10 @@
 
 <E> a skos:Concept ;
     skos:prefLabel "Kulturgeschichte"@de, "Storia della civiltá"@it ;
+    skos:definition "Generell liegt der Schwerpunkt auf der Vormoderne."@de, "In generale, l'attenzione si concentra sul periodo pre-moderno."@it ;
+    skos:example "Umfangreich sind die Bestände (wenn geographisch übergreifend) zur Renaissance."@de, "Il patrimonio del Rinascimento è ampio (per quanto geograficamente esteso)."@it ;
+    skos:historyNote "Der Terminus Kulturgeschichte ist weit gefasst, allerdings gingen Bestand und Untergliederung von den Publikationen um 1910 aus. Damit ist der Begriff nicht immer identisch mit dem aktuellen Begriff."@de, "Il termine storia culturale è definito in modo ampio, anche se l'inventario e la suddivisione si basano su pubblicazioni del 1910 circa. Ciò significa che il termine non è sempre identico a quello attuale."@it ;
+    skos:scopeNote "Für die Zeit seit dem 18./19. Jh. liegen für die Publikationen oftmals nationale Bezüge vor, eigene Untergruppen bei den Systemstellen H und L. Bei neu zu klassifizierenden Werken muss anhand inhaltlicher Kriterien (Schlagwörter/Stichwörter) über die Kataloge eine passende Systemstelle ermittelt werden."@de, "Per il periodo successivo al XVIII/XIX secolo, spesso esistono riferimenti nazionali per le pubblicazioni, sottogruppi separati alle collacazioni H e L. Per le opere da classificare, è necessario determinare una voce di sistema adeguata attraverso i cataloghi sulla base di criteri di contenuto (parole chiave)."@it
     skos:notation "E" ;
     skos:topConceptOf <scheme> ;
     skos:narrower <Ea>, <Eb>, <Ec>, <Ed>, <Ee>, <Ef>, <Eg>, <Eh>, <Ei>, <Ek>, <El>, <Em> .
