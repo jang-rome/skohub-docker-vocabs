@@ -303,5 +303,429 @@
     skos:notation "Em" ;
     skos:inScheme <scheme> .
 
+<F> a skos:Concept ;
+    skos:prefLabel "Kirchengeschichte"@de, "Storia della Chiesa"@it ;
+    skos:notation "F" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <Fa>, <Fb>, <Fc>, <Fd>, <Fe>, <Ff>, <Fg>, <Fh>, <Fi>, <Fk>, <Fl>, <Fm> .
 
+<Fa> a skos:Concept ;
+    skos:prefLabel "Allgemeines"@de, "Scritti di carattere generale"@it ;
+    skos:broader <F> ;
+    skos:notation "Fa" ;
+    skos:inScheme <scheme> .
+
+<Fb> a skos:Concept ;
+    skos:prefLabel "Kirchl. Literatur und Dogmengeschichte, Patrologie"@de, "Letteratura ecclesiastica e storia dogmatica, Patrologia"@it ;
+    skos:broader <F> ;
+    skos:notation "Fb" ;
+    skos:inScheme <scheme> .
+
+<Fc> a skos:Concept ;
+    skos:prefLabel "Kirchenrecht"@de, "Diritto canonico"@it ;
+    skos:broader <F> ;
+    skos:notation "Fc" ;
+    skos:inScheme <scheme> .
+
+<Fd> a skos:Concept ;
+    skos:prefLabel "Römisch-katholische Kirche I: Konzilien und allgemeine Papstgeschichte"@de, "Chiesa romano-cattolica I: storia dei concili e del papato"@it ;
+    skos:broader <F> ;
+    skos:notation "Fd" ;
+    skos:inScheme <scheme> .
+
+<Fe> a skos:Concept ;
+    skos:prefLabel "Römisch-katholische Kirche II: Die römische Kurie und ihre Verwaltung"@de, "Chiesa romano-cattolica II: La Curia romana e la sua amministrazione"@it ;
+    skos:broader <F> ;
+    skos:notation "Fe" ;
+    skos:inScheme <scheme> .
+
+<Ff> a skos:Concept ;
+    skos:prefLabel "Orden und Vereine der katholischen Kirche I: Ältere Mönchsorden, Bettelorden und spätere Bildungen des Mittelalters Geistliche Ritterorden"@de, "Ordini, congregazioni, associazioni della Chiesa cattolica (I) Antichi ordini moliastici, Ordini mendicanti e formazioni religiose successive medievali Ordini religiosi cavallereschi"@it ;
+    skos:broader <F> ; 
+    skos:notation "Ff" ;
+    skos:inScheme <scheme> .
+
+<Fg> a skos:Concept ;
+    skos:prefLabel "Orden und Vereine der katholischen Kirche II: Jesuiten, Barnabiten, Theatiner"@de, "Ordini, congregazioni, associazioni della Chiesa cattolica (II) Gesuiti, Barnabiti, Teatini"@it ;
+    skos:broader <F> ;
+    skos:notation "Fg" ;
+    skos:inScheme <scheme> .
+
+<Fh> a skos:Concept ;
+    skos:prefLabel "Heilige und Märtyrer"@de, "Santi e martiri"@it ;
+    skos:broader <F> ;
+    skos:notation "Fh" ;
+    skos:inScheme <scheme> .
+
+<Fi> a skos:Concept ;
+    skos:prefLabel "Kirchengeschichte des Mittelalters"@de, "Storia della Chiesa nel medi"@it ;
+    skos:broader <F> ;
+    skos:notation "Fi" ;
+    skos:inScheme <scheme> .
+
+<Fk> a skos:Concept ;
+    skos:prefLabel "Kirchengeschichte des 16. Jahrhunderts"@de, "Storia della Chiesa nel XVI secolo"@it ;
+    skos:broader <F> ;
+    skos:notation "Fk" ;
+    skos:inScheme <scheme> .
+
+<Fl> a skos:Concept ;
+    skos:prefLabel "Kirchengeschichte des 17. und 18. Jahrhunderts"@de, "Storia della Chiesa nel XVII e XVIII secolo"@it ;
+    skos:broader <F> ;
+    skos:notation "Fl" ;
+    skos:inScheme <scheme> .
+
+<Fm> a skos:Concept ;
+    skos:prefLabel "Kirchengeschichte des 19. und 20. Jahrhunderts"@de, "Storia della Chiesa nel XIX e XX secolo"@it ;
+    skos:broader <F> ;
+    skos:notation "Fm" ;
+    skos:inScheme <scheme> .
+
+<G> a skos:Concept ;
+    skos:prefLabel "Geschichte einzelner Länder"@de, "Storia delle singole nazioni"@it ;
+    skos:notation "G" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <Gb>, <Gc>, <Gd>, <Ge>, <Gf>, <Gg>, <Gh>, <Gi>, <Gk>, <Gl>, <Gm> .
+
+<Gb> a skos:Concept ;
+    skos:prefLabel "England"@de, "Inghilterra"@it ;
+    skos:broader <G> ;
+    skos:notation "Gb" ;
+    skos:inScheme <scheme> .
+
+<Gc> a skos:Concept ;
+    skos:prefLabel "Frankreich"@de, "Francia"@it ;
+    skos:broader <G> ;
+    skos:notation "Gc" ;
+    skos:inScheme <scheme> .
+
+<Gd> a skos:Concept ;
+    skos:prefLabel "Niederlande und Belgien"@de, "Paesi Bassi e Belgio"@it ;
+    skos:broader <G> ;
+    skos:notation "Gd" ;
+    skos:inScheme <scheme> .
+
+<Ge> a skos:Concept ;
+    skos:prefLabel "Polen, Rußland Baltische Länder (Livland, Estland, Kurland)"@de, "Polonia, Russia Paesi Baltici (Livonia, Estonia, Curlandia)"@it ;
+    skos:broader <G> ;
+    skos:notation "Ge" ;
+    skos:inScheme <scheme> .
+
+<Gf> a skos:Concept ;
+    skos:prefLabel "Skandinavien"@de, "Seandinavia"@it ;
+    skos:broader <G> ;
+    skos:notation "Gf" ;
+    skos:inScheme <scheme> .
+
+<Gg> a skos:Concept ;
+    skos:prefLabel "Schweiz"@de, "Svizzera"@it ;
+    skos:broader <G> ;
+    skos:notation "Gg" ;
+    skos:inScheme <scheme> .
+
+<Gh> a skos:Concept ;
+    skos:prefLabel "Spanien und Portugal"@de, "Spagna e Portogallo"@it ;
+    skos:broader <G> ;
+    skos:notation "Gh" ;
+    skos:inScheme <scheme> .
+
+<Gi> a skos:Concept ;
+    skos:prefLabel "Byzanz"@de, "Bisanzio"@it ;
+    skos:broader <G> ;
+    skos:notation "Gi" ;
+    skos:inScheme <scheme> .
+
+<Gk> a skos:Concept ;
+    skos:prefLabel "Islam, Orient, Balkan"@de, "Paesi Islamici, Orientali e Baleanici"@it ;
+    skos:broader <G> ;
+    skos:notation "Gk" ;
+    skos:inScheme <scheme> .
+
+<Gl> a skos:Concept ;
+    skos:prefLabel "Amerika"@de, "America"@it ;
+    skos:broader <G> ;
+    skos:notation "Gl" ;
+    skos:inScheme <scheme> .
+
+<Gm> a skos:Concept ;
+    skos:prefLabel "Asien, Afrika"@de, "Asia, Africa"@it ;
+    skos:broader <G> ;
+    skos:notation "Gm" ;
+    skos:inScheme <scheme> .
+
+<H> a skos:Concept ;
+    skos:prefLabel "Geschichte Deutschlands"@de, "Storia della Germania"@it ;
+    skos:notation "H" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <Ha>, <Hb>, <Hc>, <Hd>, <He>, <Hf>, <Hg>, <Hh>, <Hi>, <Hk>, <Hl>, <Hn>, <Ho>, <Hp>, <Hq>, <Hr>, <Hs>, <Hu>, <Hv>, <Hw>, <Hx>, <Hy>, <Hz> .
+
+<Ha> a skos:Concept ;
+    skos:prefLabel "Allgemeines. Kultur - und Kirchengeschichte"@de, "Seritti di earattere generale. Storia eulturale e religiosa"@it ;
+    skos:broader <H> ;
+    skos:notation "Ha" ;
+    skos:inScheme <scheme> .
+
+<Hb> a skos:Concept ;
+    skos:prefLabel "Verfassungs - und Wirtschaftsgeschichte Militärgeschichte"@de, "Storia delle eostituzioni e dell 'eeonomia Storia militare"@it ;
+    skos:broader <H> ;
+    skos:notation "Hb" ;
+    skos:inScheme <scheme> .
+
+<Hc> a skos:Concept ;
+    skos:prefLabel "Geschichte von den ältesten Zeiten an bis zu den sächsischen Kaisern"@de, "Storia dall'antichitá fino ai re sassoni"@it ;
+    skos:broader <H> ;
+    skos:notation "Hc" ;
+    skos:inScheme <scheme> .
+
+<Hd> a skos:Concept ;
+    skos:prefLabel "Geschichte der fränkischen und staufischen Kaiser 1024-1256"@de, "Storia dei refranehi e dei re svevi 1024-1256"@it ;
+    skos:broader <H> ;
+    skos:notation "Hd" ;
+    skos:inScheme <scheme> .
+
+<He> a skos:Concept ;
+    skos:prefLabel "Das ausgehende Mittelalter 1256-1517"@de, "Basso medioevo 1256-1517"@it ;
+    skos:broader <H> ;
+    skos:notation "He" ;
+    skos:inScheme <scheme> .
+
+<Hf> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1517-1555"@de, "Storia tedesca 1517-1555"@it ;
+    skos:broader <H> ;
+    skos:notation "Hf" ;
+    skos:inScheme <scheme> .
+
+<Hg> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1555-1648"@de, "Storia tedesca 1555-1648"@it ;
+    skos:broader <H> ;
+    skos:notation "Hg" ;
+    skos:inScheme <scheme> .
+
+<Hh> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1648-1800"@de, "Storia tedesca 1648-1800"@it ;
+    skos:broader <H> ;
+    skos:notation "Hh" ;
+    skos:inScheme <scheme> .
+
+<Hi> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1800-1918 Judentum, Antisemitismus"@de, "Storia tedesca 1800-1918 Ebraismo, Antisemitismo"@it ;
+    skos:broader <H> ;
+    skos:notation "Hi" ;
+    skos:inScheme <scheme> .
+
+<Hk> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1800-1918 einzelne Personen (alphabet.)"@de, "Storia tedescii 1800-1918 persone singole (ord. alfabet.)"@it ;
+    skos:broader <H> ;
+    skos:notation "Hk" ;
+    skos:inScheme <scheme> .
+
+<Hl> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1918-1945"@de, "Storia tedesca 1918-1945"@it ;
+    skos:broader <H> ;
+    skos:notation "Hl" ;
+    skos:inScheme <scheme> .
+
+<Hn> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1918-1945 einzelne Personen (alphabet.)"@de, "Storia tedesca 1918-1945 persone singole (ord. alfabet.)"@it ;
+    skos:broader <H> ;
+    skos:notation "Hn" ;
+    skos:inScheme <scheme> .
+
+<Ho> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte seit 1945"@de, "Storia tedesca dal 1945"@it ;
+    skos:broader <H> ;
+    skos:notation "Ho" ;
+    skos:inScheme <scheme> .
+
+<Hp> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte seit 1945 einzelne Personen (alphabet.)"@de, "Storia tedesca dal 1945 persone singole (ord. alfabet.)"@it ;
+    skos:broader <H> ;
+    skos:notation "Hp" ;
+    skos:inScheme <scheme> .
+
+<Hq> a skos:Concept ;
+    skos:prefLabel "Deutsche Geschichte 1945-1949"@de, "Storia tedesca 1945-1949"@it ;
+    skos:broader <H> ;
+    skos:notation "Hq" ;
+    skos:inScheme <scheme> .
+
+<Hr> a skos:Concept ;
+    skos:prefLabel "Bundesrepublik Deutschland bis 1969"@de, "La Repubblica Federale Tedesca fino al 1969"@it ;
+    skos:broader <H> ;
+    skos:notation "Hr" ;
+    skos:inScheme <scheme> .
+
+<Hs> a skos:Concept ;
+    skos:prefLabel "Bundesrepublik Deutschland 1969 bis 1989"@de, "La Repubblica Federale Tedesca dal 1969 fino al 1989"@it ;
+    skos:broader <H> ;
+    skos:notation "Hs" ;
+    skos:inScheme <scheme> .
+
+<Hu> a skos:Concept ;
+    skos:prefLabel "Deutsche Demokratische Republik"@de, "La Repubblica Democratica Tedesca"@it ;
+    skos:broader <H> ;
+    skos:notation "Hu" ;
+    skos:inScheme <scheme> .
+
+<Hv> a skos:Concept ;
+    skos:prefLabel "Deutsche Demokratische Republik einzelne Personen (alphabet.)"@de, "La Repubblica Democratica Tedesca persone singole (ord. alfabet.)"@it ;
+    skos:broader <H> ;
+    skos:notation "Hv" ;
+    skos:inScheme <scheme> .
+
+<Hw> a skos:Concept ;
+    skos:prefLabel "Beziehungen BRD/DDR"@de, "Relazioni tra RFT/RTD"@it ;
+    skos:broader <H> ;
+    skos:notation "Hw" ;
+    skos:inScheme <scheme> .
+
+<Hx> a skos:Concept ;
+    skos:prefLabel "Deutschland ab 1989/90"@de, "La Gerinania dal 1989/90"@it ;
+    skos:broader <H> ;
+    skos:notation "Hx" ;
+    skos:inScheme <scheme> .
+
+<Hy> a skos:Concept ;
+    skos:prefLabel "Deutschland ab 1989/90 einzelne Personen (alphabet.)"@de, "La Germania dal 1989/90 persone singole (ord. alfabet.)"@it ;
+    skos:broader <H> ;
+    skos:notation "Hy" ;
+    skos:inScheme <scheme> .
+
+<Hz> a skos:Concept ;
+    skos:prefLabel "Deutsche Parteien"@de, "Partiti politici tedeschi"@it ;
+    skos:broader <H> ;
+    skos:notation "Hz" ;
+    skos:inScheme <scheme> .
+
+<J> a skos:Concept ;
+    skos:prefLabel "Geschichte Preussens und des Deutschen Ordens"@de, "Storia della Prussia e dell'Ordine Teutonico"@it ;
+    skos:notation "J" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <Ja>, <Jb>, <Jc>, <Jd>, <Je>, <Jf>, <Jg>, <Jh>, <Ji> .
+
+<Ja> a skos:Concept ;
+    skos:prefLabel "Zeitschriften"@de, "Riviste"@it ;
+    skos:broader <J> ;
+    skos:notation "Ja" ;
+    skos:inScheme <scheme> .
+
+<Jb> a skos:Concept ;
+    skos:prefLabel "Quellen"@de, "Fonti storiche"@it ;
+    skos:broader <J> ;
+    skos:notation "Jb" ;
+    skos:inScheme <scheme> .
+
+<Jc> a skos:Concept ;
+    skos:prefLabel "Allgemeine Darstellungen"@de, "Opere di carattere generale"@it ;
+    skos:broader <J> ;
+    skos:notation "Jc" ;
+    skos:inScheme <scheme> .
+
+<Jd> a skos:Concept ;
+    skos:prefLabel "Geschichte des Hauses Hohenzollern"@de, "Storia del casato degli Hohenzollern"@it ;
+    skos:broader <J> ;
+    skos:notation "Jd" ;
+    skos:inScheme <scheme> .
+
+<Je> a skos:Concept ;
+    skos:prefLabel "Kultur - und Rechtsgeschichte"@de, "Storia della civiltá e del diritto"@it ;
+    skos:broader <J> ;
+    skos:notation "Je" ;
+    skos:inScheme <scheme> .
+
+<Jf> a skos:Concept ;
+    skos:prefLabel "Kirchengeschichte"@de, "Storia ecclesiastica"@it ;
+    skos:broader <J> ;
+    skos:notation "Jf" ;
+    skos:inScheme <scheme> .
+
+<Jg> a skos:Concept ;
+    skos:prefLabel "Biografisches"@de, "Scritti di carattere biografico"@it ;
+    skos:broader <J> ;
+    skos:notation "Jg" ;
+    skos:inScheme <scheme> .
+
+<Jh> a skos:Concept ;
+    skos:prefLabel "Einzelne Ereignisse (chronologisch)"@de, "Singoli avvenimenti (ordine cronologico)"@it ;
+    skos:broader <J> ;
+    skos:notation "Jh" ;
+    skos:inScheme <scheme> .
+
+<Ji> a skos:Concept ;
+    skos:prefLabel "Geschichte des Deutschen Ordens"@de, "Storia dell'Ordine Teutonico"@it ;
+    skos:broader <J> ;
+    skos:notation "Ji" ;
+    skos:inScheme <scheme> .
+
+<K> a skos:Concept ;
+    skos:prefLabel "Geschichte der kleineren deutschen Territorien und Österreich - Ungarns"@de, "Storia dei piccoli territori tedeschi e dell'Austria - Ungheria"@it ;
+    skos:notation "K" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <Ka>, <Kb>, <Ko>, <Kp>, <Kq> .
+
+<Ka> a skos:Concept ;
+    skos:prefLabel "Deutsche Staaten und Landschaften"@de, "Stati e regioni tedesche"@it ;
+    skos:broader <K> ;
+    skos:notation "Ka" ;
+    skos:inScheme <scheme> .
+
+<Kb> a skos:Concept ;
+    skos:prefLabel "Deutsche Städte, Bistümer und Klöster (alphabet.)"@de, "Cittá, vescovati, e monasteri tedeschi (ord. alfabet.)"@it ;
+    skos:broader <K> ;
+    skos:notation "Kb" ;
+    skos:inScheme <scheme> .
+
+<Ko> a skos:Concept ;
+    skos:prefLabel "Geschichte Österreich-Ungarns"@de, "Storia dell'Austria-Ungheria"@it ;
+    skos:broader <K> ;
+    skos:notation "Ko" ;
+    skos:inScheme <scheme> .
+
+<Kp> a skos:Concept ;
+    skos:prefLabel "Geschichte Österreich-Ungarns, einzelne Landesteile"@de, "Storia dell'Austria-Ungheria regioni singole"@it ;
+    skos:broader <K> ;
+    skos:notation "Kp" ;
+    skos:inScheme <scheme> .
+
+<Kq> a skos:Concept ;
+    skos:prefLabel "Geschichte Österreich-Ungarns, einzelne Personen (alphabet.)"@de, "Storia dell'Austria-Ungheria persone singole (ord. alfabet.)"@it ;
+    skos:broader <K> ;
+    skos:notation "Kq" ;
+    skos:inScheme <scheme> .
+
+<L> a skos:Concept ;
+    skos:prefLabel "Geschichte Italiens"@de, "Storia d'Italia"@it ;
+    skos:notation "L" ;
+    skos:topConceptOf <scheme> ;
+    skos:narrower <La>, <Lb>, <Lc>, <Ld>, <Le> .
+
+<La> a skos:Concept ;
+    skos:prefLabel "Allgemeine Geschichte Italiens"@de, "Storia italiana in generale"@it ;
+    skos:broader <L> ;
+    skos:notation "La" ;
+    skos:inScheme <scheme> .
+
+<Lb> a skos:Concept ;
+    skos:prefLabel "Geschichte Roms und des Kirchenstaates"@de, "Storia di Roma de dello Stato Pontificio"@it ;
+    skos:broader <L> ;
+    skos:notation "Lb" ;
+    skos:inScheme <scheme> .
+
+<Lc> a skos:Concept ;
+    skos:prefLabel "Geschichte einzelner Provinzen (alphabet.): Abruzzo e Molise - Liguria (Nizza)"@de, "Storia di singole regioni (in ordine alfbet.): Abruzzo e Molise - Liguria (Nizza)"@it ;
+    skos:broader <L> ;    
+    skos:notation "Lc" ;
+    skos:inScheme <scheme> .
+
+<Ld> a skos:Concept ;
+    skos:prefLabel "Geschichte einzelner Provinzen (alphabet.): Lombardia - Regno delle Due Sicilie"@de, "Storia di singole regioni (in ordine alfbet.): Lombardia - Regno delle Due Sicilie"@it ;
+    skos:broader <L> ;   
+    skos:notation "Ld" ;
+    skos:inScheme <scheme> .
+
+<Le> a skos:Concept ;
+    skos:prefLabel "Geschichte einzelner Provinzen (alphabet.): Sicilia / Isola Sicilia - Corsica"@de, "Storia di singole regioni (in ordine alfbet.): Sicilia / Isola Sicilia - Corsica"@it ;
+    skos:broader <L> ;
+    skos:notation "Le" ;
+    skos:inScheme <scheme> .
 
