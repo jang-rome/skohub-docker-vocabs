@@ -5,9 +5,21 @@
     "de": "Geschichte Italiens",
     "it": "Storia d'Italia"
   },
+  "definition": {
+    "de": "Trennung in zwei Großgruppen: La–Lb Nationale Geschichte sowie Le Regional- und Lokalgeschichte",
+    "it": "Separazione in due gruppi principali: La-Lb Storia nazionale e Le Storia regionale e locale."
+  },
+  "scopeNote": {
+    "de": "Gehört zu den umfangreichsten Beständen des DHI mit vielen Exponenten",
+    "it": "Uno dei fondi più ampi del DHI con molti esponenti"
+  },
   "notation": [
     "L"
   ],
+  "example": {
+    "de": "Bibliographie und Quellen, allgemeine Darstellungen mit einigen übergreifenden Themenblöcken, Spezifische Themen wie Wirtshcaft und Einzelereignisse, Stadtgeschichte Roms, Provinzen (alphabetisch)",
+    "it": "Bibliografia e fonti, descrizioni generali con alcuni blocchi tematici generali, argomenti specifici come economia e singoli eventi, storia della città di Roma, province (alfabetico)."
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/La",
@@ -42,6 +54,22 @@
       "prefLabel": {
         "de": "Geschichte einzelner Provinzen (alphabet.): Sicilia / Isola Sicilia - Corsica",
         "it": "Storia di singole regioni (in ordine alfbet.): Sicilia / Isola Sicilia - Corsica"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/F",
+      "prefLabel": {
+        "de": "Kirchengeschichte",
+        "it": "Storia della Chiesa"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/G",
+      "prefLabel": {
+        "de": "Geschichte einzelner Länder",
+        "it": "Storia delle singole nazioni"
       }
     }
   ],

@@ -15,6 +15,15 @@
       "it": "Storia della Prussia e dell'Ordine Teutonico"
     }
   },
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/E",
+      "prefLabel": {
+        "de": "Kulturgeschichte",
+        "it": "Storia della civiltá"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://purl.org/dhi-library/syshist/scheme",

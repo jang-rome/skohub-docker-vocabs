@@ -15,6 +15,22 @@
       "it": "Storia della Prussia e dell'Ordine Teutonico"
     }
   },
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/F",
+      "prefLabel": {
+        "de": "Kirchengeschichte",
+        "it": "Storia della Chiesa"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/K",
+      "prefLabel": {
+        "de": "Geschichte der kleineren deutschen Territorien und Österreich - Ungarns",
+        "it": "Storia dei piccoli territori tedeschi e dell'Austria - Ungheria"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://purl.org/dhi-library/syshist/scheme",

@@ -5,9 +5,21 @@
     "de": "Geschichte einzelner Länder",
     "it": "Storia delle singole nazioni"
   },
+  "definition": {
+    "de": "Neben Deutschland (s. Gruppe H) und Italien (s. Gruppe L) fehlt auch Österreich(-Ungarn) mit einigen früheren Landesteilen (z.B. Böhmen/Tschechien oder einige Balkangebieten)",
+    "it": "Oltre alla Germania (vedi Gruppo H) e all'Italia (vedi Gruppo L), manca anche l'Austria (Ungheria) con alcune ex parti del Paese (ad esempio Boemia/Repubblica Ceca o alcune regioni balcaniche)."
+  },
+  "scopeNote": {
+    "de": "Ordnung in der Regel: Allgemeines und Quellen – einzelne Ereignisse (chronologisch) – ggf. eigene thematische Gruppen (Kirchengeschichte etc.) – einzelne Orte – einzelne Personen",
+    "it": "Ordine/Struttura generale: informazioni generali e fonti - singoli eventi (cronologici) - gruppi tematici separati (storia della chiesa, ecc.) - singoli luoghi - singole persone"
+  },
   "notation": [
     "G"
   ],
+  "example": {
+    "de": "Geographischer Schwerpunkt Europa (England, Frankreich etc). Nur kleine Bestände zu Übersee.",
+    "it": "Focus geografico sull'Europa (Inghilterra, Francia, ecc.). Solo piccoli fondi su altri continenti."
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Gb",
@@ -84,6 +96,22 @@
       "prefLabel": {
         "de": "Asien, Afrika",
         "it": "Asia, Africa"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/H",
+      "prefLabel": {
+        "de": "Geschichte Deutschlands",
+        "it": "Storia della Germania"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/L",
+      "prefLabel": {
+        "de": "Geschichte Italiens",
+        "it": "Storia d'Italia"
       }
     }
   ],

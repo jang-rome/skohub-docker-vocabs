@@ -5,9 +5,17 @@
     "de": "Geschichte Deutschlands",
     "it": "Storia della Germania"
   },
+  "definition": {
+    "de": "Die Geschichte Deutschlands ist auf drei Gruppen aufgeteilt. Die Gruppe H umfasst somit die nationale Geschichte, Gruppe J Preußen und Gruppe K kleinere deutsche Territorien und Österreich - Ungarn.",
+    "it": "La storia della Germania è divisa in tre gruppi. Il gruppo H comprende la storia nazionale, il gruppo J la Prussia e il gruppo K i territori tedeschi minori e l'Austria-Ungheria."
+  },
   "notation": [
     "H"
   ],
+  "example": {
+    "de": "Geschichte von Entstehung des römisch-deutschen Königtums bis Gegenwart, auch Spezialbereiche wie Wirtschafts- und Militärgeschichte",
+    "it": "Storia dalla nascita del regno romano-tedesco fino alla storia contemporanea, comprese aree specializzate come la storia economica e militare"
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Ha",
@@ -168,6 +176,36 @@
       "prefLabel": {
         "de": "Deutsche Parteien",
         "it": "Partiti politici tedeschi"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/F",
+      "prefLabel": {
+        "de": "Kirchengeschichte",
+        "it": "Storia della Chiesa"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/G",
+      "prefLabel": {
+        "de": "Geschichte einzelner Länder",
+        "it": "Storia delle singole nazioni"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/J",
+      "prefLabel": {
+        "de": "Geschichte Preussens und des Deutschen Ordens",
+        "it": "Storia della Prussia e dell'Ordine Teutonico"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/K",
+      "prefLabel": {
+        "de": "Geschichte der kleineren deutschen Territorien und Österreich - Ungarns",
+        "it": "Storia dei piccoli territori tedeschi e dell'Austria - Ungheria"
       }
     }
   ],

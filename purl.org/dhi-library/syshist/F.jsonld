@@ -5,9 +5,22 @@
     "de": "Kirchengeschichte",
     "it": "Storia della Chiesa"
   },
+  "definition": {
+    "de": "Schwerpunkt: historische Aspekte. Weitere Teildisziplinen der Theologie (wie Liturgik, Homiletik, Systematische Theologie, Moraltheologie etc.) werden nur mit allgemeinen Einführungen oder bei explizitem historischen Bezug berücksichtigt.",
+    "it": "Focus: aspetti storici. Altre sottodiscipline della teologia (come la liturgia, l'omiletica, la teologia sistematica, la teologia morale, ecc.) sono considerate solo con introduzioni generali o con espliciti riferimenti storici."
+  },
+  "scopeNote": {
+    "de": "Bei Literatur zu lokalgeographischen Einzelaspekten (z.B. Klöster) ist zu überprüfen, ob das Werk nicht eher in die lokalgeschichtlichen Gruppen eingeordnet wird (Vorrang!).",
+    "it": "Nel caso di letteratura su singoli aspetti della geografia locale (ad esempio i monasteri), occorre verificare se l'opera debba essere classificata nei gruppi di storia locale (priorità!)."
+  },
   "notation": [
+    "D",
     "F"
   ],
+  "example": {
+    "de": "Kirchengeschichte Mittelalter bis 20. Jhdt, Kirchenrecht, Reformation - Gegenreformation, Orden, Heilige und Märtyrer",
+    "it": "Storia della Chiesa dal Medioevo al XX secolo, diritto canonico, Riforma e Controriforma, Ordini religiosi, Santi e Martiri."
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Fa",
@@ -91,6 +104,29 @@
       "prefLabel": {
         "de": "Kirchengeschichte des 19. und 20. Jahrhunderts",
         "it": "Storia della Chiesa nel XIX e XX secolo"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/H",
+      "prefLabel": {
+        "de": "Geschichte Deutschlands",
+        "it": "Storia della Germania"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/L",
+      "prefLabel": {
+        "de": "Geschichte Italiens",
+        "it": "Storia d'Italia"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Jf",
+      "prefLabel": {
+        "de": "Kirchengeschichte",
+        "it": "Storia ecclesiastica"
       }
     }
   ],

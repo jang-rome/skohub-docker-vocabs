@@ -5,9 +5,21 @@
     "de": "Geschichte der kleineren deutschen Territorien und Österreich - Ungarns",
     "it": "Storia dei piccoli territori tedeschi e dell'Austria - Ungheria"
   },
+  "definition": {
+    "de": "Die Ausformulierung dieser Systemstelle entspricht preußischer Sicht. Einordnung Österreich-Ungarns, allerdings mit großem Abstand von Kb zu Ko kann als Kompromiss in der klein-/großdeutschen Frage angesehen werden.",
+    "it": "La formula di questa collocazione corrisponde alla visione prussiana."
+  },
+  "scopeNote": {
+    "de": "Bei regionalgeschichtlichen Werken auch Systemgruppe J beachten.",
+    "it": "Per le opere di storia regionale, si veda anche il gruppo di sistema J."
+  },
   "notation": [
     "K"
   ],
+  "example": {
+    "de": "Deutsche Staaten und Landschaften, Städte, Bistümer usw., Österreich-Ungarn",
+    "it": "Stati e paesaggi tedeschi, città, diocesi ecc., Austria-Ungheria"
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Ka",
@@ -42,6 +54,36 @@
       "prefLabel": {
         "de": "Geschichte Österreich-Ungarns, einzelne Personen (alphabet.)",
         "it": "Storia dell'Austria-Ungheria persone singole (ord. alfabet.)"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/H",
+      "prefLabel": {
+        "de": "Geschichte Deutschlands",
+        "it": "Storia della Germania"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Jf",
+      "prefLabel": {
+        "de": "Kirchengeschichte",
+        "it": "Storia ecclesiastica"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/J",
+      "prefLabel": {
+        "de": "Geschichte Preussens und des Deutschen Ordens",
+        "it": "Storia della Prussia e dell'Ordine Teutonico"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Ji",
+      "prefLabel": {
+        "de": "Geschichte des Deutschen Ordens",
+        "it": "Storia dell'Ordine Teutonico"
       }
     }
   ],

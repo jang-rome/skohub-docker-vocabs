@@ -15,6 +15,22 @@
       "it": "Storia dei piccoli territori tedeschi e dell'Austria - Ungheria"
     }
   },
+  "related": [
+    {
+      "id": "https://purl.org/dhi-library/syshist/J",
+      "prefLabel": {
+        "de": "Geschichte Preussens und des Deutschen Ordens",
+        "it": "Storia della Prussia e dell'Ordine Teutonico"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Ji",
+      "prefLabel": {
+        "de": "Geschichte des Deutschen Ordens",
+        "it": "Storia dell'Ordine Teutonico"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://purl.org/dhi-library/syshist/scheme",
