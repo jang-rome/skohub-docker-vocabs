@@ -13,9 +13,9 @@
 
 <A> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
-    skos:definition "Nachschlagewerke mit Freihandaufstellung im Historischen Lesesaal."@de, "Collezione di materiale di consultazione con esposizione libera nella Sala di lettura storica"@it ;
-    skos:example "Der grosse Ploetz : die Chronik zur Weltgeschichte, The Oxford encyclopedia of the Reformation"@de, "Der grosse Ploetz : die Chronik zur Weltgeschichte, The Oxford encyclopedia of the Reformation"@it ;
-    skos:scopeNote "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Andernfalls Fachgruppen bevorzugen."@de, "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."@it ;
+    skos:definition "Nachschlagewerke mit Freihandaufstellung zur Konsultation im Historischen Lesesaal."@de, "Collezione di materiale di consultazione con esposizione libera nella Sala di lettura storica"@it ;
+    skos:example "Allgemeine Nachschlagewerke (Brockhaus, Oxford), Chroniken (Ploetz), Bibliograhien, Festschriften etc."@de, "Opere di consultazione generale (Brockhaus, Oxford), cronache (Ploetz), bibliografie, pubblicazioni commemorative, ecc."@it ;
+    skos:scopeNote "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Bei Magazinaufstellung sind die Fachgruppen bevorzugen."@de, "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."@it ;
     skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
     skos:notation "A" ;
     skos:topConceptOf <scheme> .
@@ -24,7 +24,6 @@
     skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de, "Enciclopedie, lessici generäli e biografici"@it ;
     skos:broader <A> ;
     skos:notation "Aa" ;
-    skos:scopeNote "Sammlung von Enzyklopädien und biographischen Lexika."@de, "Collezione di enciclopedie e lessici biografici."@it ;
     skos:inScheme <scheme> .
 
 <Ab> a skos:Concept ;
@@ -38,21 +37,19 @@
     skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de, "Miscellanea, serie ecc."@it ;
     skos:broader <A> ;
     skos:notation "Ac" ;
-    skos:scopeNote "Beinhaltet verschiedene Schriften und Serienwerke."@de, "Include una varietà di scritti e serie."@it ;
     skos:inScheme <scheme> .
 
 <Ae> a skos:Concept ;
     skos:prefLabel "Festschriften"@de, "Festschriften (scritti in onore di...)"@it ;
     skos:broader <A> ;
     skos:notation "Ae" ;
-    skos:scopeNote "Enthält Sammlungen von Festschriften."@de, "Contiene collezioni di scritti in onore."@it ;
     skos:inScheme <scheme> .
 
 <B> a skos:Concept ;
     skos:prefLabel "Historische Hilfswissenschaften"@de, "Scienze storiche ausiliarie"@it  ; 
     skos:topConceptOf <scheme> ;
-    skos:definition "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken."@de, "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"@it ;
-    skos:example "Paleografia latina diplomatica e nozioni di scienze ausiliare, Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"@de, "Per esempio Paleografia latina diplomatica e nozioni di scienze ausiliare, Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"@it ;
+    skos:definition "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch Sonderstandort in den Paläographischen Schränken."@de, "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"@it ;
+    skos:example "Sprachwissenschaftliche Wörterbücher, Diplomatik und Urkundenlehre, Chronlogie, Genealogie, Heraldik usw. "@de, "Dizionari linguistici, studi diplomatici e documentari, cronologia, genealogia, araldica, ecc."@it ;
     skos:scopeNote "Gruppen Bd bis Bg sind überschaubar und weitere systematische Gliederungskriterien nicht notwendig."@de, "I gruppi da Bd a Bg sono facilmente gestibili e non sono necessari ulteriori criteri di classificazione sistematica."@it ;
     skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
     skos:notation "B" ;
@@ -62,63 +59,54 @@
     skos:prefLabel "Sprachwissenschaft"@de, "Linguistica"@it ; 
     skos:broader <B> ;
     skos:notation "Ba" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bb> a skos:Concept ;
     skos:prefLabel "Schriftwesen"@de, "Scrittura"@it ;
     skos:broader <B> ;
     skos:notation "Bb" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
    	
 <Bc> a skos:Concept ;
     skos:prefLabel "Diplomatik"@de, "Diplomatica"@it ;
     skos:broader <B> ;
     skos:notation "Bc" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bd> a skos:Concept ;
     skos:prefLabel "Chronologie"@de, "Cronologia"@it ;
     skos:broader <B> ;
     skos:notation "Bd" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Be> a skos:Concept ;
     skos:prefLabel "Genealogie"@de, "Genealogia"@it ;
     skos:broader <B> ;
     skos:notation "Be" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bf> a skos:Concept ;
     skos:prefLabel "Heraldik und Sphragistik"@de, "Araldica e sfragistica"@it ;
     skos:broader <B> ;
     skos:notation "Bf" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme>  .
 	
 <Bg> a skos:Concept ;
     skos:prefLabel "Numismatik"@de, "Numismatica"@it ;
     skos:broader <B> ;
     skos:notation "Bg" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bi> a skos:Concept ;
     skos:prefLabel "Geographie"@de, "Geografia"@it ;
     skos:broader <B> ;
     skos:notation "Bi" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 <Bk> a skos:Concept ;
     skos:prefLabel "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht"@de, "Metodo e storia della storiografia, insegnamento storico"@it ;
     skos:broader <B> ;
     skos:notation "Bk" ;
-    skos:scopeNote "Enthält Werke zur Sprachwissenschaft im historischen Kontext."@de ;
     skos:inScheme <scheme> .
 	
 	
@@ -135,21 +123,18 @@
     skos:prefLabel "Archive und Bibliotheken: Allgemeines"@de, "Archivi e biblioteche: in generale"@it  ;
     skos:broader <C> ;
     skos:notation "Ca" ;
-    skos:scopeNote "Allgemeine Werke zu Archiven und Bibliotheken."@de ;
     skos:inScheme <scheme> .
 
 <Cb> a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Einzelnes"@de, "Archivl e biblioteche: specifiche"@it ;
     skos:broader <C> ;
     skos:notation "Cb" ;
-    skos:scopeNote "Spezifische Sammlungen und Studien zu einzelnen Archiven und Bibliotheken."@de ;
     skos:inScheme <scheme> .
 
 <Cc> a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Italien und Vatikan"@de, "Archivi e biblioteche: Italia e Vaticano"@it ;
     skos:broader <C> ;
     skos:notation "Cc" ;
-    skos:scopeNote "Sammlungen und Studien zu italienischen und vatikanischen Archiven und Bibliotheken."@de ;
     skos:inScheme <scheme> .
 
 <D> a skos:Concept ;
