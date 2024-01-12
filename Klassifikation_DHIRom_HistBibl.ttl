@@ -9,7 +9,7 @@
     dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
     dct:created "2024-01-11" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
-    skos:hasTopConcept <A>, <B>, <C>, <D>, <E> .
+    skos:hasTopConcept <A>, <B>, <C>, <D>, <E>, <F>, <G>, <H>, <J>, <K>, <L> .
 
 <A> a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "In generale"@it;
