@@ -603,9 +603,9 @@
     skos:historyNote "Das DHI war eine preussische Gründung im Jahr 1888, es wurde Wert auf eigene Systemstelle zu Preussischer Geschichte gelegt."@de, "La Prussia riceve il proprio Gruppo K, poiché l'Istituto è una fondazione prussiana."@it ;
     skos:notation "J" ;
     skos:related <H>, <K>, <Ka>;
-    skos:topConceptOf <scheme> ;
-    skos:narrower <Ja>, <Jb>, <Jc>, <Jd>, <Je>, <Jf>, <Jg>, <Jh>, <Ji> .
-
+    skos:narrower <Ja>, <Jb>, <Jc>, <Jd>, <Je>, <Jf>, <Jg>, <Jh>, <Ji> ;
+    skos:topConceptOf <scheme> .
+   
 <Ja> a skos:Concept ;
     skos:prefLabel "Zeitschriften"@de, "Riviste"@it ;
     skos:broader <J> ;
