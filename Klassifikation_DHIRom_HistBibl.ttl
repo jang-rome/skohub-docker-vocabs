@@ -155,8 +155,8 @@
 <D> a skos:Concept ;
     skos:prefLabel "Allgemeine Weltgeschichte"@de, "Storia mondiale in generale"@it ;
     skos:definition "Vor allem europäische Geschichte und Geschichte mehrerer Staatsgebilde im Vergleich."@de, "Soprattutto, la storia europea e la storia di diversi Stati a confronto."@it ;
-    skos:example "U.a. verschiedene, zeitübergreifende Themen wie Alpen- und Bergräume, Seeräuberei etc."@de, "Per esempio diversi temi trasversali, come le regioni alpine e montane, la pirateria, ecc."@it ;
-    skos:scopeNote "In Unterscheidung zu Gruppe G alles, was alles, was sich geographisch/national nicht klar einordnen lässt."@de, "A differenza del Gruppo G, tutto ciò che non può essere chiaramente classificato geograficamente/nazionale."@it ;
+    skos:example "Unter anderem verschiedene zeitübergreifende Themen wie Alpen- und Bergräume, Seeräuberei etc."@de, "Per esempio diversi temi trasversali, come le regioni alpine e montane, la pirateria, ecc."@it ;
+    skos:scopeNote "In Unterscheidung zu Gruppe G Inhalte, die sich geographisch/national nicht klar einordnen lassen."@de, "A differenza del Gruppo G, tutto ciò che non può essere chiaramente classificato geograficamente/nazionale."@it ;
     skos:notation "D" ;
     skos:topConceptOf <scheme> ;
     skos:narrower <Da>, <Db>, <Dc>, <Dd>, <De>, <Df>, <Dg>, <Dh>, <Di>, <Dm> .
@@ -229,7 +229,7 @@
     skos:scopeNote "Für die Zeit seit dem 18./19. Jh. liegen für die Publikationen oftmals nationale Bezüge vor, eigene Untergruppen bei den Systemstellen H und L. Bei neu zu klassifizierenden Werken muss anhand inhaltlicher Kriterien (Schlagwörter/Stichwörter) über die Kataloge eine passende Systemstelle ermittelt werden."@de, "Per il periodo successivo al XVIII/XIX secolo, spesso esistono riferimenti nazionali per le pubblicazioni, sottogruppi separati alle collacazioni H e L. Per le opere da classificare, è necessario determinare una voce di sistema adeguata attraverso i cataloghi sulla base di criteri di contenuto (parole chiave)."@it ;
     skos:notation "E" ;
     skos:topConceptOf <scheme> ;
-    skos:related <Ha>, <Je> ;
+    skos:related <H>, <L>, <Ha>, <Je> ;
     skos:narrower <Ea>, <Eb>, <Ec>, <Ed>, <Ee>, <Ef>, <Eg>, <Eh>, <Ei>, <Ek>, <El>, <Em> .
 
 <Ea> a skos:Concept ;
@@ -309,7 +309,6 @@
     skos:definition "Schwerpunkt: historische Aspekte. Weitere Teildisziplinen der Theologie (wie Liturgik, Homiletik, Systematische Theologie, Moraltheologie etc.) werden nur mit allgemeinen Einführungen oder bei explizitem historischen Bezug berücksichtigt."@de, "Focus: aspetti storici. Altre sottodiscipline della teologia (come la liturgia, l'omiletica, la teologia sistematica, la teologia morale, ecc.) sono considerate solo con introduzioni generali o con espliciti riferimenti storici."@it ;
     skos:example "Kirchengeschichte Mittelalter bis 20. Jhdt, Kirchenrecht, Reformation - Gegenreformation, Orden, Heilige und Märtyrer"@de, "Storia della Chiesa dal Medioevo al XX secolo, diritto canonico, Riforma e Controriforma, Ordini religiosi, Santi e Martiri."@it ;
     skos:scopeNote "Bei Literatur zu lokalgeographischen Einzelaspekten (z.B. Klöster) ist zu überprüfen, ob das Werk nicht eher in die lokalgeschichtlichen Gruppen eingeordnet wird (Vorrang!)."@de, "Nel caso di letteratura su singoli aspetti della geografia locale (ad esempio i monasteri), occorre verificare se l'opera debba essere classificata nei gruppi di storia locale (priorità!)."@it ;
-    skos:notation "D" ;
     skos:notation "F" ;
     skos:topConceptOf <scheme> ;
     skos:related <H>, <L>, <Jf> ;
@@ -613,7 +612,7 @@
 
 <J> a skos:Concept ;
     skos:prefLabel "Geschichte Preussens und des Deutschen Ordens"@de, "Storia della Prussia e dell'Ordine Teutonico"@it ;
-    skos:definition "Preußische Geschichte als eigener Bestandszweig der Dt. Geschichte. Seit Nachkriegszeit relativ wenig Neuzugänge"@de, "La storia prussiana come ramo specifico della storia tedesca. Sono relativamente poche le nuove aggiunte dal dopoguerra in poi"@it ;
+    skos:definition "Preußische Geschichte als eigener Bestandszweig der Dt. Geschichte. Seit Nachkriegszeit relativ wenig Neuzugänge."@de, "La storia prussiana come ramo specifico della storia tedesca. Sono relativamente poche le nuove aggiunte dal dopoguerra in poi"@it ;
     skos:example "Geschichte des Hauses Hohenzollern, Biographisches, Einzelne Provinzen, Dt. Orden, Rechts- und Kirchengeschichte etc."@de, "Storia della Casa di Hohenzollern, Materiale biografico, Singole province, Dt. Orden, Storia legale ed ecclesiastica ecc."@it ;
     skos:scopeNote "Gruppe wurde noch nicht vollständig auf das Zwei-Buchstaben-System umgestellt."@de, "Il Gruppo non è ancora stato completamente convertito al sistema a due lettere."@it ;
     skos:historyNote "Das DHI war eine preussische Gründung im Jahr 1888, es wurde Wert auf eigene Systemstelle zu Preussischer Geschichte gelegt."@de, "La Prussia riceve il proprio Gruppo K, poiché l'Istituto è una fondazione prussiana."@it ;
@@ -722,8 +721,8 @@
 <L> a skos:Concept ;
     skos:prefLabel "Geschichte Italiens"@de, "Storia d'Italia"@it ;
     skos:definition "Trennung in zwei Großgruppen: La–Lb Nationale Geschichte sowie Le Regional- und Lokalgeschichte"@de, "Separazione in due gruppi principali: La-Lb Storia nazionale e Le Storia regionale e locale."@it ;
-    skos:example "Bibliographie und Quellen, allgemeine Darstellungen mit einigen übergreifenden Themenblöcken, Spezifische Themen wie Wirtshcaft und Einzelereignisse, Stadtgeschichte Roms, Provinzen (alphabetisch)"@de, "Bibliografia e fonti, descrizioni generali con alcuni blocchi tematici generali, argomenti specifici come economia e singoli eventi, storia della città di Roma, province (alfabetico)."@it ;
-    skos:scopeNote "Gehört zu den umfangreichsten Beständen des DHI mit vielen Exponenten"@de, "Uno dei fondi più ampi del DHI con molti esponenti"@it ;
+    skos:example "Bibliographie und Quellen, allgemeine Darstellungen mit einigen übergreifenden Themenblöcken, Spezifische Themen wie Wirtschaft und Einzelereignisse, Stadtgeschichte Roms, Provinzen (alphabetisch)."@de, "Bibliografia e fonti, descrizioni generali con alcuni blocchi tematici generali, argomenti specifici come economia e singoli eventi, storia della città di Roma, province (alfabetico)."@it ;
+    skos:scopeNote "Gehört zu den umfangreichsten Beständen des DHI mit vielen Exponenten."@de, "Uno dei fondi più ampi del DHI con molti esponenti."@it ;
     skos:historyNote "Die Regionen entsprechen dem Stand vor dem Ersten Weltkrieg, Änderungen betreffen überwiegend Lazio."@de, "Le regioni corrispondono alla situazione antecedente la Prima Guerra Mondiale, i cambiamenti riguardano soprattutto il Lazio."@it ; 
     skos:notation "L" ;
     skos:topConceptOf <scheme> ;
