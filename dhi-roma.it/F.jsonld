@@ -1,0 +1,223 @@
+{
+  "id": "http://dhi-roma.it/F",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Kirchengeschichte",
+    "it": "Storia della Chiesa"
+  },
+  "notation": [
+    "F"
+  ],
+  "narrower": [
+    {
+      "id": "http://dhi-roma.it/Fa",
+      "prefLabel": {
+        "de": "Allgemeines",
+        "it": "Scritti di carattere generale"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fb",
+      "prefLabel": {
+        "de": "Kirchl. Literatur und Dogmengeschichte, Patrologie",
+        "it": "Letteratura ecclesiastica e storia dogmatica, Patrologia"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fc",
+      "prefLabel": {
+        "de": "Kirchenrecht",
+        "it": "Diritto canonico"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fd",
+      "prefLabel": {
+        "de": "Römisch-katholische Kirche I: Konzilien und allgemeine Papstgeschichte",
+        "it": "Chiesa romano-cattolica I: storia dei concili e del papato"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fe",
+      "prefLabel": {
+        "de": "Römisch-katholische Kirche II: Die römische Kurie und ihre Verwaltung",
+        "it": "Chiesa romano-cattolica II: La Curia romana e la sua amministrazione"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Ff",
+      "prefLabel": {
+        "de": "Orden und Vereine der katholischen Kirche I: Ältere Mönchsorden, Bettelorden und spätere Bildungen des Mittelalters Geistliche Ritterorden",
+        "it": "Ordini, congregazioni, associazioni della Chiesa cattolica (I) Antichi ordini moliastici, Ordini mendicanti e formazioni religiose successive medievali Ordini religiosi cavallereschi"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fg",
+      "prefLabel": {
+        "de": "Orden und Vereine der katholischen Kirche II: Jesuiten, Barnabiten, Theatiner",
+        "it": "Ordini, congregazioni, associazioni della Chiesa cattolica (II) Gesuiti, Barnabiti, Teatini"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fh",
+      "prefLabel": {
+        "de": "Heilige und Märtyrer",
+        "it": "Santi e martiri"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fi",
+      "prefLabel": {
+        "de": "Kirchengeschichte des Mittelalters",
+        "it": "Storia della Chiesa nel medi"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fk",
+      "prefLabel": {
+        "de": "Kirchengeschichte des 16. Jahrhunderts",
+        "it": "Storia della Chiesa nel XVI secolo"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fl",
+      "prefLabel": {
+        "de": "Kirchengeschichte des 17. und 18. Jahrhunderts",
+        "it": "Storia della Chiesa nel XVII e XVIII secolo"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Fm",
+      "prefLabel": {
+        "de": "Kirchengeschichte des 19. und 20. Jahrhunderts",
+        "it": "Storia della Chiesa nel XIX e XX secolo"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://dhi-roma.it/",
+      "title": {
+        "de": "Klassifikation DHI Rom Historische Bibliothek - (Beta, per Skript generierte Rohdaten)",
+        "it": "Divisone del catalogo sistematico del DHI Rom Biblioteca Storica - (Beta, dati grezzi)"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://dhi-roma.it/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://dhi-roma.it/",
+      "title": {
+        "de": "Klassifikation DHI Rom Historische Bibliothek - (Beta, per Skript generierte Rohdaten)",
+        "it": "Divisone del catalogo sistematico del DHI Rom Biblioteca Storica - (Beta, dati grezzi)"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    }
+  }
+}

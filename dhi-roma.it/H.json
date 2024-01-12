@@ -1,0 +1,300 @@
+{
+  "id": "http://dhi-roma.it/H",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Geschichte Deutschlands",
+    "it": "Storia della Germania"
+  },
+  "notation": [
+    "H"
+  ],
+  "narrower": [
+    {
+      "id": "http://dhi-roma.it/Ha",
+      "prefLabel": {
+        "de": "Allgemeines. Kultur - und Kirchengeschichte",
+        "it": "Seritti di earattere generale. Storia eulturale e religiosa"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hb",
+      "prefLabel": {
+        "de": "Verfassungs - und Wirtschaftsgeschichte Militärgeschichte",
+        "it": "Storia delle eostituzioni e dell 'eeonomia Storia militare"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hc",
+      "prefLabel": {
+        "de": "Geschichte von den ältesten Zeiten an bis zu den sächsischen Kaisern",
+        "it": "Storia dall'antichitá fino ai re sassoni"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hd",
+      "prefLabel": {
+        "de": "Geschichte der fränkischen und staufischen Kaiser 1024-1256",
+        "it": "Storia dei refranehi e dei re svevi 1024-1256"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/He",
+      "prefLabel": {
+        "de": "Das ausgehende Mittelalter 1256-1517",
+        "it": "Basso medioevo 1256-1517"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hf",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1517-1555",
+        "it": "Storia tedesca 1517-1555"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hg",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1555-1648",
+        "it": "Storia tedesca 1555-1648"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hh",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1648-1800",
+        "it": "Storia tedesca 1648-1800"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hi",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1800-1918 Judentum, Antisemitismus",
+        "it": "Storia tedesca 1800-1918 Ebraismo, Antisemitismo"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hk",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1800-1918 einzelne Personen (alphabet.)",
+        "it": "Storia tedescii 1800-1918 persone singole (ord. alfabet.)"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hl",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1918-1945",
+        "it": "Storia tedesca 1918-1945"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hn",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1918-1945 einzelne Personen (alphabet.)",
+        "it": "Storia tedesca 1918-1945 persone singole (ord. alfabet.)"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Ho",
+      "prefLabel": {
+        "de": "Deutsche Geschichte seit 1945",
+        "it": "Storia tedesca dal 1945"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hp",
+      "prefLabel": {
+        "de": "Deutsche Geschichte seit 1945 einzelne Personen (alphabet.)",
+        "it": "Storia tedesca dal 1945 persone singole (ord. alfabet.)"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hq",
+      "prefLabel": {
+        "de": "Deutsche Geschichte 1945-1949",
+        "it": "Storia tedesca 1945-1949"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hr",
+      "prefLabel": {
+        "de": "Bundesrepublik Deutschland bis 1969",
+        "it": "La Repubblica Federale Tedesca fino al 1969"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hs",
+      "prefLabel": {
+        "de": "Bundesrepublik Deutschland 1969 bis 1989",
+        "it": "La Repubblica Federale Tedesca dal 1969 fino al 1989"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hu",
+      "prefLabel": {
+        "de": "Deutsche Demokratische Republik",
+        "it": "La Repubblica Democratica Tedesca"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hv",
+      "prefLabel": {
+        "de": "Deutsche Demokratische Republik einzelne Personen (alphabet.)",
+        "it": "La Repubblica Democratica Tedesca persone singole (ord. alfabet.)"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hw",
+      "prefLabel": {
+        "de": "Beziehungen BRD/DDR",
+        "it": "Relazioni tra RFT/RTD"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hx",
+      "prefLabel": {
+        "de": "Deutschland ab 1989/90",
+        "it": "La Gerinania dal 1989/90"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hy",
+      "prefLabel": {
+        "de": "Deutschland ab 1989/90 einzelne Personen (alphabet.)",
+        "it": "La Germania dal 1989/90 persone singole (ord. alfabet.)"
+      }
+    },
+    {
+      "id": "http://dhi-roma.it/Hz",
+      "prefLabel": {
+        "de": "Deutsche Parteien",
+        "it": "Partiti politici tedeschi"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://dhi-roma.it/",
+      "title": {
+        "de": "Klassifikation DHI Rom Historische Bibliothek - (Beta, per Skript generierte Rohdaten)",
+        "it": "Divisone del catalogo sistematico del DHI Rom Biblioteca Storica - (Beta, dati grezzi)"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://dhi-roma.it/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://dhi-roma.it/",
+      "title": {
+        "de": "Klassifikation DHI Rom Historische Bibliothek - (Beta, per Skript generierte Rohdaten)",
+        "it": "Divisone del catalogo sistematico del DHI Rom Biblioteca Storica - (Beta, dati grezzi)"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    }
+  }
+}
