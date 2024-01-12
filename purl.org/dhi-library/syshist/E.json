@@ -5,9 +5,21 @@
     "de": "Kulturgeschichte",
     "it": "Storia della civiltá"
   },
+  "definition": {
+    "de": "Generell liegt der Schwerpunkt auf der Vormoderne.",
+    "it": "In generale, l'attenzione si concentra sul periodo pre-moderno."
+  },
+  "scopeNote": {
+    "de": "Für die Zeit seit dem 18./19. Jh. liegen für die Publikationen oftmals nationale Bezüge vor, eigene Untergruppen bei den Systemstellen H und L. Bei neu zu klassifizierenden Werken muss anhand inhaltlicher Kriterien (Schlagwörter/Stichwörter) über die Kataloge eine passende Systemstelle ermittelt werden.",
+    "it": "Per il periodo successivo al XVIII/XIX secolo, spesso esistono riferimenti nazionali per le pubblicazioni, sottogruppi separati alle collacazioni H e L. Per le opere da classificare, è necessario determinare una voce di sistema adeguata attraverso i cataloghi sulla base di criteri di contenuto (parole chiave)."
+  },
   "notation": [
     "E"
   ],
+  "example": {
+    "de": "Umfangreich sind die Bestände (wenn geographisch übergreifend) zur Renaissance.",
+    "it": "Il patrimonio del Rinascimento è ampio (per quanto geograficamente esteso)."
+  },
   "narrower": [
     {
       "id": "https://purl.org/dhi-library/syshist/Ea",
