@@ -1,0 +1,106 @@
+@prefix syshist: <http://dhi-roma.it/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+syshist: a skos:ConceptScheme ;
+    dct:de "Klassifikation DHI Rom Historische Bibliothek"@de ;
+    dct:it "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"@it ;
+    dct:de "SKOS-kodierte Bearbeitung des seit 1910 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de ;
+    dct:it "Applicazione SKOS dello schema di classificazione utilizzato dal 1910 dalla Biblioteca storica del DHI di Roma"@it ;
+    dct:creator Jan-Peter Grünewälder, Jonas Balzukat, Regina Sofia Margarete Albrecht" ;
+    dct:license <https://creativecommons.org/public-domain/cc0/> .
+
+syshist:A a skos:Concept ;
+    skos:prefLabel "Allgemeines"@de, "In generale"@it ;
+    skos:notation "A" ;
+    skos:topConceptOf syshist: ;
+    skos:narrower syshist:Aa, syshist:Ab, syshist:Ac, syshist:Ae .
+
+syshist:Aa a skos:Concept ;
+    skos:prefLabel "Enzyklopädien, allgemeine und biographische Lexika"@de, "Enciclopedie, lessici generäli e biografici"@it ;
+    skos:notation "Aa" ;
+    skos:inScheme syshist: .
+
+syshist:Ab a skos:Concept ;
+    skos:prefLabel "Bibliographien"@de, "Bibliografie"@it ;
+    skos:notation "Ab" ;
+    skos:inScheme syshist: .
+
+syshist:Ac a skos:Concept ;
+    skos:prefLabel "Vermischte Schriften, Serienwerke etc."@de, "Miscellanea, serie ecc."@it ;
+    skos:notation "Ac" ;
+    skos:inScheme syshist: .
+
+syshist:Ae a skos:Concept ;
+    skos:prefLabel "Festschriften"@de, "Festschriften (scritti in onore di...)"@it ;
+    skos:notation "Ae" ;
+    skos:inScheme syshist: .
+
+syshist:B a skos:Concept ;
+    skos:prefLabel "Historische Hilfswissenschaften"@de, "Scienze storiche ausiliarie"@it ;
+    skos:notation "B" ;
+    skos:topConceptOf syshist: ;
+    skos:narrower syshist:Ba, syshist:Bb, syshist:Bc, syshist:Bd, syshist:Be, syshist:Bf, syshist:Bg, syshist:Bi .
+
+syshist:Ba a skos:Concept ;
+    skos:prefLabel "Sprachwissenschaft"@de, "Linguistica"@it ;
+    skos:notation "Ba" ;
+    skos:inScheme syshist: .
+
+syshist:Bb a skos:Concept ;
+    skos:prefLabel "Schriftwesen"@de, "Scrittura"@it ;
+    skos:notation "Bb" ;
+    skos:inScheme syshist: .
+
+syshist:Bc a skos:Concept ;
+    skos:prefLabel "Diplomatik"@de, "Diplomatica"@it ;
+    skos:notation "Bc" ;
+    skos:inScheme syshist: .
+
+syshist:Bd a skos:Concept ;
+    skos:prefLabel "Chronologie"@de, "Cronologia"@it ;
+    skos:notation "Bd" ;
+    skos:inScheme syshist: .
+
+syshist:Be a skos:Concept ;
+    skos:prefLabel "Genealogie"@de, "Genealogia"@it ;
+    skos:notation "Be" ;
+    skos:inScheme syshist: .
+
+syshist:Bf a skos:Concept ;
+    skos:prefLabel "Heraldik und Sphragistik"@de, "Araldica e sfragistica"@it ;
+    skos:notation "Bf" ;
+    skos:inScheme syshist: .
+
+syshist:Bg a skos:Concept ;
+    skos:prefLabel "Numismatik"@de, "Numismatica"@it ;
+    skos:notation "Bg" ;
+    skos:inScheme syshist: .
+
+syshist:Bi a skos:Concept ;
+    skos:prefLabel "Geographie"@de, "Geografia"@it ;
+    skos:notation "Bi" ;
+    skos:inScheme syshist: .
+
+syshist:C a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken, Institute"@de, "Archivi, biblioteche, istituti"@it ;
+    skos:notation "C" ;
+    skos:topConceptOf syshist: ;
+    skos:narrower syshist:Ca, syshist:Cb, syshist:Cc .
+
+syshist:Ca a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken: Allgemeines"@de, "Archivi e biblioteche: in generale"@it ;
+    skos:notation "Ca" ;
+    skos:inScheme syshist: .
+
+syshist:Cb a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken: Einzelnes"@de, "Archivl e biblioteche: specifiche"@it ;
+    skos:notation "Cb" ;
+    skos:inScheme syshist: .
+
+syshist:Cc a skos:Concept ;
+    skos:prefLabel "Archive und Bibliotheken: Italien und Vatikan"@de, "Archivi e biblioteche: Italia e Vaticano"@it ;
+    skos:notation "Cc" ;
+    skos:inScheme syshist: .
+
