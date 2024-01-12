@@ -6,7 +6,7 @@
     "it": "Scienze storiche ausiliarie"
   },
   "definition": {
-    "de": "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch in den Paläographischen Schränken.",
+    "de": "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch Sonderstandort in den Paläographischen Schränken.",
     "it": "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"
   },
   "scopeNote": {
@@ -17,8 +17,8 @@
     "B"
   ],
   "example": {
-    "de": "Paleografia latina diplomatica e nozioni di scienze ausiliare, Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas",
-    "it": "Per esempio Paleografia latina diplomatica e nozioni di scienze ausiliare, Ein päpstliches Formelbuch aus der Zeit des grossen abendländischen Schismas"
+    "de": "Sprachwissenschaftliche Wörterbücher, Diplomatik und Urkundenlehre, Chronlogie, Genealogie, Heraldik usw. ",
+    "it": "Dizionari linguistici, studi diplomatici e documentari, cronologia, genealogia, araldica, ecc."
   },
   "narrower": [
     {

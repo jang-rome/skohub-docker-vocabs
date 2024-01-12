@@ -6,19 +6,19 @@
     "it": "In generale"
   },
   "definition": {
-    "de": "Nachschlagewerke mit Freihandaufstellung im Historischen Lesesaal.",
+    "de": "Nachschlagewerke mit Freihandaufstellung zur Konsultation im Historischen Lesesaal.",
     "it": "Collezione di materiale di consultazione con esposizione libera nella Sala di lettura storica"
   },
   "scopeNote": {
-    "de": "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Andernfalls Fachgruppen bevorzugen.",
+    "de": "Standortbindung: Bei gewünschter Freihandaufstellung im Lesesaal werden auch spezifsche Nachschlagewerke hier eingeordnet. Bei Magazinaufstellung sind die Fachgruppen bevorzugen.",
     "it": "Se si desidera l'accesso aperto alla sala di lettura, anche le opere di consultazione specifiche saranno sistemate in questo reparto: Altrimenti, scegliere i gruppi tematici."
   },
   "notation": [
     "A"
   ],
   "example": {
-    "de": "Der grosse Ploetz : die Chronik zur Weltgeschichte, The Oxford encyclopedia of the Reformation",
-    "it": "Der grosse Ploetz : die Chronik zur Weltgeschichte, The Oxford encyclopedia of the Reformation"
+    "de": "Allgemeine Nachschlagewerke (Brockhaus, Oxford), Chroniken (Ploetz), Bibliograhien, Festschriften etc.",
+    "it": "Opere di consultazione generale (Brockhaus, Oxford), cronache (Ploetz), bibliografie, pubblicazioni commemorative, ecc."
   },
   "narrower": [
     {
