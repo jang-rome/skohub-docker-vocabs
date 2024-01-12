@@ -674,7 +674,7 @@
 <Ji> a skos:Concept ;
     skos:prefLabel "Geschichte des Deutschen Ordens"@de, "Storia dell'Ordine Teutonico"@it ;
     skos:broader <J> ;
-    skos:related <Ka>
+    skos:related <Ka> ;
     skos:notation "Ji" ;
     skos:inScheme <scheme> .
 
