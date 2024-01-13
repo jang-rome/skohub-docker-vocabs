@@ -5,9 +5,10 @@
 
 <scheme> a skos:ConceptScheme ;
     dct:title "Klassifikation DHI Rom Historische Bibliothek"@de, "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"@it ;
+    dct:alternative "Einteilung des Sachkatalogs"@de, "Divisione del Catalogo Sistematico"@it ;
     dct:description "SKOS-kodierte Bearbeitung des seit 1910 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de, "Applicazione SKOS dello schema di classificazione utilizzato dal 1910 dalla Biblioteca storica del DHI di Roma"@it ;
-    dct:creator "Jan-Peter Grünewälder", "Jonas Balzukat", "Regina Sofia Margarete Albrecht" ;
-    dct:created "2024-01-11" ;
+    dct:creator "http://d-nb.info/gnd/10175615-X" ;
+    dct:issued "2024-01-13" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
     skos:hasTopConcept <A>, <B>, <C>, <D>, <E>, <F>, <G>, <H>, <J>, <K>, <L> .
 
