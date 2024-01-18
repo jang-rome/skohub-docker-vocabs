@@ -52,7 +52,6 @@
     skos:definition "Hilfswissenschaftliche Werke mit Freihandaufstellung im Historischen Lesesaal, bei Teilgruppe Bb Schriftwesen und Bc Diplomatik auch Sonderstandort in den Paläographischen Schränken."@de, "Opere scientifiche ausiliarie ad accesso libero nella Sala di lettura storica, per gli sottogruppi Bb Scrittura e Bc Diplomatica anche negli armadi paleografici"@it ;
     skos:example "Sprachwissenschaftliche Wörterbücher, Diplomatik und Urkundenlehre, Chronlogie, Genealogie, Heraldik usw. "@de, "Dizionari linguistici, studi diplomatici e documentari, cronologia, genealogia, araldica, ecc."@it ;
     skos:scopeNote "Gruppen Bd bis Bg sind überschaubar und weitere systematische Gliederungskriterien nicht notwendig."@de, "I gruppi da Bd a Bg sono facilmente gestibili e non sono necessari ulteriori criteri di classificazione sistematica."@it ;
-    skos:narrower <Aa>, <Ab>, <Ac>, <Ae> ;
     skos:notation "B" ;
     skos:narrower <Ba>, <Bb>, <Bc>, <Bd>, <Be>, <Bf>, <Bg>, <Bk>, <Bi> .
 
