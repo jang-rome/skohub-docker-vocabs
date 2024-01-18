@@ -602,9 +602,10 @@
     skos:scopeNote "Gruppe wurde noch nicht vollständig auf das Zwei-Buchstaben-System umgestellt."@de, "Il Gruppo non è ancora stato completamente convertito al sistema a due lettere."@it ;
     skos:historyNote "Das DHI war eine preussische Gründung im Jahr 1888, es wurde Wert auf eigene Systemstelle zu Preussischer Geschichte gelegt."@de, "La Prussia riceve il proprio Gruppo K, poiché l'Istituto è una fondazione prussiana."@it ;
     skos:notation "J" ;
+    skos:topConceptOf <scheme> ;
     skos:related <H>, <K>, <Ka>;
-    skos:narrower <Ja>, <Jb>, <Jc>, <Jd>, <Je>, <Jf>, <Jg>, <Jh>, <Ji> ;
-    skos:topConceptOf <scheme> .
+    skos:narrower <Ja>, <Jb>, <Jc>, <Jd>, <Je>, <Jf>, <Jg>, <Jh>, <Ji> .
+    
    
 <Ja> a skos:Concept ;
     skos:prefLabel "Zeitschriften"@de, "Riviste"@it ;
