@@ -22,34 +22,6 @@
   },
   "narrower": [
     {
-      "id": "https://purl.org/dhi-library/syshist/Aa",
-      "prefLabel": {
-        "de": "Enzyklopädien, allgemeine und biographische Lexika",
-        "it": "Enciclopedie, lessici generäli e biografici"
-      }
-    },
-    {
-      "id": "https://purl.org/dhi-library/syshist/Ab",
-      "prefLabel": {
-        "de": "Bibliographien",
-        "it": "Bibliografie"
-      }
-    },
-    {
-      "id": "https://purl.org/dhi-library/syshist/Ac",
-      "prefLabel": {
-        "de": "Vermischte Schriften, Serienwerke etc.",
-        "it": "Miscellanea, serie ecc."
-      }
-    },
-    {
-      "id": "https://purl.org/dhi-library/syshist/Ae",
-      "prefLabel": {
-        "de": "Festschriften",
-        "it": "Festschriften (scritti in onore di...)"
-      }
-    },
-    {
       "id": "https://purl.org/dhi-library/syshist/Ba",
       "prefLabel": {
         "de": "Sprachwissenschaft",

@@ -8,6 +8,13 @@
   "notation": [
     "Aa"
   ],
+  "broader": {
+    "id": "https://purl.org/dhi-library/syshist/A",
+    "prefLabel": {
+      "de": "Allgemeines",
+      "it": "In generale"
+    }
+  },
   "inScheme": [
     {
       "id": "https://purl.org/dhi-library/syshist/scheme",
