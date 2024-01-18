@@ -22,6 +22,20 @@
   },
   "narrower": [
     {
+      "id": "https://purl.org/dhi-library/syshist/Je",
+      "prefLabel": {
+        "de": "Kultur - und Rechtsgeschichte",
+        "it": "Storia della civiltá e del diritto"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Jf",
+      "prefLabel": {
+        "de": "Kirchengeschichte",
+        "it": "Storia ecclesiastica"
+      }
+    },
+    {
       "id": "https://purl.org/dhi-library/syshist/Ja",
       "prefLabel": {
         "de": "Zeitschriften",
@@ -47,20 +61,6 @@
       "prefLabel": {
         "de": "Geschichte des Hauses Hohenzollern",
         "it": "Storia del casato degli Hohenzollern"
-      }
-    },
-    {
-      "id": "https://purl.org/dhi-library/syshist/Je",
-      "prefLabel": {
-        "de": "Kultur - und Rechtsgeschichte",
-        "it": "Storia della civiltá e del diritto"
-      }
-    },
-    {
-      "id": "https://purl.org/dhi-library/syshist/Jf",
-      "prefLabel": {
-        "de": "Kirchengeschichte",
-        "it": "Storia ecclesiastica"
       }
     },
     {
