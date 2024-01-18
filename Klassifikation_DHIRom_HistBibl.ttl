@@ -214,7 +214,7 @@
     skos:scopeNote "Für die Zeit seit dem 18./19. Jh. liegen für die Publikationen oftmals nationale Bezüge vor, eigene Untergruppen bei den Systemstellen H und L. Bei neu zu klassifizierenden Werken muss anhand inhaltlicher Kriterien (Schlagwörter/Stichwörter) über die Kataloge eine passende Systemstelle ermittelt werden."@de, "Per il periodo successivo al XVIII/XIX secolo, spesso esistono riferimenti nazionali per le pubblicazioni, sottogruppi separati alle collacazioni H e L. Per le opere da classificare, è necessario determinare una voce di sistema adeguata attraverso i cataloghi sulla base di criteri di contenuto (parole chiave)."@it ;
     skos:notation "E" ;
     skos:topConceptOf <scheme> ;
-    skos:related <H>, <Ha>, <Je>, <L> ;
+    skos:related <H>, <Ha>, <L> ;
     skos:narrower <Ea>, <Eb>, <Ec>, <Ed>, <Ee>, <Ef>, <Eg>, <Eh>, <Ei>, <Ek>, <El>, <Em> .
 
 <Ea> a skos:Concept ;
@@ -296,7 +296,7 @@
     skos:scopeNote "Bei Literatur zu lokalgeographischen Einzelaspekten (z.B. Klöster) ist zu überprüfen, ob das Werk nicht eher in die lokalgeschichtlichen Gruppen eingeordnet wird (Vorrang!)."@de, "Nel caso di letteratura su singoli aspetti della geografia locale (ad esempio i monasteri), occorre verificare se l'opera debba essere classificata nei gruppi di storia locale (priorità!)."@it ;
     skos:notation "F" ;
     skos:topConceptOf <scheme> ;
-    skos:related <H>, <Jf>, <L> ;
+    skos:related <H>, <L> ;
     skos:narrower <Fa>, <Fb>, <Fc>, <Fd>, <Fe>, <Ff>, <Fg>, <Fh>, <Fi>, <Fk>, <Fl>, <Fm> .
 
 <Fa> a skos:Concept ;
