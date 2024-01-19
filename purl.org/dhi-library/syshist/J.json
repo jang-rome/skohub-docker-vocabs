@@ -5,6 +5,11 @@
     "de": "Geschichte Preussens und des Deutschen Ordens",
     "it": "Storia della Prussia e dell'Ordine Teutonico"
   },
+  "hiddenLabel": {
+    "de": [
+      "Deutschorden"
+    ]
+  },
   "definition": {
     "de": "Preußische Geschichte als eigener Bestandszweig der Dt. Geschichte. Seit Nachkriegszeit relativ wenig Neuzugänge.",
     "it": "La storia prussiana come ramo specifico della storia tedesca. Sono relativamente poche le nuove aggiunte dal dopoguerra in poi"
