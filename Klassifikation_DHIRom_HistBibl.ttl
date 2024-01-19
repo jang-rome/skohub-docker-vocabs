@@ -598,6 +598,7 @@
 <J> a skos:Concept ;
     skos:prefLabel "Geschichte Preussens und des Deutschen Ordens"@de, "Storia della Prussia e dell'Ordine Teutonico"@it ;
     skos:definition "Preußische Geschichte als eigener Bestandszweig der Dt. Geschichte. Seit Nachkriegszeit relativ wenig Neuzugänge."@de, "La storia prussiana come ramo specifico della storia tedesca. Sono relativamente poche le nuove aggiunte dal dopoguerra in poi"@it ;
+    skos:hiddenLabel "Deutschorden"@de ;
     skos:example "Geschichte des Hauses Hohenzollern, Biographisches, Einzelne Provinzen, Dt. Orden, Rechts- und Kirchengeschichte etc."@de, "Storia della Casa di Hohenzollern, Materiale biografico, Singole province, Dt. Orden, Storia legale ed ecclesiastica ecc."@it ;
     skos:scopeNote "Gruppe wurde noch nicht vollständig auf das Zwei-Buchstaben-System umgestellt."@de, "Il Gruppo non è ancora stato completamente convertito al sistema a due lettere."@it ;
     skos:historyNote "Das DHI war eine preussische Gründung im Jahr 1888, es wurde Wert auf eigene Systemstelle zu Preussischer Geschichte gelegt."@de, "La Prussia riceve il proprio Gruppo K, poiché l'Istituto è una fondazione prussiana."@it ;
