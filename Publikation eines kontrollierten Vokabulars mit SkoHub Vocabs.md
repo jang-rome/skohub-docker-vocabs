@@ -1,7 +1,4 @@
 
-**Inhalt:**
-[TOC]
-
 # Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
 Projektbericht Modul MALIS 23.2 IT 2
 Dozent: Adrian Pohl
@@ -87,14 +84,14 @@ Um die Systematik effizient in ein SKOS-konformes Format zu überführen, erstel
 Für die eigentliche Programmierarbeit wählten wir Jupyter Notebook als Entwicklungsumgebung. Diese Plattform ermöglichte es uns, Python-Code in einer interaktiven und übersichtlichen Weise zu schreiben und auszuführen. Durch den Einsatz von Jupyter Notebook konnten wir den Code Schritt für Schritt entwickeln und testen, was besonders bei der Fehlersuche und -behebung (Trial-and-Error-Methodik) hilfreich war.
 
 * **Generierung eines RDF/Turtle-Dokuments**
-Nach der erfolgreichen Entwicklung unseres Python-Skripts  konnten wir die Daten aus dem Excel-Dokument extrahieren und in das SKOS-Format transformieren. Dieser Prozess führte zur automatisierten Erstellung eines RDF/Turtle-Dokuments. Anfänglich lag der Fokus auf der Abbildung der ersten vier Systemstellen (A, B, C und D). Nachdem wir die Funktionalität und Genauigkeit unseres Skripts validiert hatten, erweiterten wir den Prozess, um das gesamte Vokabular der Klassifikation automatisiert in SKOS-Code zu überführen. Diese Automatisierung war ein hilfreicher Schritt, da sie es uns ermöglichte, die umfangreiche Systematik effizient und fehlerfrei in ein maschinenlesbares Format zu konvertieren.
+Nach der erfolgreichen Entwicklung unseres Python-Skripts (vgl. [5. Anhang](#Pythion-Skript) konnten wir die Daten aus dem Excel-Dokument extrahieren und in das SKOS-Format transformieren. Dieser Prozess führte zur automatisierten Erstellung eines RDF/Turtle-Dokuments. Anfänglich lag der Fokus auf der Abbildung der ersten vier Systemstellen (A, B, C und D). Nachdem wir die Funktionalität und Genauigkeit unseres Skripts validiert hatten, erweiterten wir den Prozess, um das gesamte Vokabular der Klassifikation automatisiert in SKOS-Code zu überführen. Diese Automatisierung war ein hilfreicher Schritt, da sie es uns ermöglichte, die umfangreiche Systematik effizient und fehlerfrei in ein maschinenlesbares Format zu konvertieren.
 
 
 ### 3.3 Einrichtung langfristig verfügbarer URI (Purl.org)
 ### 3.4 Applikation auf Gesamtvokabular und SkoHub-Publikation
 
 ## 4. Ausblick
-
+<a name="Python-Skript"></a>
 ## 5. Anhang: Python-Skript zur semiautomatisierten SKOS Transformation
 
 
