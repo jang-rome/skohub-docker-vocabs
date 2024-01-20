@@ -1,5 +1,5 @@
  **Inhalt:**
- [5. Anhang](#Pythion-Skript)
+ [5. Anhang](#Python-Skript)
 
  
 # Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
