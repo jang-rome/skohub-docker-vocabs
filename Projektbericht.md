@@ -160,6 +160,7 @@ Nach der erfolgreichen Entwicklung unseres Python-Skripts (vgl. [Anhang 5](#5-An
 Für das Projekt werden "persistent uniform resource locator" (PURL) verwendet. Die Domain wurde so gewählt, dass weitere Subdomains für die nächsten Projektstufen ergänzt werden können, also neben dem aktuellen **/dhi-library/syshist** (https://purl.archive.org/domain_search?q=dhi-library) in Zukunft auch **/dhi-library/sysmusic** für die Musik-Klassifikation oder **/dhi-library/sysmanacorda** für die Manacorda-Klassifikation.
 
 Die Konfiguration des Redirects nach der [Anleitung](https://github.com/skohub-io/swib20-workshop/blob/main/resources/publish-vocab.md#step-6-set-up-redirect-for-persistent-identifiers) scheiterte zunächst. Letztlich wurden manuelle Redirects für alle skos:Concepts eingerichtet, um die Funktionalität zeitnah zu gewährleisten. Die persistenten Konzept-URIs konnten so im nächsten Schritt bei der Beschreibung einer Ressource verwendet werden (z.B. https://purl.org/dhi-library/syshist/E) und "@base <https://purl.org/dhi-library/syshist/>" im TTL-File ergänzt werden. 
+
 [↑ zurück zur Übersicht](#0)
 
 <a name="3.4"></a>
