@@ -3,7 +3,8 @@
 Projektbericht Modul MALIS 23.2 IT 2
 Dozent: Adrian Pohl
 
-**Arbeitsgruppe:** 
+**Arbeitsgruppe:**
+
 Regina Sofia Margarete Albrecht (Matrikelnummer: 11188249 ),
 Email: Regina_sofia_margarete.albrecht@smail.th-koeln.de
 Jonas Balzukat (Matrikelnummer: 11096598 ),
