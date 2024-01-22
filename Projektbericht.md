@@ -1,8 +1,7 @@
 <a name="0"></a>
 # Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
 
-Projektbericht Modul MALIS 23.2 IT 2
-Dozent: Adrian Pohl
+Projektbericht Modul MALIS 23.2 IT 2 - Dozent: Adrian Pohl
 
 **Arbeitsgruppe:**
 
