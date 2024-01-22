@@ -127,7 +127,7 @@ Zwei wesentliche Erkenntnisse ergaben sich bei diesem Bearbeitungsschritt:
 
 * **Validierung:** Schnell wurde uns deutlich, wie wichtig für die Validierung die Wahl eines geeigneten Tools ist. Trotz erfolgreicher Validierung im Turtle Web Editor (Meldung "Congrats! Your syntax is correct") schlug die Validierung bei der SkoHub Generierung in GitHub zu unserer Überraschung anfangs mehrfach fehl (vgl. Protokoll der Workflow-Runs auf GitHub https://github.com/jang-rome/skohub-docker-vocabs/actions). Wir ergänzten daher im Projektverlauf das SKOS Testing Tool, das abweichende und präzisere Ergebnisse lieferte. Beide Tools führen unterschiedliche Arten von Überprüfungen durch: Der Turtle Web Editor konzentriert sich hauptsächlich auf die Überprüfung der Syntax (Basis TurtleValidator https://github.com/IDLabResearch/TurtleValidator). Das SKOS Testing Tool ist spezialisiert auf die Validierung von SKOS-Vokabularen anhand eines konfigurierbaren Regelsets (https://skos-play.sparna.fr/skos-testing-tool/) und führt spezifischere Tests durch, um sicherzustellen, dass unsere Dateien den SKOS-Standards entsprechen. So wurden z.B. Warnungen zur Nichtdokumentation von Konzepten, fehlende Language Codes und Hierarchiefehler durch das Testing Tool erkannt, die dem Turtle Web Editor verborgen blieben.
 * **Hierarchien:** Auffällig war in diesem Bearbeitungsschritt, dass die SkoHub Darstellung der Hierarchie auch ohne skos:broader noch korrekt funktionieren würde, also die Angabe einer Richtung ausreicht (vgl. auch https://dini-ag-kim.github.io/skos-einfuehrung/#/skos-kodierung?id=unterbegriffe). Trotzdem haben wir in der endgültigen TTL-Version skos:broader nach zwischenzeitlichen Tests wieder ergänzt.
-* 
+  
 [↑ zurück zur Übersicht](#0)
 
 <a name="3.2"></a>
