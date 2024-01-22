@@ -185,6 +185,7 @@ In den Schritten 3.1 und 3.2 lag der Fokus auf der Transformation der Systematik
 * **skos:related** - Verwandte (non-hierarchische) Systemstellen wurden analysiert und verlinkt.
 
 Bei der Arbeit mit skos:related kam es in der SkoHub-Publikation wiederholt zu Sortierungsfehlern. So sortierten in der Darstellung z.B. die Systemstellen "Je" und "Jf" vor "Ja". Verursacht wurde dieser Fehler offensichtlich durch skos:related-Verlinkungen von Elementen der Unterebenen auf TopConcepts. Ein Widerspruch zu den [W3C-Empfehlungen](https://www.w3.org/TR/2009/REC-skos-reference-20090818/#semantic-relations) (Stichwort "non consistent") war für uns nicht erkennbar, auch wurden keine Validierungsfehler ausgegeben.  Wir haben die betroffenen Beziehungen aber nachträglich entfernt, um die Sortierungsfehler zuverlässig zu beseitigen.
+
 [↑ zurück zur Übersicht](#0)
 
 <a name="4"></a>
