@@ -25,6 +25,8 @@ Jan-Peter Grünewälder  (Einzelmodulbucher), Email: grunewalder@dhi-roma.it
     - [3.4 Finale Bearbeitung Gesamtvokabular und SkoHub-Publikation](#3.4)
 - [4. Ausblick](#4)
 - [5. Anhang: Python-Skript zur semiautomatisierten SKOS-Transformation](#5)
+
+  
   
 <a name="1"></a>
 ## 1. Auswahl des kontrollierten Vokabulars und Entwicklung einer Projektidee
@@ -47,7 +49,7 @@ Im Bereich der Digital Humanities und der Redaktionsarbeit werden fünf Vokabula
 
 
 
-
+[↑ zurück zur Übersicht](#0)
 <a name="1.3"></a>
 ### 1.3 Entwicklung der Projektidee
 
@@ -68,7 +70,7 @@ Die Vokabulare 1.1.2 bis 1.1.4 sowie 1.2.5 können nach Abschluss des Projekts u
 
 Für die genannten Digital Humanties-Vokabulare 1.2.1 - 1.2.4 wären einige Teilschritte wiederverwendbar. Da die Vokabulare bereits in XML-Formaten vorliegen und auch in Teilen bereits Verküpfungen zu externen Normvokabularen enthalten, müssten Transformation und Bearbeitung insgesamt aber noch angepasst und weiter optimiert werden. Ingesamt fügt sich ein solches Vorhaben gut in den Rahmen eines am Institut entstehenden Digital Humanities Labs ein, in dem die Bibliothek als Partner der Wissenschaft u.a. maßgeschneiderte Metadatenservices übernehmen soll.
 
-
+[↑ zurück zur Übersicht](#0)
 <a name="2"></a>
 ## 2. Organisation der Zusammenarbeit
 
@@ -82,7 +84,7 @@ Da wir in der Zeitplanung und in den Milestones im kleinen Projekt mangels Erfah
 
 Doch das Board hatte auch Grenzen: Um Ergebnisse von Zoom Sitzungen ausführlicher zu protokollieren und laufend einen Abeitsbericht zu erzeugen, wurde das Kanban Board durch den Markdown-Editor HegdeDoc flankiert. Diese Echtzeit-Protokolle und Kanban bildeten in ihrer Gesamtheit den Projektstand immer ausreichend ab. 
 
-
+[↑ zurück zur Übersicht](#0)
 <a name="3"></a>
 ## 3. Stufenweise Umsetzung der SKOS-Transformation
 <a name="3.1"></a>
@@ -125,6 +127,9 @@ Zwei wesentliche Erkenntnisse ergaben sich bei diesem Bearbeitungsschritt:
 
 * **Validierung:** Schnell wurde uns deutlich, wie wichtig für die Validierung die Wahl eines geeigneten Tools ist. Trotz erfolgreicher Validierung im Turtle Web Editor (Meldung "Congrats! Your syntax is correct") schlug die Validierung bei der SkoHub Generierung in GitHub zu unserer Überraschung anfangs mehrfach fehl (vgl. Protokoll der Workflow-Runs auf GitHub https://github.com/jang-rome/skohub-docker-vocabs/actions). Wir ergänzten daher im Projektverlauf das SKOS Testing Tool, das abweichende und präzisere Ergebnisse lieferte. Beide Tools führen unterschiedliche Arten von Überprüfungen durch: Der Turtle Web Editor konzentriert sich hauptsächlich auf die Überprüfung der Syntax (Basis TurtleValidator https://github.com/IDLabResearch/TurtleValidator). Das SKOS Testing Tool ist spezialisiert auf die Validierung von SKOS-Vokabularen anhand eines konfigurierbaren Regelsets (https://skos-play.sparna.fr/skos-testing-tool/) und führt spezifischere Tests durch, um sicherzustellen, dass unsere Dateien den SKOS-Standards entsprechen. So wurden z.B. Warnungen zur Nichtdokumentation von Konzepten, fehlende Language Codes und Hierarchiefehler durch das Testing Tool erkannt, die dem Turtle Web Editor verborgen blieben.
 * **Hierarchien:** Auffällig war in diesem Bearbeitungsschritt, dass die SkoHub Darstellung der Hierarchie auch ohne skos:broader noch korrekt funktionieren würde, also die Angabe einer Richtung ausreicht (vgl. auch https://dini-ag-kim.github.io/skos-einfuehrung/#/skos-kodierung?id=unterbegriffe). Trotzdem haben wir in der endgültigen TTL-Version skos:broader nach zwischenzeitlichen Tests wieder ergänzt.
+* 
+[↑ zurück zur Übersicht](#0)
+
 <a name="3.2"></a>
 ### 3.2 Erarbeitung eines Verfahrens zur semiautomatisierten Transformation
 Dokumentation der Umwandlung einer DHI-Klassifikation in ein SKOS-Format
@@ -147,12 +152,16 @@ Für die eigentliche Programmierarbeit wählten wir Jupyter Notebook als Entwick
 * **Generierung eines RDF/Turtle-Dokuments**
 Nach der erfolgreichen Entwicklung unseres Python-Skripts (vgl. [Anhang 5](#5-Anhang-Python-Skript-zur-semiautomatisierten-SKOS-Transformation)) konnten wir die Daten aus dem Excel-Dokument extrahieren und in das SKOS-Format transformieren. Dieser Prozess führte zur automatisierten Erstellung eines RDF/Turtle-Dokuments. Anfänglich lag der Fokus auf der Abbildung der ersten vier Systemstellen (A, B, C und D). Nachdem wir die Funktionalität und Genauigkeit unseres Skripts validiert hatten, erweiterten wir den Prozess, um das gesamte Vokabular der Klassifikation automatisiert in SKOS-Code zu überführen. Diese Automatisierung war ein hilfreicher Schritt, da sie es uns ermöglichte, die umfangreiche Systematik effizient und (weitestgehend) fehlerfrei in ein maschinenlesbares Format zu konvertieren.
 
+[↑ zurück zur Übersicht](#0)
+
 <a name="3.3"></a>
 ### 3.3 Einrichtung langfristig verfügbarer URI (Purl.org)
 
 Für das Projekt werden "persistent uniform resource locator" (PURL) verwendet. Die Domain wurde so gewählt, dass weitere Subdomains für die nächsten Projektstufen ergänzt werden können, also neben dem aktuellen **/dhi-library/syshist** (https://purl.archive.org/domain_search?q=dhi-library) in Zukunft auch **/dhi-library/sysmusic** für die Musik-Klassifikation oder **/dhi-library/sysmanacorda** für die Manacorda-Klassifikation.
 
 Die Konfiguration des Redirects nach der [Anleitung](https://github.com/skohub-io/swib20-workshop/blob/main/resources/publish-vocab.md#step-6-set-up-redirect-for-persistent-identifiers) scheiterte zunächst. Letztlich wurden manuelle Redirects für alle skos:Concepts eingerichtet, um die Funktionalität zeitnah zu gewährleisten. Die persistenten Konzept-URIs konnten so im nächsten Schritt bei der Beschreibung einer Ressource verwendet werden (z.B. https://purl.org/dhi-library/syshist/E) und "@base <https://purl.org/dhi-library/syshist/>" im TTL-File ergänzt werden. 
+[↑ zurück zur Übersicht](#0)
+
 <a name="3.4"></a>
 ### 3.4 Finale Bearbeitung Gesamtvokabular und SkoHub-Publikation
 
@@ -175,6 +184,7 @@ In den Schritten 3.1 und 3.2 lag der Fokus auf der Transformation der Systematik
 * **skos:related** - Verwandte (non-hierarchische) Systemstellen wurden analysiert und verlinkt.
 
 Bei der Arbeit mit skos:related kam es in der SkoHub-Publikation wiederholt zu Sortierungsfehlern. So sortierten in der Darstellung z.B. die Systemstellen "Je" und "Jf" vor "Ja". Verursacht wurde dieser Fehler offensichtlich durch skos:related-Verlinkungen von Elementen der Unterebenen auf TopConcepts. Ein Widerspruch zu den [W3C-Empfehlungen](https://www.w3.org/TR/2009/REC-skos-reference-20090818/#semantic-relations) (Stichwort "non consistent") war für uns nicht erkennbar, auch wurden keine Validierungsfehler ausgegeben.  Wir haben die betroffenen Beziehungen aber nachträglich entfernt, um die Sortierungsfehler zuverlässig zu beseitigen.
+[↑ zurück zur Übersicht](#0)
 
 <a name="4"></a>
 ## 4. Ausblick
@@ -183,7 +193,7 @@ Bei der Systematik der Historischen Bibliothek handelte es sich wie aufgezeigt n
 
 
 
-
+[↑ zurück zur Übersicht](#0)
 <a name="5"></a>
 ## 5. Anhang: Python-Skript zur semiautomatisierten SKOS-Transformation
 
