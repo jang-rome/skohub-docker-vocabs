@@ -12,17 +12,32 @@ Jonas Balzukat (Matrikelnummer: 11096598 ), Email: Jonas.Balzukat1@smail.th-koel
 
 Jan-Peter Grünewälder  (Einzelmodulbucher), Email: grunewalder@dhi-roma.it
 
+# Inhalt
+- [1. Auswahl des kontrollierten Vokabulars und Entwicklung einer Projektidee](#1)
+	- [1.1 Bibliothek](#1.1)
+	- [1.2 Digital Humanities und Institutspublikationen](#1.2)
+	- [1.3 Entwicklung der Projektidee](#1.3)	
+- [2. Organisation der Zusammenarbeit](#2)
+- [3. Stufenweise Umsetzung der SKOS-Transformation](#3)
+	- [3.1 Erarbeitung eines validierten SKOS-Grundgerüsts](#3.1)
+	- [3.2 Erarbeitung eines Verfahrens zur semiautomatisierten Transformation](#3.2)
+	- [3.3 Einrichtung langfristig verfügbarer URI (Purl.org)](#3.3)
+    - [3.4 Finale Bearbeitung Gesamtvokabular und SkoHub-Publikation](#3.4)
+- [4. Ausblick](#4)
+- [5. Anhang: Python-Skript zur semiautomatisierten SKOS-Transformation](#5)
+  
+<a name="1"></a>
 ## 1. Auswahl des kontrollierten Vokabulars und Entwicklung einer Projektidee
 
 Zu Beginn des Projekts wurde das am Deutschen Historischen Institut Rom (DHI) eingesetzte kontrollierte Vokabular identifiziert. Es erstreckt sich zum einen auf verschiedene bibliothekarische Klassifikationen und zum anderen auf Vokabular, das seit 2004 im Kontext der Digital Humanities entstanden ist.
-
+<a name="1.1"></a>
 ### 1.1 Bibliothek
 Die Bibliothek vereint zwei große wissenschaftliche Bestände der Musik- und Geschichtswissenschaft mit insgesamt ca. 300.000 Medieneinheiten. Sie werden seit 2017 organisatorisch zusammengeführt, sind aber aus historischen Gründen in zwei unterschiedlichen Fachsystematiken erschlossen und aufgestellt. Daneben integriert die Bibliothek zwei umfangreiche Spezialsammlungen zur Geschichte des italienischen Faschismus (Privatbibliothek des Journalisten und Zeithistorikers Dulio Susmel) und zur italienischen Parteiengeschichte (Privatbibliothek des Historikers Gastone Manacorda) mit eigener systematischer Erschließung ihrer ehemaligen Eigentümer.
 
 
 ![](https://pad.gwdg.de/uploads/5e88e834-3311-44fb-9474-9f15beb0b8e3.png)
 
-
+<a name="1.2"></a>
 ### 1.2 Digital Humanities und Institutspublikationen
 
 Im Bereich der Digital Humanities und der Redaktionsarbeit werden fünf Vokabulare aus den digitalen Editionen und Projekten in die weitere Betrachtung einbezogen:
@@ -32,7 +47,7 @@ Im Bereich der Digital Humanities und der Redaktionsarbeit werden fünf Vokabula
 
 
 
-
+<a name="1.3"></a>
 ### 1.3 Entwicklung der Projektidee
 
 In der Analyse ergibt sich in Bezug auf die kontrollierten Vokabulare ein insgesamt unbefriedigendes Bild, d.h. das Potential kontrollierter Vokabulare wird am DHI nicht ausgeschöpft, was gerade unter den Gesichtspunkten der Sichtbarkeit und Zugänglichkeit der klassifikatorisch oder verbal erschlossenen (Daten-)Bestände ein Manko darstellt. Einige zentrale Punkte unserer Analyse in Auswahl: 
@@ -53,7 +68,7 @@ Die Vokabulare 1.1.2 bis 1.1.4 sowie 1.2.5 können nach Abschluss des Projekts u
 Für die genannten Digital Humanties-Vokabulare 1.2.1 - 1.2.4 wären einige Teilschritte wiederverwendbar. Da die Vokabulare bereits in XML-Formaten vorliegen und auch in Teilen bereits Verküpfungen zu externen Normvokabularen enthalten, müssten Transformation und Bearbeitung insgesamt aber noch angepasst und weiter optimiert werden. Ingesamt fügt sich ein solches Vorhaben gut in den Rahmen eines am Institut entstehenden Digital Humanities Labs ein, in dem die Bibliothek als Partner der Wissenschaft u.a. maßgeschneiderte Metadatenservices übernehmen soll.
 
 
-
+<a name="2"></a>
 ## 2. Organisation der Zusammenarbeit
 
 Nach dem ersten Projektentwurf wurde für die weitere Zusammenarbeit auf der Basis der Einführungsmaterialien der Fork des SkoHub-Docker-Vocabs-Repository eingerichtet (https://github.com/jang-rome/skohub-docker-vocabs) und um ein vierspaltiges Kanban Board ergänzt (https://github.com/users/jang-rome/projects/4). Bei Bedarf wurden kurzfristige Zoom- Sitzungen vereinbart und protokolliert (vgl. unten: Kanban und HedgeDoc in Kombination). 
@@ -67,8 +82,9 @@ Da wir in der Zeitplanung und in den Milestones im kleinen Projekt mangels Erfah
 Doch das Board hatte auch Grenzen: Um Ergebnisse von Zoom Sitzungen ausführlicher zu protokollieren und laufend einen Abeitsbericht zu erzeugen, wurde das Kanban Board durch den Markdown-Editor HegdeDoc flankiert. Diese Echtzeit-Protokolle und Kanban bildeten in ihrer Gesamtheit den Projektstand immer ausreichend ab. 
 
 
-
+<a name="3"></a>
 ## 3. Stufenweise Umsetzung der SKOS-Transformation
+<a name="3.1"></a>
 ### 3.1 Erarbeitung eines validierten SKOS-Grundgerüsts
 
 Auf der Basis der [SKOS-Einführung](https://dini-ag-kim.github.io/skos-einfuehrung/#/) und verschiedener Praxisbeispiele wie der
@@ -108,7 +124,7 @@ Zwei wesentliche Erkenntnisse ergaben sich bei diesem Bearbeitungsschritt:
 
 * **Validierung:** Schnell wurde uns deutlich, wie wichtig für die Validierung die Wahl eines geeigneten Tools ist. Trotz erfolgreicher Validierung im Turtle Web Editor (Meldung "Congrats! Your syntax is correct") schlug die Validierung bei der SkoHub Generierung in GitHub zu unserer Überraschung anfangs mehrfach fehl (vgl. Protokoll der Workflow-Runs auf GitHub https://github.com/jang-rome/skohub-docker-vocabs/actions). Wir ergänzten daher im Projektverlauf das SKOS Testing Tool, das abweichende und präzisere Ergebnisse lieferte. Beide Tools führen unterschiedliche Arten von Überprüfungen durch: Der Turtle Web Editor konzentriert sich hauptsächlich auf die Überprüfung der Syntax (Basis TurtleValidator https://github.com/IDLabResearch/TurtleValidator). Das SKOS Testing Tool ist spezialisiert auf die Validierung von SKOS-Vokabularen anhand eines konfigurierbaren Regelsets (https://skos-play.sparna.fr/skos-testing-tool/) und führt spezifischere Tests durch, um sicherzustellen, dass unsere Dateien den SKOS-Standards entsprechen. So wurden z.B. Warnungen zur Nichtdokumentation von Konzepten, fehlende Language Codes und Hierarchiefehler durch das Testing Tool erkannt, die dem Turtle Web Editor verborgen blieben.
 * **Hierarchien:** Auffällig war in diesem Bearbeitungsschritt, dass die SkoHub Darstellung der Hierarchie auch ohne skos:broader noch korrekt funktionieren würde, also die Angabe einer Richtung ausreicht (vgl. auch https://dini-ag-kim.github.io/skos-einfuehrung/#/skos-kodierung?id=unterbegriffe). Trotzdem haben wir in der endgültigen TTL-Version skos:broader nach zwischenzeitlichen Tests wieder ergänzt.
-
+<a name="3.2"></a>
 ### 3.2 Erarbeitung eines Verfahrens zur semiautomatisierten Transformation
 Dokumentation der Umwandlung einer DHI-Klassifikation in ein SKOS-Format
 
@@ -130,13 +146,13 @@ Für die eigentliche Programmierarbeit wählten wir Jupyter Notebook als Entwick
 * **Generierung eines RDF/Turtle-Dokuments**
 Nach der erfolgreichen Entwicklung unseres Python-Skripts (vgl. [Anhang 5](#5-Anhang-Python-Skript-zur-semiautomatisierten-SKOS-Transformation)) konnten wir die Daten aus dem Excel-Dokument extrahieren und in das SKOS-Format transformieren. Dieser Prozess führte zur automatisierten Erstellung eines RDF/Turtle-Dokuments. Anfänglich lag der Fokus auf der Abbildung der ersten vier Systemstellen (A, B, C und D). Nachdem wir die Funktionalität und Genauigkeit unseres Skripts validiert hatten, erweiterten wir den Prozess, um das gesamte Vokabular der Klassifikation automatisiert in SKOS-Code zu überführen. Diese Automatisierung war ein hilfreicher Schritt, da sie es uns ermöglichte, die umfangreiche Systematik effizient und (weitestgehend) fehlerfrei in ein maschinenlesbares Format zu konvertieren.
 
-
+<a name="3.3"></a>
 ### 3.3 Einrichtung langfristig verfügbarer URI (Purl.org)
 
 Für das Projekt werden "persistent uniform resource locator" (PURL) verwendet. Die Domain wurde so gewählt, dass weitere Subdomains für die nächsten Projektstufen ergänzt werden können, also neben dem aktuellen **/dhi-library/syshist** (https://purl.archive.org/domain_search?q=dhi-library) in Zukunft auch **/dhi-library/sysmusic** für die Musik-Klassifikation oder **/dhi-library/sysmanacorda** für die Manacorda-Klassifikation.
 
 Die Konfiguration des Redirects nach der [Anleitung](https://github.com/skohub-io/swib20-workshop/blob/main/resources/publish-vocab.md#step-6-set-up-redirect-for-persistent-identifiers) scheiterte zunächst. Letztlich wurden manuelle Redirects für alle skos:Concepts eingerichtet, um die Funktionalität zeitnah zu gewährleisten. Die persistenten Konzept-URIs konnten so im nächsten Schritt bei der Beschreibung einer Ressource verwendet werden (z.B. https://purl.org/dhi-library/syshist/E) und "@base <https://purl.org/dhi-library/syshist/>" im TTL-File ergänzt werden. 
-
+<a name="3.4"></a>
 ### 3.4 Finale Bearbeitung Gesamtvokabular und SkoHub-Publikation
 
 In den Schritten 3.1 und 3.2 lag der Fokus auf der Transformation der Systematik in eine Basis-SKOS-Kodierung. Vorrangiges Ziel des letzten Arbeitsschritts war die exemplarische Anreicherung mit weiteren SKOS-Elementen, um den Mehrwert zu illustrieren. Dazu wurden insbesondere auf der Ebene der TopConcepts folgende Elemente ergänzt:
@@ -159,7 +175,7 @@ In den Schritten 3.1 und 3.2 lag der Fokus auf der Transformation der Systematik
 
 Bei der Arbeit mit skos:related kam es in der SkoHub-Publikation wiederholt zu Sortierungsfehlern. So sortierten in der Darstellung z.B. die Systemstellen "Je" und "Jf" vor "Ja". Verursacht wurde dieser Fehler offensichtlich durch skos:related-Verlinkungen von Elementen der Unterebenen auf TopConcepts. Ein Widerspruch zu den [W3C-Empfehlungen](https://www.w3.org/TR/2009/REC-skos-reference-20090818/#semantic-relations) (Stichwort "non consistent") war für uns nicht erkennbar, auch wurden keine Validierungsfehler ausgegeben.  Wir haben die betroffenen Beziehungen aber nachträglich entfernt, um die Sortierungsfehler zuverlässig zu beseitigen.
 
-
+<a name="4"></a>
 ## 4. Ausblick
 
 Bei der Systematik der Historischen Bibliothek handelte es sich wie aufgezeigt nur um einen ersten Use Case, der jetzt übergeben wird. In den in Abschnitt 1.3 skizzierten zukünftigen Projektschritten wird es darum gehen, das weitere Potential der SKOS-Kodierung und SkoHub-Publikation auszuspielen. Dazu wird entscheidend sein, die zusätzlichen Instituts-Vokabulare mit der aufgezeigten Methode normgerecht und maschinenlesbar zu kodieren, auf dem offiziellen [DHI-GitHub-Repo ](https://github.com/DHI-Roma)als skohub-docker-vocabs-Fork zu publizieren und diese *untereinander* - aber auch mit *externen* (Norm-)Vokabularen - zu matchen. Letzteres machen die am DHI angesiedelten Digital Humanities Projekte bereits in Ansätzen vor, allerdings noch ohne SKOS-Kodierung und Publikation. SKOS bietet dazu zahlreiche [Mapping-Elemente](https://dini-ag-kim.github.io/skos-einfuehrung/#/skos-elemente?id=mappings) wie skos:closeMatch und skos:exactMatch, die im vorliegenden Use Case noch ungenutzt bleiben. Basierend auf den gesammelten, äußerst wertvollen Erfahrungen des kleinen Projekts sollen diese Aufgaben nun von der DHI-Bibliothek in Angriff genommen werden. 
@@ -167,7 +183,7 @@ Bei der Systematik der Historischen Bibliothek handelte es sich wie aufgezeigt n
 
 
 
-
+<a name="5"></a>
 ## 5. Anhang: Python-Skript zur semiautomatisierten SKOS-Transformation
 
 ````=
