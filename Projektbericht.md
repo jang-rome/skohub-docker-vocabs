@@ -1,16 +1,14 @@
 
 # Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
+
 Projektbericht Modul MALIS 23.2 IT 2
 Dozent: Adrian Pohl
 
 **Arbeitsgruppe:**
 
-Regina Sofia Margarete Albrecht (Matrikelnummer: 11188249 ),
-Email: Regina_sofia_margarete.albrecht@smail.th-koeln.de
-Jonas Balzukat (Matrikelnummer: 11096598 ),
-Email: Jonas.Balzukat1@smail.th-koeln.de
-Jan-Peter Grünewälder  (Einzelmodulbucher)
-Email: grunewalder@dhi-roma.it
+Regina Sofia Margarete Albrecht (Matrikelnummer: 11188249 ), Email: Regina_sofia_margarete.albrecht@smail.th-koeln.de
+Jonas Balzukat (Matrikelnummer: 11096598 ), Email: Jonas.Balzukat1@smail.th-koeln.de
+Jan-Peter Grünewälder  (Einzelmodulbucher), Email: grunewalder@dhi-roma.it
 
 ## 1. Auswahl des kontrollierten Vokabulars und Entwicklung einer Projektidee
 
