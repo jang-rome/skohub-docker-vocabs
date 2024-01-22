@@ -1,4 +1,4 @@
-
+<a name="0"></a>
 # Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
 
 Projektbericht Modul MALIS 23.2 IT 2
@@ -12,7 +12,7 @@ Jonas Balzukat (Matrikelnummer: 11096598 ), Email: Jonas.Balzukat1@smail.th-koel
 
 Jan-Peter Grünewälder  (Einzelmodulbucher), Email: grunewalder@dhi-roma.it
 
-# Inhalt
+## Inhalt
 - [1. Auswahl des kontrollierten Vokabulars und Entwicklung einer Projektidee](#1)
 	- [1.1 Bibliothek](#1.1)
 	- [1.2 Digital Humanities und Institutspublikationen](#1.2)
@@ -37,6 +37,7 @@ Die Bibliothek vereint zwei große wissenschaftliche Bestände der Musik- und Ge
 
 ![](https://pad.gwdg.de/uploads/5e88e834-3311-44fb-9474-9f15beb0b8e3.png)
 
+[↑ zurück zur Übersicht](#0)
 <a name="1.2"></a>
 ### 1.2 Digital Humanities und Institutspublikationen
 
