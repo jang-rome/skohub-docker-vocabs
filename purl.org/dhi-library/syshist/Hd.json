@@ -5,6 +5,14 @@
     "de": "Geschichte der fränkischen und staufischen Kaiser 1024-1256",
     "it": "Storia dei refranehi e dei re svevi 1024-1256"
   },
+  "hiddenLabel": {
+    "de": [
+      "Staufer"
+    ],
+    "it": [
+      "Staufer"
+    ]
+  },
   "notation": [
     "Hd"
   ],

@@ -5,6 +5,14 @@
     "de": "Niederlande und Belgien",
     "it": "Paesi Bassi e Belgio"
   },
+  "hiddenLabel": {
+    "de": [
+      "Holland"
+    ],
+    "it": [
+      "Olanda"
+    ]
+  },
   "notation": [
     "Gd"
   ],

@@ -5,6 +5,14 @@
     "de": "Deutsche Demokratische Republik einzelne Personen (alphabet.)",
     "it": "La Repubblica Democratica Tedesca persone singole (ord. alfabet.)"
   },
+  "altLabel": {
+    "de": [
+      "DDR einzelne Personen (alphabet.)"
+    ],
+    "it": [
+      "RTD persone singole (ord. alfabet.)"
+    ]
+  },
   "notation": [
     "Hv"
   ],

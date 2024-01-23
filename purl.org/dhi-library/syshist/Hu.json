@@ -5,6 +5,14 @@
     "de": "Deutsche Demokratische Republik",
     "it": "La Repubblica Democratica Tedesca"
   },
+  "altLabel": {
+    "de": [
+      "DDR"
+    ],
+    "it": [
+      "RTD"
+    ]
+  },
   "notation": [
     "Hu"
   ],

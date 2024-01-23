@@ -5,6 +5,14 @@
     "de": "Bundesrepublik Deutschland 1969 bis 1989",
     "it": "La Repubblica Federale Tedesca dal 1969 fino al 1989"
   },
+  "altLabel": {
+    "de": [
+      "BRD 1969 bis 1989"
+    ],
+    "it": [
+      "RFT dal 1969 fino al 1989"
+    ]
+  },
   "notation": [
     "Hs"
   ],

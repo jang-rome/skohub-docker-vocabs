@@ -3,7 +3,23 @@
   "type": "Concept",
   "prefLabel": {
     "de": "Geschichte Roms und des Kirchenstaates",
-    "it": "Storia di Roma de dello Stato Pontificio"
+    "it": "Storia di Roma e dello Stato Pontificio"
+  },
+  "altLabel": {
+    "de": [
+      "Geschichte Roms und des Status Pontificius"
+    ],
+    "it": [
+      "Storia di Roma e Stato della Chiesa"
+    ]
+  },
+  "hiddenLabel": {
+    "de": [
+      "Vatikan"
+    ],
+    "it": [
+      "Vaticano"
+    ]
   },
   "notation": [
     "Lb"

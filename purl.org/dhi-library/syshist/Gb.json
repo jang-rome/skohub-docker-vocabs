@@ -5,6 +5,14 @@
     "de": "England",
     "it": "Inghilterra"
   },
+  "hiddenLabel": {
+    "de": [
+      "Großbritannien"
+    ],
+    "it": [
+      "Gran Bretagna"
+    ]
+  },
   "notation": [
     "Gb"
   ],
