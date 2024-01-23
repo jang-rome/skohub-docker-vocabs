@@ -71,17 +71,17 @@
       }
     },
     {
-      "id": "https://purl.org/dhi-library/syshist/Bk",
-      "prefLabel": {
-        "de": "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht",
-        "it": "Metodo e storia della storiografia, insegnamento storico"
-      }
-    },
-    {
       "id": "https://purl.org/dhi-library/syshist/Bi",
       "prefLabel": {
         "de": "Geographie",
         "it": "Geografia"
+      }
+    },
+    {
+      "id": "https://purl.org/dhi-library/syshist/Bk",
+      "prefLabel": {
+        "de": "Methodik und Geschichte der Geschichtsschreibung, Geschichtsunterricht",
+        "it": "Metodo e storia della storiografia, insegnamento storico"
       }
     }
   ],
