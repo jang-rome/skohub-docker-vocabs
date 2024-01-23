@@ -175,6 +175,7 @@ In den Schritten 3.1 und 3.2 lag der Fokus auf der Transformation der Systematik
 
 **2. Verbesserte Suchbarkeit:**
 * **skos:hiddenLabel** 	- Angereichertes Vokabular, hier wird eine weitere Bezeichnung für Indexierung und Suche vergeben, die in der Anzeige ausgeblendet wird.
+* **skos:altLabel** - Alternative Bezeichnungen, in der Klassifikation gerade bei Namensvarianten von Ländern und Regionen hilfreich, die bislang nicht berücksichtigt wurden.
 
 
 **3. Optimierung der Mehrsprachigkeit**
