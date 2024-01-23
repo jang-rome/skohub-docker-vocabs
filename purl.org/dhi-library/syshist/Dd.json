@@ -5,6 +5,14 @@
     "de": "Mittelalter, Kreuzzüge",
     "it": "Medioevo, Crociate"
   },
+  "hiddenLabel": {
+    "de": [
+      "Orientkreuzzüge"
+    ],
+    "it": [
+      "Croisade"
+    ]
+  },
   "notation": [
     "Dd"
   ],

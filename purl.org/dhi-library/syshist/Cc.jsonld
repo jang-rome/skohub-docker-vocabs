@@ -5,6 +5,14 @@
     "de": "Archive und Bibliotheken: Italien und Vatikan",
     "it": "Archivi e biblioteche: Italia e Vaticano"
   },
+  "hiddenLabel": {
+    "de": [
+      "Vatikanstadt"
+    ],
+    "it": [
+      "Città del Vaticano"
+    ]
+  },
   "notation": [
     "Cc"
   ],
