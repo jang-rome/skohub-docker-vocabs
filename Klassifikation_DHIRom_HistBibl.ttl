@@ -383,6 +383,7 @@
 
 <Gb> a skos:Concept ;
     skos:prefLabel "England"@de, "Inghilterra"@it ;
+    skos:hiddenLabel "Großbritannien"@de, "Gran Bretagna"@it ;
     skos:broader <G> ;
     skos:notation "Gb" ;
     skos:inScheme <scheme> .
@@ -395,6 +396,7 @@
 
 <Gd> a skos:Concept ;
     skos:prefLabel "Niederlande und Belgien"@de, "Paesi Bassi e Belgio"@it ;
+    skos:hiddenLabel "Holland"@de, "Olanda"@it ;
     skos:broader <G> ;
     skos:notation "Gd" ;
     skos:inScheme <scheme> .
@@ -406,7 +408,7 @@
     skos:inScheme <scheme> .
 
 <Gf> a skos:Concept ;
-    skos:prefLabel "Skandinavien"@de, "Seandinavia"@it ;
+    skos:prefLabel "Skandinavien"@de, "Scandinavia"@it ;
     skos:broader <G> ;
     skos:notation "Gf" ;
     skos:inScheme <scheme> .
@@ -477,6 +479,7 @@
 
 <Hd> a skos:Concept ;
     skos:prefLabel "Geschichte der fränkischen und staufischen Kaiser 1024-1256"@de, "Storia dei refranehi e dei re svevi 1024-1256"@it ;
+    skos:hiddenLabel "Staufer"@de, "Staufer"@it ;    
     skos:broader <H> ;
     skos:notation "Hd" ;
     skos:inScheme <scheme> .
@@ -512,7 +515,7 @@
     skos:inScheme <scheme> .
 
 <Hk> a skos:Concept ;
-    skos:prefLabel "Deutsche Geschichte 1800-1918 einzelne Personen (alphabet.)"@de, "Storia tedescii 1800-1918 persone singole (ord. alfabet.)"@it ;
+    skos:prefLabel "Deutsche Geschichte 1800-1918 einzelne Personen (alphabet.)"@de, "Storia tedesca 1800-1918 persone singole (ord. alfabet.)"@it ;
     skos:broader <H> ;
     skos:notation "Hk" ;
     skos:inScheme <scheme> .
@@ -549,24 +552,28 @@
 
 <Hr> a skos:Concept ;
     skos:prefLabel "Bundesrepublik Deutschland bis 1969"@de, "La Repubblica Federale Tedesca fino al 1969"@it ;
+    skos:altLabel "BRD bis 1969"@de, "RFT fino al 1989"@it ;
     skos:broader <H> ;
     skos:notation "Hr" ;
     skos:inScheme <scheme> .
 
 <Hs> a skos:Concept ;
     skos:prefLabel "Bundesrepublik Deutschland 1969 bis 1989"@de, "La Repubblica Federale Tedesca dal 1969 fino al 1989"@it ;
+    skos:altLabel "BRD 1969 bis 1989"@de, "RFT dal 1969 fino al 1989"@it ;
     skos:broader <H> ;
     skos:notation "Hs" ;
     skos:inScheme <scheme> .
 
 <Hu> a skos:Concept ;
     skos:prefLabel "Deutsche Demokratische Republik"@de, "La Repubblica Democratica Tedesca"@it ;
+    skos:altLabel "DDR"@de, "RTD"@it ;
     skos:broader <H> ;
     skos:notation "Hu" ;
     skos:inScheme <scheme> .
 
 <Hv> a skos:Concept ;
     skos:prefLabel "Deutsche Demokratische Republik einzelne Personen (alphabet.)"@de, "La Repubblica Democratica Tedesca persone singole (ord. alfabet.)"@it ;
+    skos:altLabel "DDR einzelne Personen (alphabet.)"@de, "RTD persone singole (ord. alfabet.)"@it ;
     skos:broader <H> ;
     skos:notation "Hv" ;
     skos:inScheme <scheme> .
@@ -598,7 +605,7 @@
 <J> a skos:Concept ;
     skos:prefLabel "Geschichte Preussens und des Deutschen Ordens"@de, "Storia della Prussia e dell'Ordine Teutonico"@it ;
     skos:definition "Preußische Geschichte als eigener Bestandszweig der Dt. Geschichte. Seit Nachkriegszeit relativ wenig Neuzugänge."@de, "La storia prussiana come ramo specifico della storia tedesca. Sono relativamente poche le nuove aggiunte dal dopoguerra in poi"@it ;
-    skos:hiddenLabel "Deutschorden"@de ;
+    skos:hiddenLabel "Deutschorden"@de, "Deutschorden"@it ;
     skos:example "Geschichte des Hauses Hohenzollern, Biographisches, Einzelne Provinzen, Dt. Orden, Rechts- und Kirchengeschichte etc."@de, "Storia della Casa di Hohenzollern, Materiale biografico, Singole province, Dt. Orden, Storia legale ed ecclesiastica ecc."@it ;
     skos:scopeNote "Gruppe wurde noch nicht vollständig auf das Zwei-Buchstaben-System umgestellt."@de, "Il Gruppo non è ancora stato completamente convertito al sistema a due lettere."@it ;
     skos:historyNote "Das DHI war eine preussische Gründung im Jahr 1888, es wurde Wert auf eigene Systemstelle zu Preussischer Geschichte gelegt."@de, "La Prussia riceve il proprio Gruppo K, poiché l'Istituto è una fondazione prussiana."@it ;
@@ -721,25 +728,30 @@
     skos:inScheme <scheme> .
 
 <Lb> a skos:Concept ;
-    skos:prefLabel "Geschichte Roms und des Kirchenstaates"@de, "Storia di Roma de dello Stato Pontificio"@it ;
+    skos:prefLabel "Geschichte Roms und des Kirchenstaates"@de, "Storia di Roma e dello Stato Pontificio"@it ;
+    skos:altLabel "Geschichte Roms und des Status Pontificius"@de, "Storia di Roma e Stato della Chiesa"@it ;
+    skos:hiddenLabel "Vatikan"@de, "Vaticano"@it ;
     skos:broader <L> ;
     skos:notation "Lb" ;
     skos:inScheme <scheme> .
 
 <Lc> a skos:Concept ;
     skos:prefLabel "Geschichte einzelner Provinzen (alphabet.): Abruzzo e Molise - Liguria (Nizza)"@de, "Storia di singole regioni (in ordine alfbet.): Abruzzo e Molise - Liguria (Nizza)"@it ;
+    skos:altLabel "Geschichte einzelner Provinzen (alphabet.): Abruzzen und Molise - Ligurien"@de, "Geschichte einzelner Provinzen (alphabet.): Abruzzen und Molise - Ligurien"@it ;
     skos:broader <L> ;    
     skos:notation "Lc" ;
     skos:inScheme <scheme> .
 
 <Ld> a skos:Concept ;
     skos:prefLabel "Geschichte einzelner Provinzen (alphabet.): Lombardia - Regno delle Due Sicilie"@de, "Storia di singole regioni (in ordine alfbet.): Lombardia - Regno delle Due Sicilie"@it ;
+    skos:altLabel "Geschichte einzelner Provinzen (alphabet.): Lombardei - Königreich der Zwei Sizilien"@de, "Geschichte einzelner Provinzen (alphabet.): Lombardei - Königreich der Zwei Sizilien"@it ;
     skos:broader <L> ;   
     skos:notation "Ld" ;
     skos:inScheme <scheme> .
 
 <Le> a skos:Concept ;
     skos:prefLabel "Geschichte einzelner Provinzen (alphabet.): Sicilia / Isola Sicilia - Corsica"@de, "Storia di singole regioni (in ordine alfbet.): Sicilia / Isola Sicilia - Corsica"@it ;
+    skos:altLabel "Geschichte einzelner Provinzen (alphabet.): Sizilien / Insel Sizilien - Korsika"@de, "Geschichte einzelner Provinzen (alphabet.): Sizilien / Insel Sizilien - Korsika"@it ;
     skos:broader <L> ;
     skos:notation "Le" ;
     skos:inScheme <scheme> .
