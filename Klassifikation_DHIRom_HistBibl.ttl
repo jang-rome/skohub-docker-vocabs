@@ -53,7 +53,7 @@
     skos:example "Sprachwissenschaftliche Wörterbücher, Diplomatik und Urkundenlehre, Chronlogie, Genealogie, Heraldik usw. "@de, "Dizionari linguistici, studi diplomatici e documentari, cronologia, genealogia, araldica, ecc."@it ;
     skos:scopeNote "Gruppen Bd bis Bg sind überschaubar und weitere systematische Gliederungskriterien nicht notwendig."@de, "I gruppi da Bd a Bg sono facilmente gestibili e non sono necessari ulteriori criteri di classificazione sistematica."@it ;
     skos:notation "B" ;
-    skos:narrower <Ba>, <Bb>, <Bc>, <Bd>, <Be>, <Bf>, <Bg>, <Bk>, <Bi> .
+    skos:narrower <Ba>, <Bb>, <Bc>, <Bd>, <Be>, <Bf>, <Bg>, <Bi>, <Bk> .
 
 <Ba> a skos:Concept ;
     skos:prefLabel "Sprachwissenschaft"@de, "Linguistica"@it ; 
