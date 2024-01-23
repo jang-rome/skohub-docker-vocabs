@@ -6,7 +6,7 @@
 <scheme> a skos:ConceptScheme ;
     dct:title "Klassifikation DHI Rom Historische Bibliothek"@de, "Divisone del catalogo sistematico - DHI Rom Biblioteca Storica"@it ;
     dct:alternative "Einteilung des Sachkatalogs"@de, "Divisione del Catalogo Sistematico"@it ;
-    dct:description "SKOS-kodierte Bearbeitung des seit 1910 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de, "Applicazione SKOS dello schema di classificazione utilizzato dal 1910 dalla Biblioteca storica del DHI di Roma"@it ;
+    dct:description "SKOS-kodierte Bearbeitung des seit 1911 verwendeten Klassifikationsschemas der Historischen Bibliothek des DHI Rom."@de, "Applicazione SKOS dello schema di classificazione utilizzato dal 1911 dalla Biblioteca storica del DHI di Roma"@it ;
     dct:creator "http://d-nb.info/gnd/10175615-X" ;
     dct:issued "2024-01-13" ;
     dct:license <https://creativecommons.org/public-domain/cc0/> ;
@@ -133,6 +133,7 @@
 
 <Cc> a skos:Concept ;
     skos:prefLabel "Archive und Bibliotheken: Italien und Vatikan"@de, "Archivi e biblioteche: Italia e Vaticano"@it ;
+    skos:hiddenLabel "Vatikanstadt"@de, "Città del Vaticano"@it ;
     skos:broader <C> ;
     skos:notation "Cc" ;
     skos:inScheme <scheme> .
@@ -166,6 +167,7 @@
 
 <Dd> a skos:Concept ;
     skos:prefLabel "Mittelalter, Kreuzzüge"@de, "Medioevo, Crociate"@it ;
+    skos:hiddenLabel "Orientkreuzzüge"@de, "Croisade"@it ;
     skos:broader <D> ;
     skos:notation "Dd" ;
     skos:inScheme <scheme> .
